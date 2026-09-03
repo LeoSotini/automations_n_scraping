@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "measured_at": "2026-08-30",
+    "method": "store.steampowered.com/search/results/ com category1=998&os=win, total_count por tag",
+    "note": "as contagens da rodada 4 foram restauradas a partir do output do console (o script falhou antes de gravar); as da rodada 5 vieram do proprio arquivo"
+  },
+  "baseline_windows_games": 172017,
+  "per_tag": {
+    "Indie": 95939,
+    "Casual": 74127,
+    "2D": 63469,
+    "3D": 51760,
+    "Pixel Graphics": 32903,
+    "First-Person": 30590,
+    "Action-Adventure": 25180,
+    "Third Person": 18510,
+    "2D Platformer": 14965,
+    "Realistic": 14814,
+    "Open World": 13449,
+    "Visual Novel": 11982,
+    "FPS": 10988,
+    "Action RPG": 10695,
+    "Immersive Sim": 9954,
+    "3D Platformer": 9875,
+    "Side Scroller": 8657,
+    "Survival Horror": 8358,
+    "Walking Simulator": 7993,
+    "2.5D": 5922,
+    "Cinematic": 5740,
+    "Third-Person Shooter": 4617,
+    "Arena Shooter": 4196,
+    "Driving": 3718,
+    "Souls-like": 3233,
+    "Flight": 3002,
+    "2D Fighter": 2759,
+    "Automobile Sim": 2211,
+    "3D Fighter": 2165,
+    "Space Sim": 2083,
+    "Looter Shooter": 1547,
+    "Hero Shooter": 1339,
+    "Rail Shooter": 0
+  },
+  "intersections": {
+    "3D": 51760,
+    "3D AND Indie": 25036,
+    "3D AND 2D (conflito)": 1915,
+    "3D AND 2.5D": 1071,
+    "3D AND Pixel Graphics": 2389,
+    "3D NOT Indie (untags)": 26724,
+    "3D NOT Indie NOT 2D": 25575
+  }
+}

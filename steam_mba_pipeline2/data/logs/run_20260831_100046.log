@@ -1,0 +1,24 @@
+2026-08-31 10:00:46 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100046.log
+2026-08-31 10:00:46 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:00:46 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.0.0
+2026-08-31 10:00:46 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100046.log
+2026-08-31 10:00:46 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:00:47 | INFO    | steamreq.tags | [TAGS]      446 tags oficiais baixadas da Steam
+2026-08-31 10:00:47 | INFO    | steamreq.cli | [TAGS]      446 tags oficiais | 42/42 tags do filtro resolvidas
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D                     -> 4191
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte First-Person           -> 3839
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Third Person           -> 1697
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Third-Person Shooter   -> 3814
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte FPS                    -> 1663
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D Platformer          -> 5395
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D Fighter             -> 6506
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Immersive Sim          -> 9204
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Walking Simulator      -> 5900
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Automobile Sim         -> 1100687
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Flight                 -> 15045
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Space Sim              -> 16598
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Looter Shooter         -> 353880
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Hero Shooter           -> 620519
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Arena Shooter          -> 5547
+2026-08-31 10:00:47 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Rail Shooter           -> 3954
+2026-08-31 10:00:47 | INFO    | steamreq.cli | [TAGS]      OK: a metodologia de tags esta integralmente resolvida contra a taxonomia oficial

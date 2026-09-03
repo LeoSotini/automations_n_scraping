@@ -1,0 +1,19 @@
+2026-09-03 08:29:54 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260903_082954.log
+2026-09-03 08:29:54 | INFO    | steamreq.cli | ==============================================================================
+2026-09-03 08:29:54 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.1.0
+2026-09-03 08:29:54 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260903_082954.log
+2026-09-03 08:29:54 | INFO    | steamreq.cli | ==============================================================================
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]    entrada 46,909 registros (a partir de data/raw)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      NOT_GAME               -> -1       (46,908 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      UNRELEASED             -> -17,368  (29,540 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      BEFORE_2005            -> -14      (29,526 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      NO_3D_EVIDENCE         -> -12      (29,514 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      TWO_DIMENSIONAL        -> -3,446   (26,068 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]      NO_DATA                -> -7       (26,061 restantes)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]    conflitos 3D+2D preservados: 3,530 (needs_manual_review=true)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]    marcados para revisao manual: 5,268
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]    incluidos SEM requisitos recomendados: 5,475 (21.0%)
+2026-09-03 09:38:17 | INFO    | steamreq.export | [FILTER]    saida 26,061 registros incluidos
+2026-09-03 09:38:18 | INFO    | steamreq.export | [FILTER]    ledger de exclusoes -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed/ledger_exclusions.json (20,848 registros)
+2026-09-03 09:38:33 | INFO    | steamreq.export | [EXPORT]    26,061 registros -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed\dataset.json (UTF-8, 105.4 MB, formato flat)
+2026-09-03 09:38:33 | INFO    | steamreq.export | [EXPORT]    metadados -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed\dataset_metadata.json

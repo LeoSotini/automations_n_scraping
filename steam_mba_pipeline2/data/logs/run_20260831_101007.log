@@ -1,0 +1,14 @@
+2026-08-31 10:10:07 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_101007.log
+2026-08-31 10:10:07 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:10:07 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.0.0
+2026-08-31 10:10:07 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_101007.log
+2026-08-31 10:10:07 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    candidatos no discovery : 0
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    apps no checkpoint      : 17
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]      COMPLETE             15
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]      PARTIAL_NO_TAGS      1
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]      FAILED               1
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    payloads brutos salvos : 17 appdetails
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    filter_version         : 1.0.0 (checkpoint: 1.0.0)
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    exemplos de falhas     : [999999999]
+2026-08-31 10:10:07 | INFO    | steamreq.cli | [STATUS]    use `python main.py retry-failed` para reprocessar

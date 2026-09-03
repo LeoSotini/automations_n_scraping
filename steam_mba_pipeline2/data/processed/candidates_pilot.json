@@ -1,0 +1,7803 @@
+{
+ "meta": {
+  "filter_version": "1.1.0",
+  "generated_at": "2026-08-31T15:13:39Z",
+  "discovery_method": "store_search_results",
+  "category1": 998,
+  "os": "win",
+  "positive_tags_queried": {
+   "3D": 4191,
+   "First-Person": 3839,
+   "Third Person": 1697
+  },
+  "excluded_at_source": {
+   "Indie": 492
+  },
+  "total_candidates": 449,
+  "known_bias": "storefront-only: jogos deslistados nao aparecem (viés de sobrevivência correlacionado ao tempo)"
+ },
+ "candidates": [
+  {
+   "app_id": 10,
+   "name": "Counter-Strike",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1663,
+    3859,
+    1774,
+    1693,
+    5711,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 440,
+   "name": "Team Fortress 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    620519,
+    3859,
+    1663,
+    1774,
+    19,
+    4155
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 500,
+   "name": "Left 4 Dead",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    1685,
+    3859,
+    1663,
+    19,
+    1667,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 550,
+   "name": "Left 4 Dead 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    1685,
+    1663,
+    3859,
+    1774,
+    3843,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 620,
+   "name": "Portal 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4182,
+    1625,
+    1664,
+    3839,
+    5923,
+    1742,
+    5537
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 730,
+   "name": "Counter-Strike 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    1774,
+    3859,
+    3878,
+    19,
+    5711,
+    5055
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 8870,
+   "name": "BioShock Infinite",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1774,
+    3839,
+    1663,
+    4182,
+    1742,
+    122
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 10680,
+   "name": "Aliens vs. Predator™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1663,
+    1673,
+    3859,
+    3942,
+    1667,
+    4345
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 12200,
+   "name": "Bully: Scholarship Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    21,
+    1697,
+    4182,
+    1719,
+    1756
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 12210,
+   "name": "Grand Theft Auto IV: The Complete Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    6378,
+    3859,
+    1100687,
+    1697,
+    21
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 21690,
+   "name": "Resident Evil 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    19,
+    1659,
+    4508,
+    3843,
+    1667,
+    3814
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 22380,
+   "name": "Fallout: New Vegas",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    122,
+    3835,
+    4182,
+    1669,
+    1742,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 39210,
+   "name": "FINAL FANTASY XIV Online",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1754,
+    122,
+    4747,
+    128,
+    1684,
+    4434,
+    1695
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 42700,
+   "name": "Call of Duty®: Black Ops",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1663,
+    1659,
+    3859,
+    1774,
+    4182,
+    5179
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 49520,
+   "name": "Borderlands 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4236,
+    1774,
+    19,
+    3859,
+    1685,
+    353880,
+    1663
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 107410,
+   "name": "Arma 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4168,
+    19,
+    3859,
+    1774,
+    599,
+    4175,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 108710,
+   "name": "Alan Wake",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1667,
+    1742,
+    1697,
+    21,
+    4064,
+    4166
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 202750,
+   "name": "Alan Wake's American Nightmare",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    1667,
+    1697,
+    4182,
+    3814,
+    4064
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 202970,
+   "name": "Call of Duty®: Black Ops II",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    19,
+    1663,
+    1774,
+    4182,
+    3839,
+    1685
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 203160,
+   "name": "Tomb Raider Game of the Year",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    19,
+    7208,
+    1697,
+    4182,
+    1742,
+    3814
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 204100,
+   "name": "Max Payne 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    3814,
+    5796,
+    1742,
+    3859,
+    1774,
+    4145
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 205100,
+   "name": "Dishonored",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    3839,
+    97070,
+    19,
+    1777,
+    4182,
+    4166
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 208650,
+   "name": "Batman™: Arkham Knight",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1695,
+    1671,
+    1687,
+    4182,
+    1697,
+    21
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 214490,
+   "name": "Alien: Isolation",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3978,
+    3942,
+    1673,
+    4166,
+    1687,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 216150,
+   "name": "MapleStory",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1754,
+    5379,
+    113,
+    4747,
+    4236,
+    6730,
+    3798
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 218620,
+   "name": "PAYDAY 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    19,
+    1663,
+    1680,
+    3859,
+    353880,
+    3843
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 220240,
+   "name": "Far Cry 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1663,
+    19,
+    21,
+    3859,
+    1774,
+    1687
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 220440,
+   "name": "DmC: Devil May Cry",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1646,
+    1756,
+    4777,
+    9541,
+    21,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 221100,
+   "name": "DayZ",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1695,
+    1659,
+    3843,
+    3859,
+    3835,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 223750,
+   "name": "DCS World Steam Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    15045,
+    113,
+    4168,
+    3859,
+    4175,
+    21978
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 230410,
+   "name": "Warframe",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    353880,
+    4231,
+    3814,
+    19,
+    122,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 232090,
+   "name": "Killing Floor 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4345,
+    1659,
+    3859,
+    3843,
+    1663,
+    3835,
+    1646
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 235460,
+   "name": "METAL GEAR RISING: REVENGEANCE",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1756,
+    1646,
+    19,
+    4777,
+    4608,
+    3955,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 236390,
+   "name": "War Thunder",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    11104,
+    19,
+    599,
+    3993,
+    15045,
+    4150
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 239140,
+   "name": "Dying Light",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    3978,
+    1667,
+    3843,
+    1695,
+    4036,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 241930,
+   "name": "Middle-earth™: Shadow of Mordor™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    1684,
+    21,
+    1697,
+    1687,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 243470,
+   "name": "Watch_Dogs™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    5502,
+    19,
+    3859,
+    1697,
+    21,
+    1687
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 249130,
+   "name": "LEGO® Marvel™ Super Heroes",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1671,
+    3841,
+    21,
+    19,
+    3859,
+    1685
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 254700,
+   "name": "Resident Evil 4 (2005)",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    6276,
+    3978,
+    19,
+    1659,
+    1667,
+    3814,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 261550,
+   "name": "Mount &amp; Blade II: Bannerlord",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4172,
+    9,
+    1695,
+    122,
+    1678,
+    3859,
+    3810
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 266410,
+   "name": "iRacing",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1100687,
+    599,
+    21978,
+    1644,
+    701,
+    3859
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 270880,
+   "name": "American Truck Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1100687,
+    1644,
+    1695,
+    599,
+    10383,
+    4175,
+    1669
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 284160,
+   "name": "BeamNG.drive",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1644,
+    3968,
+    4175,
+    5363,
+    1100687,
+    3810
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 287700,
+   "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    1695,
+    19,
+    1742,
+    1708,
+    4145,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 288470,
+   "name": "Fable Anniversary",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1695,
+    1684,
+    4182,
+    21,
+    1693,
+    6426
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 292030,
+   "name": "The Witcher 3: Wild Hunt - Complete Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    122,
+    1742,
+    4166,
+    1684,
+    21,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 298110,
+   "name": "Far Cry® 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    1663,
+    1685,
+    3859,
+    21,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 302510,
+   "name": "Ryse: Son of Rome",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1646,
+    19,
+    4559,
+    6948,
+    3987,
+    1697,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 304390,
+   "name": "FOR HONOR™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4172,
+    4608,
+    19,
+    3859,
+    1743,
+    1775,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 311210,
+   "name": "Call of Duty®: Black Ops III",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1659,
+    1663,
+    1774,
+    19,
+    3839,
+    4182
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 313690,
+   "name": "LEGO® Batman™ 3: Beyond Gotham",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    3859,
+    1695,
+    1671,
+    19,
+    3841,
+    1685
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 329050,
+   "name": "Devil May Cry 4 Special Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1646,
+    3955,
+    1756,
+    4182,
+    4777,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 349040,
+   "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    1743,
+    19,
+    3859,
+    1688,
+    21,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 356190,
+   "name": "Middle-earth™: Shadow of War™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    122,
+    4182,
+    1684,
+    21,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 359320,
+   "name": "Elite Dangerous",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    16598,
+    1755,
+    1695,
+    3834,
+    3942,
+    599,
+    128
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 359550,
+   "name": "Tom Clancy's Rainbow Six Siege",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    1775,
+    3859,
+    1774,
+    1708,
+    5055,
+    3878
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 364360,
+   "name": "Total War: WARHAMMER",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    9,
+    599,
+    1670,
+    4364,
+    17305,
+    1676
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 368260,
+   "name": "Marvel's Midnight Suns",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1671,
+    14139,
+    32322,
+    1741,
+    21725,
+    4325,
+    1666
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 374320,
+   "name": "DARK SOULS™ III",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4604,
+    4026,
+    122,
+    4166,
+    3854,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 377160,
+   "name": "Fallout 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    3835,
+    4182,
+    3834,
+    122,
+    21,
+    4166
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 379720,
+   "name": "DOOM",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    4345,
+    19,
+    1774,
+    1756,
+    9541,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 380600,
+   "name": "Fishing Planet",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    15564,
+    113,
+    3859,
+    599,
+    1654,
+    701,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 381210,
+   "name": "Dead by Daylight",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3859,
+    3978,
+    4345,
+    3843,
+    1685,
+    1662
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 391220,
+   "name": "Rise of the Tomb Raider™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    19,
+    7208,
+    4182,
+    1697,
+    1695,
+    3834
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 393380,
+   "name": "Squad",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4168,
+    4175,
+    1663,
+    3859,
+    1775,
+    6730,
+    1708
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 397540,
+   "name": "Borderlands 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    353880,
+    3859,
+    1663,
+    3843,
+    4236,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 405310,
+   "name": "LEGO® MARVEL's Avengers",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1671,
+    21,
+    3859,
+    19,
+    3841,
+    1719
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 412020,
+   "name": "Metro Exodus",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3835,
+    1663,
+    4182,
+    1695,
+    1742,
+    4166,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 418370,
+   "name": "Resident Evil 7 Biohazard",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3978,
+    3839,
+    4182,
+    21978,
+    4345,
+    4166
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 427410,
+   "name": "Abiotic Factor",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    3843,
+    1100689,
+    1702,
+    7332,
+    3942,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 438100,
+   "name": "VRChat",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21978,
+    113,
+    3859,
+    4085,
+    10397,
+    4136,
+    128
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 447040,
+   "name": "Watch_Dogs® 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    5502,
+    3859,
+    19,
+    4036,
+    1687,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 454650,
+   "name": "DRAGON BALL XENOVERSE 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    1743,
+    4747,
+    19,
+    3859,
+    21,
+    128
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 460790,
+   "name": "Bayonetta",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    7208,
+    1646,
+    12095,
+    6650,
+    4182,
+    4777
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 460930,
+   "name": "Tom Clancy's Ghost Recon® Wildlands",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1774,
+    3859,
+    4182,
+    1685,
+    1687,
+    1708
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 476600,
+   "name": "Call of Duty®: WWII",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4150,
+    1663,
+    4182,
+    3859,
+    1659,
+    1678,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 489830,
+   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    122,
+    21,
+    1684,
+    4182,
+    4747,
+    1669
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 490110,
+   "name": "The Precinct",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    6378,
+    5613,
+    3810,
+    1695,
+    4637,
+    4182,
+    8369
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 495420,
+   "name": "State of Decay 2: Juggernaut Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1695,
+    1659,
+    7332,
+    3859,
+    1685,
+    3843
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 502500,
+   "name": "ACE COMBAT™ 7: SKIES UNKNOWN",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    15045,
+    4168,
+    1678,
+    1773,
+    1774,
+    4145,
+    4191
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 513710,
+   "name": "SCUM",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1100689,
+    1695,
+    1662,
+    128,
+    6650,
+    1659,
+    1702
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 518790,
+   "name": "theHunter: Call of the Wild™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9564,
+    1695,
+    3859,
+    30358,
+    1654,
+    1687,
+    1663
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 534380,
+   "name": "Dying Light 2 Stay Human: Reloaded Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1685,
+    1659,
+    4036,
+    3859,
+    1667,
+    4345
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 546560,
+   "name": "Half-Life: Alyx",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21978,
+    1663,
+    1742,
+    1667,
+    7208,
+    1774,
+    4182
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 548430,
+   "name": "Deep Rock Galactic",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4535,
+    1685,
+    6730,
+    1663,
+    5125,
+    4155,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 552500,
+   "name": "Warhammer: Vermintide 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    4604,
+    1646,
+    3859,
+    3843,
+    4535,
+    4345
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 552520,
+   "name": "Far Cry® 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4106,
+    1685,
+    3859,
+    1663,
+    1774,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 552990,
+   "name": "World of Warships",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    11104,
+    1774,
+    4994,
+    3859,
+    1775,
+    3814,
+    5711
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 553850,
+   "name": "HELLDIVERS™ 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    6730,
+    3814,
+    3859,
+    1774,
+    19,
+    1685
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 570940,
+   "name": "DARK SOULS™: REMASTERED",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4604,
+    122,
+    4026,
+    19,
+    4342,
+    1684
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 571260,
+   "name": "THE KING OF FIGHTERS XIV STEAM EDITION",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1743,
+    1773,
+    19,
+    4736,
+    3859,
+    4085,
+    4975
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 578080,
+   "name": "PUBG: BATTLEGROUNDS",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1774,
+    176981,
+    3859,
+    1663,
+    1775,
+    3814
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 582010,
+   "name": "Monster Hunter: World",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    3859,
+    19,
+    1695,
+    122,
+    4747,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 582160,
+   "name": "Assassin's Creed® Origins",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    97070,
+    4106,
+    3987,
+    122,
+    19,
+    1687
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 582660,
+   "name": "Black Desert",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3810,
+    4231,
+    3834,
+    1754,
+    1678,
+    4172,
+    1702
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 601150,
+   "name": "Devil May Cry 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1646,
+    1756,
+    3955,
+    9541,
+    4777,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 607080,
+   "name": "Psychonauts 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    5395,
+    1742,
+    4182,
+    5186,
+    1719,
+    21,
+    4136
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 613100,
+   "name": "House Flipper",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    23491,
+    599,
+    84,
+    4182,
+    3859,
+    1643,
+    1654
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 631510,
+   "name": "Devil May Cry HD Collection",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1646,
+    19,
+    1756,
+    3955,
+    1693,
+    4026,
+    4777
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 637650,
+   "name": "FINAL FANTASY XV WINDOWS EDITION",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1695,
+    4434,
+    1684,
+    1742,
+    1756,
+    4182
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 655500,
+   "name": "MX Bikes",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    15868,
+    198913,
+    3859,
+    21978,
+    4175,
+    7622,
+    599
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 668580,
+   "name": "Atomic Heart",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    1663,
+    19,
+    12095,
+    4182,
+    1695,
+    4106
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 678950,
+   "name": "DRAGON BALL FighterZ",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1743,
+    4085,
+    19,
+    4736,
+    3859,
+    7368,
+    3878
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 690790,
+   "name": "DiRT Rally 2.0",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1100687,
+    599,
+    3859,
+    21978,
+    1644,
+    7622
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 694280,
+   "name": "Zombie Army 4: Dead War",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    19,
+    3859,
+    1774,
+    1685,
+    4182,
+    3814
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 699130,
+   "name": "World War Z",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    3859,
+    3843,
+    4182,
+    1685,
+    19,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 714010,
+   "name": "Aimlabs",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    113,
+    1774,
+    599,
+    19,
+    3839,
+    3814
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 742420,
+   "name": "Saints Row",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4747,
+    19,
+    1685,
+    6378,
+    3814,
+    21
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 750920,
+   "name": "Shadow of the Tomb Raider: Definitive Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    19,
+    7208,
+    4182,
+    1695,
+    1697,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 752590,
+   "name": "A Plague Tale: Innocence",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1742,
+    21,
+    1687,
+    4172,
+    7208,
+    4166,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 766570,
+   "name": "Russian Fishing 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    15564,
+    3859,
+    113,
+    599,
+    30358,
+    4175,
+    1654
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 767560,
+   "name": "War Robots",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    5752,
+    4821,
+    113,
+    1775,
+    3859,
+    1774,
+    3814
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 782330,
+   "name": "DOOM Eternal",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4345,
+    1663,
+    19,
+    1756,
+    1734,
+    4667,
+    9541
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 784080,
+   "name": "MechWarrior 5: Mercenaries",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4821,
+    599,
+    1663,
+    19,
+    1774,
+    1685,
+    11104
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 801800,
+   "name": "Atomfall",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    19,
+    3835,
+    1695,
+    4182,
+    3839,
+    1663
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 805550,
+   "name": "Assetto Corsa Competizione",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1100687,
+    599,
+    3859,
+    21978,
+    1644,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 812140,
+   "name": "Assassin's Creed® Odyssey",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4106,
+    122,
+    16094,
+    97070,
+    3834,
+    6971
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 814380,
+   "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4026,
+    19,
+    4182,
+    1688,
+    1687,
+    21
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 815370,
+   "name": "Green Hell",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1100689,
+    3859,
+    3843,
+    1695,
+    1702,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 835570,
+   "name": "Conqueror's Blade",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4608,
+    113,
+    1775,
+    4172,
+    128,
+    4684,
+    9
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 850190,
+   "name": "Goat Simulator 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3968,
+    3810,
+    3834,
+    1695,
+    599,
+    4747,
+    4191
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 851850,
+   "name": "DRAGON BALL Z: KAKAROT",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    122,
+    4085,
+    1695,
+    1743,
+    4182,
+    3859
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 870780,
+   "name": "CONTROL Ultimate Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    10808,
+    7208,
+    1742,
+    21,
+    1697,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 881020,
+   "name": "Granblue Fantasy: Relink",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    4434,
+    4231,
+    3843,
+    19,
+    3859,
+    1684
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 883710,
+   "name": "Resident Evil 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    3978,
+    1667,
+    4182,
+    5708,
+    1697,
+    4345
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 933110,
+   "name": "Age of Empires III: Definitive Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9,
+    7332,
+    1676,
+    3859,
+    4168,
+    4328,
+    3987
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 934700,
+   "name": "Dead Island 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    1659,
+    4345,
+    3839,
+    4106,
+    3835,
+    1667
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 953880,
+   "name": "First Class Trouble",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    745697,
+    4136,
+    1662,
+    3859,
+    4026,
+    3843,
+    5923
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 954740,
+   "name": "Terminator: Resistance",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    3835,
+    6426,
+    3942,
+    3839,
+    4182,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 960090,
+   "name": "Bloons TD 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1645,
+    9,
+    3859,
+    4182,
+    3843,
+    1685,
+    5350
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 961200,
+   "name": "Predecessor",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1718,
+    1697,
+    19,
+    3878,
+    3942,
+    1775,
+    6730
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 962130,
+   "name": "Grounded",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    3859,
+    1685,
+    1100689,
+    7332,
+    1702,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 967050,
+   "name": "Pacify",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3843,
+    3859,
+    1685,
+    1721,
+    3978,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 976730,
+   "name": "Halo: The Master Chief Collection",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1756,
+    1663,
+    1693,
+    3859,
+    1742,
+    3942,
+    1685
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 978300,
+   "name": "Saints Row®: The Third™ Remastered",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    1695,
+    4106,
+    1719,
+    3810,
+    3814
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 990080,
+   "name": "Hogwarts Legacy",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4057,
+    1695,
+    1684,
+    4182,
+    21,
+    122,
+    4747
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 997010,
+   "name": "Police Simulator: Patrol Officers",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    6378,
+    3859,
+    1695,
+    4175,
+    3843,
+    8369
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1012880,
+   "name": "60 Seconds! Reatomized",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3871,
+    4486,
+    5923,
+    14139,
+    9,
+    1698,
+    1100686
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1029690,
+   "name": "Sniper Elite 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4182,
+    7423,
+    1687,
+    3859,
+    1685,
+    4150,
+    19
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1030840,
+   "name": "Mafia: Definitive Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    6378,
+    1742,
+    19,
+    4182,
+    21,
+    12095
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1049410,
+   "name": "Superliminal",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1664,
+    3839,
+    1710,
+    5186,
+    3968,
+    4182,
+    4064
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1062090,
+   "name": "Timberborn",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4328,
+    220585,
+    1732,
+    3810,
+    255534,
+    1643,
+    30358
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1067360,
+   "name": "Pax Autocratica",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    7332,
+    42804,
+    220585,
+    1702,
+    11104,
+    255534
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1085660,
+   "name": "Destiny 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    1695,
+    353880,
+    3859,
+    1754,
+    1663,
+    1685
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1091500,
+   "name": "Cyberpunk 2077",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4115,
+    1695,
+    6650,
+    122,
+    4182,
+    1742,
+    3942
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1092790,
+   "name": "Inscryption",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    791774,
+    1666,
+    1742,
+    32322,
+    1667,
+    4342,
+    1664
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1097840,
+   "name": "Gears 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    3814,
+    3859,
+    1685,
+    1774,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1114150,
+   "name": "CarX Street",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    3859,
+    1100687,
+    1644,
+    1775,
+    3810
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1119730,
+   "name": "Ranch Simulator: Build, Hunt, Farm",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    3859,
+    3843,
+    1695,
+    87918,
+    4520,
+    35079
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1129580,
+   "name": "Medieval Dynasty",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1643,
+    1702,
+    3859,
+    4172,
+    1662,
+    1685,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1144200,
+   "name": "Ready or Not",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1708,
+    4175,
+    1663,
+    1774,
+    3859,
+    4182,
+    1685
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1149460,
+   "name": "ICARUS",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1100689,
+    3859,
+    7332,
+    3843,
+    1702,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1154030,
+   "name": "Titan Quest II",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    4231,
+    122,
+    1646,
+    16094,
+    19,
+    1720
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1172470,
+   "name": "Apex Legends™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    3859,
+    176981,
+    1663,
+    1774,
+    3839,
+    1775
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1172620,
+   "name": "Sea of Thieves: 2026 Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1695,
+    21,
+    1681,
+    1685,
+    3843,
+    1775
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1172710,
+   "name": "Dune: Awakening",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1100689,
+    1662,
+    3859,
+    1695,
+    7332,
+    122,
+    21
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1174180,
+   "name": "Red Dead Redemption 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1742,
+    1647,
+    3859,
+    21,
+    19,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1182900,
+   "name": "A Plague Tale: Requiem",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    19,
+    4106,
+    4145,
+    3834,
+    7208,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1190970,
+   "name": "House Flipper 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    1654,
+    9204,
+    597,
+    889937,
+    84,
+    599
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1196590,
+   "name": "Resident Evil Village",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3978,
+    1667,
+    3839,
+    4182,
+    19,
+    12095,
+    1659
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1203220,
+   "name": "NARAKA: BLADEPOINT",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    176981,
+    3859,
+    6915,
+    1775,
+    19,
+    4747,
+    7208
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1222140,
+   "name": "Detroit: Become Human",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    6426,
+    1742,
+    6971,
+    4145,
+    4182,
+    5608,
+    5752
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1222680,
+   "name": "Need for Speed™ Heat",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    3859,
+    1695,
+    1644,
+    4182,
+    19,
+    1685
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1229490,
+   "name": "ULTRAKILL",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1734,
+    4345,
+    1663,
+    1023537,
+    3955,
+    5547,
+    4777
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1237320,
+   "name": "Sonic Frontiers",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    21,
+    5395,
+    19,
+    3834,
+    4182,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1238810,
+   "name": "Battlefield™ V",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    3859,
+    4182,
+    4150,
+    1774,
+    1678,
+    4168
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1238840,
+   "name": "Battlefield™ 1",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    3859,
+    5382,
+    4182,
+    1678,
+    1774,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1238860,
+   "name": "Battlefield 4™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1663,
+    4182,
+    1774,
+    4168,
+    1678,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1245620,
+   "name": "ELDEN RING",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    1695,
+    4604,
+    122,
+    4026,
+    4231,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1248130,
+   "name": "Farming Simulator 22",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    87918,
+    1685,
+    3859,
+    22602,
+    1669,
+    12472
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1259420,
+   "name": "Days Gone",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1659,
+    4182,
+    1662,
+    3835,
+    3859,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1262540,
+   "name": "Need for Speed™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    3859,
+    1644,
+    1695,
+    19,
+    21,
+    1100687
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1262560,
+   "name": "Need for Speed™ Most Wanted",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    3859,
+    1695,
+    1644,
+    19,
+    3878,
+    1100687
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1262580,
+   "name": "Need for Speed™ Payback",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    3859,
+    7481,
+    4102,
+    701,
+    1775
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1262600,
+   "name": "Need for Speed™ Rivals",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    1644,
+    3859,
+    4102,
+    1775,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1272080,
+   "name": "PAYDAY 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1680,
+    1685,
+    6378,
+    3859,
+    19,
+    1663,
+    1774
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1273400,
+   "name": "Construction Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    3859,
+    1643,
+    3843,
+    1654,
+    1695,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1282100,
+   "name": "REMNANT II®",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    1685,
+    19,
+    3814,
+    21,
+    122,
+    1774
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1282270,
+   "name": "Strinova",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    4085,
+    3814,
+    12095,
+    620519,
+    1774,
+    1663
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1284190,
+   "name": "The Planet Crafter",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    7332,
+    1100689,
+    1662,
+    3843,
+    1685,
+    1643,
+    1702
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1284210,
+   "name": "Guild Wars 2®",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1754,
+    21,
+    113,
+    122,
+    4747,
+    1684,
+    128
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1285190,
+   "name": "Borderlands 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    353880,
+    6730,
+    1695,
+    1685,
+    4236,
+    4231
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1286830,
+   "name": "STAR WARS™: The Old Republic™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    1754,
+    3859,
+    4747,
+    1695,
+    122,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1297900,
+   "name": "Gothic 1 Remake",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    19,
+    3834,
+    21,
+    1697,
+    4166,
+    4604
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1304930,
+   "name": "The Outlast Trials",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3859,
+    1685,
+    3978,
+    1721,
+    3839,
+    6730
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1326470,
+   "name": "Sons Of The Forest",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1695,
+    3859,
+    1685,
+    3978,
+    7332,
+    1667
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1331550,
+   "name": "Big Ambitions",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    12472,
+    4695,
+    599,
+    4845,
+    10235,
+    3810,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1338770,
+   "name": "Sniper Ghost Warrior Contracts 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    7423,
+    1687,
+    1774,
+    4182,
+    3859,
+    4175
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1343370,
+   "name": "Old School RuneScape",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1754,
+    113,
+    21,
+    14720,
+    1684,
+    1742,
+    128
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1351240,
+   "name": "Taxi Life: A City Driving Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1644,
+    599,
+    1695,
+    1100687,
+    4175,
+    4182,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1361210,
+   "name": "Warhammer 40,000: Darktide",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    6730,
+    1663,
+    4155,
+    3993,
+    4345,
+    4667
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1364780,
+   "name": "Street Fighter™ 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4736,
+    1743,
+    1773,
+    4747,
+    3859,
+    19,
+    1775
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1369670,
+   "name": "Motor Town: Behind The Wheel",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1644,
+    1695,
+    599,
+    10383,
+    1100687,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1371980,
+   "name": "No Rest for the Wicked",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    29482,
+    4231,
+    3843,
+    1646,
+    1695,
+    3993
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1374490,
+   "name": "RuneScape: Dragonwilds",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1662,
+    3859,
+    1100689,
+    1685,
+    3843,
+    493
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1384160,
+   "name": "GUILTY GEAR -STRIVE-",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1743,
+    4736,
+    1756,
+    4085,
+    1775,
+    4975,
+    1773
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1401590,
+   "name": "Disney Dreamlight Valley",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1654,
+    10235,
+    4747,
+    3834,
+    21,
+    599,
+    3810
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1407200,
+   "name": "World of Tanks",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    13276,
+    11104,
+    1775,
+    3859,
+    1708,
+    4168,
+    1678
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1431300,
+   "name": "SAND: Raiders of Sophie",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1775,
+    1199779,
+    11104,
+    176981,
+    1695,
+    1663
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1442430,
+   "name": "Storage Hunter Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9204,
+    3843,
+    91114,
+    35079,
+    4845,
+    4695,
+    1644
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1446780,
+   "name": "MONSTER HUNTER RISE",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    3843,
+    9564,
+    4747,
+    122,
+    3859,
+    4231
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1449690,
+   "name": "The Walking Dead: The Telltale Definitive Series",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    6426,
+    1742,
+    11014,
+    6971,
+    1667,
+    1659,
+    1751
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1449850,
+   "name": "Yu-Gi-Oh! Master Duel",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1666,
+    113,
+    9,
+    9271,
+    3859,
+    1775,
+    4085
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1458140,
+   "name": "Pacific Drive",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1644,
+    1662,
+    3834,
+    1742,
+    3978,
+    1702,
+    4166
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1462040,
+   "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    4231,
+    4434,
+    4182,
+    4106,
+    10695,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1465360,
+   "name": "SnowRunner",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1100687,
+    3859,
+    1644,
+    21,
+    3834,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1466060,
+   "name": "Tainted Grail: The Fall of Avalon",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1695,
+    21,
+    4604,
+    3839,
+    4747,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1466860,
+   "name": "Age of Empires IV: Anniversary Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9,
+    1676,
+    7332,
+    3859,
+    1678,
+    4172,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1478500,
+   "name": "Big Walk",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4508,
+    1695,
+    1664,
+    3834,
+    21,
+    1654,
+    3859
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1498570,
+   "name": "THE KING OF FIGHTERS XV",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4736,
+    1743,
+    19,
+    1775,
+    3859,
+    4191,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1547000,
+   "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    12095,
+    1695,
+    19,
+    6378,
+    6650,
+    3814,
+    4667
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1551360,
+   "name": "Forza Horizon 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    1644,
+    3859,
+    1100687,
+    4175,
+    599
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1556200,
+   "name": "Predator: Hunting Grounds",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1775,
+    1663,
+    1774,
+    4747,
+    3839,
+    4191
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1583230,
+   "name": "High On Life",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1719,
+    1663,
+    4182,
+    5923,
+    21,
+    4106,
+    3942
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1593500,
+   "name": "God of War",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4182,
+    1742,
+    16094,
+    21,
+    3993,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1599660,
+   "name": "Sackboy™: A Big Adventure",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    3859,
+    3841,
+    1625,
+    1685,
+    5350,
+    3843
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1601570,
+   "name": "The Alters",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    7332,
+    12472,
+    3942,
+    3834,
+    9,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1604270,
+   "name": "Broken Arrow",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9,
+    4684,
+    5673,
+    1676,
+    3813,
+    1723,
+    1678
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1620730,
+   "name": "Hell is Us",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4182,
+    21,
+    1697,
+    4166,
+    29482,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1627720,
+   "name": "Lies of P",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4604,
+    19,
+    4182,
+    4231,
+    1742,
+    1777
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1631270,
+   "name": "StarRupture",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    7332,
+    1100689,
+    1662,
+    255534,
+    1685,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1643320,
+   "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1663,
+    3835,
+    1662,
+    4166,
+    4182,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1657630,
+   "name": "Slime Rancher 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4726,
+    1654,
+    4182,
+    1695,
+    4305,
+    3839,
+    916648
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1659040,
+   "name": "HITMAN World of Assassination",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    97070,
+    4182,
+    21978,
+    19,
+    3810,
+    3859
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1659420,
+   "name": "UNCHARTED™: Legacy of Thieves Collection",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    1742,
+    4106,
+    4182,
+    3859,
+    1697,
+    1664
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1681430,
+   "name": "RoboCop: Rogue City",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    19,
+    4182,
+    3839,
+    4115,
+    1742,
+    1774
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1689620,
+   "name": "BLEACH Rebirth of Souls",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4085,
+    6506,
+    4191,
+    1775,
+    4608,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1693980,
+   "name": "Dead Space",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3978,
+    3814,
+    1755,
+    3942,
+    4182,
+    1721
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1702010,
+   "name": "Sengoku Dynasty",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4328,
+    1662,
+    1695,
+    7332,
+    4172,
+    10235,
+    3859
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1716740,
+   "name": "Starfield",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1755,
+    1695,
+    4182,
+    122,
+    3942,
+    3834,
+    4747
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1761390,
+   "name": "Hatsune Miku: Project DIVA Mega Mix+",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1752,
+    4085,
+    1773,
+    4726,
+    4191,
+    1621,
+    19
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1771300,
+   "name": "Kingdom Come: Deliverance II",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    4172,
+    1695,
+    4182,
+    1742,
+    3839,
+    4175
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1783560,
+   "name": "The Last Caretaker",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1662,
+    1702,
+    7332,
+    255534,
+    1695,
+    3810
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1790600,
+   "name": "DRAGON BALL: Sparking! ZERO",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    3859,
+    19,
+    1743,
+    6506,
+    7368,
+    1775
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1796470,
+   "name": "Haste",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1734,
+    4036,
+    3959,
+    5395,
+    7208,
+    19,
+    8666
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1808500,
+   "name": "ARC Raiders",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1199779,
+    6730,
+    1775,
+    3859,
+    3814,
+    1774,
+    3835
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1812450,
+   "name": "Bellwright",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1695,
+    4328,
+    4172,
+    1702,
+    3843,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1817070,
+   "name": "Marvel’s Spider-Man Remastered",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1671,
+    19,
+    4182,
+    1742,
+    21,
+    3993
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1817190,
+   "name": "Marvel’s Spider-Man: Miles Morales",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    1671,
+    4182,
+    21,
+    1697,
+    3993
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1824220,
+   "name": "Chivalry 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4608,
+    4172,
+    128,
+    3859,
+    1646,
+    4345,
+    3987
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1826420,
+   "name": "CarX Drift Racing Online 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    599,
+    1100687,
+    4191,
+    3839,
+    701,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1874880,
+   "name": "Arma Reforger",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4168,
+    599,
+    1774,
+    4175,
+    1663,
+    19,
+    9
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1875830,
+   "name": "Shin Megami Tensei V: Vengeance",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4434,
+    122,
+    1742,
+    9541,
+    916648,
+    1677,
+    21
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1888160,
+   "name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4821,
+    4747,
+    19,
+    5752,
+    1697,
+    3993,
+    1734
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1888930,
+   "name": "The Last of Us™ Part I",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1742,
+    3835,
+    1667,
+    1659,
+    4106,
+    1774,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1913370,
+   "name": "OPERATOR",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1774,
+    4175,
+    1708,
+    19,
+    599,
+    1663
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1922560,
+   "name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    1775,
+    620519,
+    3814,
+    3859,
+    4136,
+    19
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1934680,
+   "name": "Age of Mythology: Retold",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1676,
+    9,
+    7332,
+    4191,
+    16094,
+    1742,
+    3854
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1938090,
+   "name": "Call of Duty®",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    3859,
+    1774,
+    4182,
+    19,
+    4168,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1941540,
+   "name": "Mafia: The Old Country",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1742,
+    1687,
+    4166,
+    19,
+    3814,
+    3934,
+    6378
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1944430,
+   "name": "Amnesia: The Bunker",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3978,
+    4166,
+    9204,
+    1687,
+    3839,
+    4182
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1953520,
+   "name": "WRC Generations – The FIA WRC Official Game",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    599,
+    4175,
+    3859,
+    1775,
+    1685,
+    3843
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1962663,
+   "name": "Call of Duty®: Warzone™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    1663,
+    176981,
+    3859,
+    1774,
+    19,
+    4182
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 1962700,
+   "name": "Subnautica 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1662,
+    9157,
+    1667,
+    3834,
+    1685,
+    1695
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1963610,
+   "name": "Road to Vostok",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    1663,
+    4175,
+    4182,
+    3835,
+    353880,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1966720,
+   "name": "Lethal Company",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    1667,
+    3839,
+    1685,
+    3978,
+    4136,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 1971870,
+   "name": "Mortal Kombat 1",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4345,
+    1743,
+    19,
+    3859,
+    4736,
+    4667,
+    6915
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1984270,
+   "name": "Digimon Story Time Stranger",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    4434,
+    916648,
+    4085,
+    10695,
+    4191,
+    5652
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 1989270,
+   "name": "Slay the Princess — The Pristine Cut",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3799,
+    6426,
+    1721,
+    1742,
+    1667,
+    4486,
+    4947
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2001120,
+   "name": "Split Fiction",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    10816,
+    3841,
+    7208,
+    3843,
+    4106,
+    5395
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2001760,
+   "name": "Beast of Reincarnation",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1637,
+    4231,
+    29482,
+    7208,
+    21,
+    4182,
+    3993
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2004680,
+   "name": "Voidling Bound",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    916648,
+    3814,
+    19,
+    4182,
+    6730,
+    21,
+    122
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2014780,
+   "name": "X-Plane 12",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    15045,
+    4175,
+    21978,
+    4191,
+    9204,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2016590,
+   "name": "Dark and Darker",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1720,
+    3859,
+    4236,
+    4172,
+    1199779,
+    1775
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2050650,
+   "name": "Resident Evil 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    19,
+    3814,
+    3978,
+    4182,
+    1659,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2054970,
+   "name": "Dragon's Dogma 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    122,
+    4231,
+    1684,
+    4182,
+    19,
+    21
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2060160,
+   "name": "The Farmer Was Replaced",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    5432,
+    255534,
+    1036,
+    615955,
+    6129,
+    1664,
+    31275
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2070270,
+   "name": "Cloudheim",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    4231,
+    3843,
+    1702,
+    3968,
+    4106,
+    21
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2073620,
+   "name": "Arena Breakout: Infinite",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    1199779,
+    3859,
+    1663,
+    4175,
+    5765,
+    1774
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2073850,
+   "name": "THE FINALS",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    5363,
+    113,
+    1663,
+    3859,
+    1774,
+    1775,
+    5711
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2074920,
+   "name": "The First Descendant",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    12095,
+    353880,
+    3859,
+    3814,
+    3843,
+    122
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2081880,
+   "name": "Kathana",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1754,
+    4191,
+    128,
+    1684,
+    1697,
+    4747
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2104890,
+   "name": "RoadCraft",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1643,
+    1644,
+    3968,
+    3843,
+    21,
+    1100687
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2124120,
+   "name": "SULFUR",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    5765,
+    4252,
+    3959,
+    1023537,
+    1199779,
+    4026
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2129530,
+   "name": "REANIMAL",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    1685,
+    21,
+    3859,
+    4166,
+    4342,
+    3841
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2138720,
+   "name": "REMATCH",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    701,
+    1254546,
+    3859,
+    1775,
+    5055,
+    3843,
+    1773
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2141730,
+   "name": "Backrooms: Escape Together",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    1667,
+    3843,
+    1721,
+    3978,
+    1685,
+    4166
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2172010,
+   "name": "Until Dawn™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    6426,
+    1667,
+    6971,
+    21,
+    4486,
+    4182,
+    3834
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2172910,
+   "name": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    701,
+    4191,
+    1697,
+    1254546,
+    4085,
+    122
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2183900,
+   "name": "Warhammer 40,000: Space Marine 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    19,
+    3859,
+    3814,
+    6730,
+    21,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2186990,
+   "name": "Fatekeeper",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    3839,
+    19,
+    122,
+    4231,
+    4604,
+    1646
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2208920,
+   "name": "Assassin's Creed Valhalla",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4106,
+    11634,
+    122,
+    6910,
+    3834,
+    16094
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2209900,
+   "name": "Moonlight Peaks",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    10235,
+    87918,
+    12686,
+    4726,
+    889937,
+    4947,
+    1654
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2215200,
+   "name": "LEGO® Batman™: Legacy of the Dark Knight",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    1695,
+    1671,
+    1751,
+    3859,
+    19,
+    4106
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2215430,
+   "name": "Ghost of Tsushima DIRECTOR'S CUT",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    19,
+    1742,
+    4182,
+    21,
+    1687,
+    3993
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2231380,
+   "name": "Tom Clancy's Ghost Recon® Breakpoint",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1774,
+    3859,
+    4182,
+    1685,
+    4168,
+    1687
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2233120,
+   "name": "A Quiet Place: The Road Ahead",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    3978,
+    1667,
+    7208,
+    3839,
+    5900,
+    4064
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2244210,
+   "name": "Echoes of Aincrad",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    4182,
+    4434,
+    4231,
+    29482,
+    1684,
+    1646
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2246340,
+   "name": "Monster Hunter Wilds",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9564,
+    19,
+    3859,
+    3843,
+    1685,
+    4747,
+    1695
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2248760,
+   "name": "Car For Sale Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1644,
+    4202,
+    3859,
+    9204,
+    599,
+    1100687,
+    1663
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2271930,
+   "name": "IfSunSets",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1100689,
+    1695,
+    7332,
+    1685,
+    4231,
+    19
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2281730,
+   "name": "Combat Master: Season 5",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    3859,
+    19,
+    1774,
+    113,
+    5765,
+    1708
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2300320,
+   "name": "Farming Simulator 25",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    87918,
+    3859,
+    4175,
+    4191,
+    4695,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2322010,
+   "name": "God of War Ragnarök",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    4106,
+    122,
+    1646,
+    16094,
+    1742
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2328760,
+   "name": "Pinball FX",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    6621,
+    1773,
+    4175,
+    4004,
+    7743,
+    6691
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2350790,
+   "name": "Moonlighter 2: The Endless Vault",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    91114,
+    122,
+    4106,
+    1716,
+    3959,
+    6276
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2357570,
+   "name": "Overwatch®",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    620519,
+    1663,
+    3859,
+    5711,
+    3839,
+    3814
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2358720,
+   "name": "Black Myth: Wukong",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    16094,
+    4231,
+    19,
+    29482,
+    122,
+    3993,
+    1742
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2369390,
+   "name": "Far Cry® 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1663,
+    4106,
+    1774,
+    19,
+    21,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2373990,
+   "name": "Solo Leveling: ARISE OVERDRIVE",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4085,
+    4231,
+    3843,
+    1646,
+    3993,
+    1742
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2377280,
+   "name": "Eriksholm: The Stolen Dream",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    3813,
+    5851,
+    7702,
+    1742,
+    21,
+    7208
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2397300,
+   "name": "Half Sword",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    4345,
+    3968,
+    3993,
+    4172,
+    4608,
+    4175
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2406770,
+   "name": "Bodycam",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1663,
+    4175,
+    1708,
+    3859,
+    1774,
+    4168
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2417610,
+   "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1687,
+    19,
+    1742,
+    4145,
+    5179,
+    5708,
+    4168
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2420110,
+   "name": "Horizon Forbidden West™ Complete Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4182,
+    7208,
+    19,
+    1742,
+    3834,
+    3835
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2429640,
+   "name": "Throne and Liberty",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1754,
+    1695,
+    113,
+    128,
+    122,
+    1684,
+    4747
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2437170,
+   "name": "SMITE 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1718,
+    19,
+    1697,
+    9,
+    16094,
+    21
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2440510,
+   "name": "Forza Motorsport",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1100687,
+    3859,
+    1644,
+    599,
+    701,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2444750,
+   "name": "Shape of Dreams",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    42804,
+    1646,
+    6730,
+    1685,
+    3959,
+    4791,
+    1718
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2483190,
+   "name": "Forza Horizon 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    1644,
+    3859,
+    1100687,
+    599,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2486820,
+   "name": "Sonic Racing: CrossWorlds",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    3859,
+    5350,
+    4102,
+    4182,
+    7368,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2492040,
+   "name": "FATAL FURY: City of the Wolves",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4736,
+    19,
+    3871,
+    1775,
+    3859,
+    4777,
+    1743
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2492670,
+   "name": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3834,
+    19,
+    3814,
+    1776,
+    4231,
+    4191,
+    1687
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2495100,
+   "name": "Hello Kitty Island Adventure",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    97376,
+    1695,
+    21,
+    4726,
+    599,
+    10235,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2507950,
+   "name": "Delta Force",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    1663,
+    1199779,
+    3859,
+    128,
+    1774,
+    3843
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2513280,
+   "name": "SONIC X SHADOW GENERATIONS",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    5395,
+    1734,
+    1756,
+    1625,
+    4182,
+    4191
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2515020,
+   "name": "FINAL FANTASY XVI",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4231,
+    1742,
+    4777,
+    4434,
+    19,
+    1684,
+    4604
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2523770,
+   "name": "The Lord of the Rings: War in the North™ - Legacy Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    122,
+    1646,
+    4231,
+    21,
+    1697,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2524850,
+   "name": "Denshattack!",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1773,
+    1616,
+    1734,
+    5395,
+    4305,
+    4085,
+    96359
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2527160,
+   "name": "Desktop Explorer",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1721,
+    1698,
+    1664,
+    8369,
+    5613,
+    6691,
+    599
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2527500,
+   "name": "MiSide",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1721,
+    4726,
+    1742,
+    12095,
+    1667,
+    3839,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2531310,
+   "name": "The Last of Us™ Part II Remastered",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1742,
+    3835,
+    3814,
+    4106,
+    44868,
+    1667,
+    1697
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2536520,
+   "name": "Diablo II: Resurrected – Infernal Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    19,
+    4231,
+    1646,
+    1720,
+    5851,
+    4236
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2542020,
+   "name": "Duskfade",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4106,
+    5395,
+    19,
+    3834,
+    29482,
+    5652,
+    1646
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2543830,
+   "name": "Way of the Hunter 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    21,
+    599,
+    9564,
+    1774,
+    1663,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2552430,
+   "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    122,
+    21,
+    4434,
+    1756,
+    4106,
+    5608
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2552450,
+   "name": "KINGDOM HEARTS III + Re Mind (DLC)",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    122,
+    4182,
+    4231,
+    4191,
+    4434
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2567870,
+   "name": "Chained Together",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    21,
+    1625,
+    597,
+    3859,
+    3843,
+    5537
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2569760,
+   "name": "The Mound: Omen of Cthulhu",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    1721,
+    7432,
+    3959,
+    19,
+    1667,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2584270,
+   "name": "Mortal Shell II",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4604,
+    4667,
+    4231,
+    4182,
+    4026,
+    1695
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2622380,
+   "name": "ELDEN RING NIGHTREIGN",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    3843,
+    3859,
+    1716,
+    1685,
+    4182,
+    6730
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2623190,
+   "name": "The Elder Scrolls IV: Oblivion Remastered",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1695,
+    1684,
+    4182,
+    21,
+    4747,
+    3834
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2625420,
+   "name": "Drive Beyond Horizons",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1644,
+    3834,
+    1662,
+    1100687,
+    1695,
+    599
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2638890,
+   "name": "Onimusha: Way of the Sword",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4106,
+    4182,
+    4608,
+    29482,
+    4231,
+    4777
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2651280,
+   "name": "Marvel's Spider-Man 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1695,
+    1671,
+    4182,
+    21,
+    4106,
+    1742
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2661300,
+   "name": "Grounded 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1662,
+    3859,
+    21,
+    7332,
+    1685,
+    19,
+    1695
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2668510,
+   "name": "Red Dead Redemption",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    1647,
+    1742,
+    4182,
+    19,
+    1659,
+    4106
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2679460,
+   "name": "Metaphor: ReFantazio",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    4325,
+    4434,
+    4085,
+    1742,
+    21,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2680010,
+   "name": "The First Berserker: Khazan",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    29482,
+    4026,
+    1646,
+    4085,
+    4231,
+    4106,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2688950,
+   "name": "Planet Coaster 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    3810,
+    9,
+    1643,
+    4328,
+    4191,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2698940,
+   "name": "The Crew Motorfest",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    1695,
+    3859,
+    1644,
+    1773,
+    3810,
+    4182
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2713000,
+   "name": "Resonance: A Plague Tale Legacy",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    4106,
+    1664,
+    1697,
+    198631,
+    4305
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2767030,
+   "name": "Marvel Rivals",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    3859,
+    620519,
+    3814,
+    1671,
+    1775,
+    12095
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2780980,
+   "name": "LOCKDOWN Protocol",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    745697,
+    42152,
+    1755,
+    8369,
+    19,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2799860,
+   "name": "INAZUMA ELEVEN: Victory Road",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    701,
+    1254546,
+    122,
+    4085,
+    1775,
+    5652,
+    3878
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2806050,
+   "name": "Halo: Campaign Evolved",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    19,
+    1685,
+    4182,
+    3942,
+    1774,
+    5708
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2825860,
+   "name": "The Sinking City 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    7432,
+    1667,
+    3814,
+    19,
+    5716,
+    1742,
+    4106
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2840770,
+   "name": "Avatar: Frontiers of Pandora™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    21,
+    19,
+    3859,
+    3843,
+    4182,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2842040,
+   "name": "Star Wars Outlaws",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4182,
+    1695,
+    19,
+    1697,
+    21,
+    4106,
+    7208
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2853730,
+   "name": "Skull and Bones",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4231,
+    4994,
+    1695,
+    3859,
+    1681,
+    3834,
+    1685
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2878600,
+   "name": "Harry Potter: Quidditch Champions",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    701,
+    19,
+    15045,
+    1773,
+    1697,
+    4057,
+    1775
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2881650,
+   "name": "Content Warning",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    1667,
+    5125,
+    3834,
+    42804,
+    3859,
+    1719
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 2904000,
+   "name": "The Spell Brigade",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    723991,
+    3843,
+    3959,
+    1685,
+    4885,
+    42804,
+    1716
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2948190,
+   "name": "World of Sea Battle",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    128,
+    1695,
+    1681,
+    4994,
+    19,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2950340,
+   "name": "LEGO® Harry Potter™ Collection",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    597,
+    19,
+    5350,
+    21,
+    3859,
+    3841,
+    5395
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2956680,
+   "name": "LORT",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    3843,
+    42804,
+    3859,
+    3814,
+    1685,
+    19
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 2966320,
+   "name": "Starsand Island",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    10235,
+    87918,
+    122,
+    1643,
+    597,
+    3810,
+    599
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 2968420,
+   "name": "PowerWash Simulator 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    597,
+    599,
+    23491,
+    1654,
+    7368,
+    3859,
+    3843
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3008130,
+   "name": "Dying Light: The Beast",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    1695,
+    3859,
+    3839,
+    4036,
+    1667,
+    19
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3010850,
+   "name": "Gears of War: E-Day",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    1774,
+    4345,
+    1685,
+    3859,
+    1667
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3017860,
+   "name": "DOOM: The Dark Ages",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1663,
+    9541,
+    4604,
+    4182,
+    4345,
+    3942
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3041230,
+   "name": "Windrose",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1681,
+    3843,
+    1100689,
+    1662,
+    1702,
+    6730
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3058630,
+   "name": "Assetto Corsa EVO",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    699,
+    599,
+    1100687,
+    701,
+    1644,
+    21978,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3065800,
+   "name": "Marathon",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1199779,
+    1775,
+    3859,
+    1663,
+    1774,
+    3942,
+    4295
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3079210,
+   "name": "Hell Let Loose: Vietnam",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    599,
+    9,
+    1663,
+    1774,
+    128,
+    4168
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3124540,
+   "name": "Far Far West",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    3843,
+    6730,
+    1663,
+    1647,
+    3859,
+    1199779
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3137350,
+   "name": "Motion Soccer PRO",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1254546,
+    21978,
+    599,
+    701,
+    597,
+    4175,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3139440,
+   "name": "GunZ: The Duel",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    19,
+    3814,
+    3859,
+    7926,
+    597,
+    1775
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3156770,
+   "name": "Witchfire",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    4604,
+    3959,
+    122,
+    1774,
+    29482,
+    493
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3159330,
+   "name": "Assassin’s Creed Shadows",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4106,
+    1695,
+    1688,
+    10617,
+    1687,
+    97070,
+    3993
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3167920,
+   "name": "Low-Budget Repairs",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    4136,
+    1654,
+    597,
+    23491,
+    4182,
+    3810
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3168600,
+   "name": "Among Us 3D",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4191,
+    597,
+    9,
+    3839,
+    4136,
+    4562,
+    4195
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3195790,
+   "name": "White Knuckle",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    4036,
+    1667,
+    3839,
+    1716,
+    5395,
+    1625
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3196440,
+   "name": "Vacation Cafe Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    3920,
+    1685,
+    97376,
+    1654,
+    4166,
+    12472
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3199170,
+   "name": "Blood Strike",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    113,
+    1663,
+    176981,
+    1774,
+    3859,
+    620519
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3224770,
+   "name": "Umamusume: Pretty Derby",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    6041,
+    4726,
+    113,
+    16250,
+    699,
+    3959
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3228590,
+   "name": "Deadzone: Rogue",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1716,
+    1663,
+    3843,
+    6730,
+    3959,
+    353880,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3240220,
+   "name": "Grand Theft Auto V Enhanced",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    12095,
+    19,
+    3859,
+    6378,
+    1774,
+    1697
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3241660,
+   "name": "R.E.P.O.",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3843,
+    3859,
+    1719,
+    1685,
+    3968,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3263320,
+   "name": "Carry The Glass",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    3859,
+    5537,
+    3843,
+    4136,
+    21,
+    1625
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3280350,
+   "name": "DEATH STRANDING 2: ON THE BEACH",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    3834,
+    3942,
+    5900,
+    19,
+    4166,
+    3814
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3282300,
+   "name": "Mistfall Hunter",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1199779,
+    4604,
+    3843,
+    1775,
+    29482,
+    19,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3293010,
+   "name": "Easy Delivery Co.",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1654,
+    1644,
+    4182,
+    1695,
+    4726,
+    3834,
+    1742
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3293260,
+   "name": "Waterpark Simulator",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    12472,
+    3859,
+    4182,
+    1685,
+    3810,
+    4695
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3321460,
+   "name": "Crimson Desert Enhanced",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4182,
+    19,
+    3834,
+    21,
+    3993,
+    1684
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3345950,
+   "name": "Capote",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1666,
+    4136,
+    7178,
+    9,
+    17389,
+    1775,
+    1719
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3357650,
+   "name": "PRAGMATA",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4726,
+    3942,
+    19,
+    3814,
+    4136,
+    21,
+    5752
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3375780,
+   "name": "Trails in the Sky 1st Chapter",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4434,
+    122,
+    21,
+    4325,
+    7208,
+    1742,
+    4231
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3393110,
+   "name": "AION 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    128,
+    1754,
+    21,
+    122,
+    1695,
+    4747
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3404260,
+   "name": "Dead as Disco",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1752,
+    4158,
+    4777,
+    1646,
+    1621,
+    6915
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3405690,
+   "name": "EA SPORTS FC™ 26",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1254546,
+    3859,
+    701,
+    7481,
+    599,
+    4182,
+    3841
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3419520,
+   "name": "Quarantine Zone: The Last Check",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1659,
+    599,
+    4182,
+    3835,
+    6426,
+    3839,
+    4175
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3448650,
+   "name": "Aliens: Fireteam Elite 2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1774,
+    3814,
+    4191,
+    4175,
+    1685,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3450310,
+   "name": "Europa Universalis V",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4364,
+    9,
+    3987,
+    599,
+    4695,
+    4202,
+    4684
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3472040,
+   "name": "NBA 2K26",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    701,
+    1746,
+    599,
+    3859,
+    4191,
+    5055,
+    7481
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3489700,
+   "name": "Stellar Blade™",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    7208,
+    19,
+    1646,
+    12095,
+    29482,
+    4182,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3493540,
+   "name": "Transport Fever 3",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    10383,
+    12472,
+    4328,
+    597,
+    9,
+    4695
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3501070,
+   "name": "Car Service Together",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1100687,
+    1685,
+    3810,
+    4191,
+    597,
+    599
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3504700,
+   "name": "4Wheel Challenge",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    3968,
+    5395,
+    4136,
+    4747,
+    699,
+    4036
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3513350,
+   "name": "Wuthering Waves",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    4085,
+    113,
+    19,
+    1742,
+    122,
+    21
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3527290,
+   "name": "PEAK",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    3843,
+    1685,
+    3968,
+    21,
+    3834,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3556750,
+   "name": "Warhammer 40,000: Dawn of War - Definitive Edition",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    9,
+    1676,
+    3859,
+    4182,
+    7332,
+    3843,
+    3942
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3564740,
+   "name": "Where Winds Meet",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    113,
+    3859,
+    4182,
+    29482,
+    4231,
+    4747
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3595230,
+   "name": "Call of Duty®: Modern Warfare® II",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1663,
+    1774,
+    3859,
+    4182,
+    3814,
+    3839
+   ],
+   "discovered_via_tags": [
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3595270,
+   "name": "Call of Duty®: Modern Warfare® III",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1774,
+    1663,
+    3839,
+    4182,
+    4168,
+    4175
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3606480,
+   "name": "Call of Duty®: Black Ops 7",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1663,
+    1774,
+    19,
+    3859,
+    4182,
+    1659,
+    4667
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3641000,
+   "name": "The Incident at Galley House",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    5716,
+    1664,
+    5613,
+    3799,
+    1742,
+    21,
+    6129
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3643170,
+   "name": "Roadside Research",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    91114,
+    599,
+    1654,
+    12472,
+    9204,
+    8945
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3656800,
+   "name": "Train Sim World® 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1616,
+    10383,
+    1100687,
+    1644,
+    9204,
+    9
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3669870,
+   "name": "CONTROL Resonant",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4231,
+    1646,
+    1742,
+    3854,
+    4145,
+    4166,
+    10808
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3679080,
+   "name": "The Seven Deadly Sins: Origin",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1695,
+    113,
+    4085,
+    3859,
+    122,
+    21,
+    3843
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3681810,
+   "name": "Blue Protocol: Star Resonance",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    19,
+    1754,
+    113,
+    21,
+    128,
+    122
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3722330,
+   "name": "Shift At Midnight",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1667,
+    3843,
+    3859,
+    4004,
+    1685,
+    4191,
+    3978
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3751260,
+   "name": "The Blood of Dawnwalker",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    122,
+    1695,
+    4604,
+    21,
+    4231,
+    1697,
+    4182
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3751950,
+   "name": "Assassin's Creed Black Flag Resynced",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4106,
+    97070,
+    1681,
+    1695,
+    4994,
+    1687,
+    3834
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3764200,
+   "name": "Resident Evil Requiem",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3978,
+    1659,
+    1667,
+    3814,
+    19,
+    1663,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3768760,
+   "name": "007 First Light",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4182,
+    4106,
+    19,
+    1687,
+    1742,
+    21,
+    3814
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3787240,
+   "name": "MARVEL Tōkon: Fighting Souls",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4736,
+    597,
+    1773,
+    5055,
+    4777,
+    4975
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3834090,
+   "name": "YAPYAP",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    3859,
+    1667,
+    1719,
+    4057,
+    3968,
+    4604
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3839850,
+   "name": "Crystal of Atlan",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    122,
+    19,
+    4106,
+    4231,
+    1754,
+    113
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 3844970,
+   "name": "Burglin' Gnomes",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    4136,
+    3859,
+    3839,
+    6730,
+    3834,
+    19
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3849000,
+   "name": "The Lantern of the Laughless Saint",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    122,
+    4231,
+    4191,
+    3839,
+    4252,
+    1697
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3859630,
+   "name": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    21,
+    1687,
+    3814,
+    3834,
+    4231,
+    4145
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 3892270,
+   "name": "Gamble With Your Friends",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    3843,
+    16250,
+    1685,
+    1719,
+    3968,
+    3839
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3904850,
+   "name": "Approximately Up",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    21,
+    16598,
+    3810,
+    599,
+    4136,
+    15045,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3932890,
+   "name": "Escape from Tarkov",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1721,
+    1199779,
+    5765,
+    353880,
+    1663,
+    1774,
+    1708
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 3949550,
+   "name": "1666: Amsterdam",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    7208,
+    1697,
+    4106,
+    17894,
+    3987,
+    3854,
+    4598
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4025700,
+   "name": "Heartopia",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    113,
+    10235,
+    3859,
+    7926,
+    4726,
+    597,
+    1654
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4069520,
+   "name": "Super Battle Golf",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3859,
+    3843,
+    1685,
+    701,
+    3968,
+    1719,
+    7038
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4090360,
+   "name": "Forest Escape: Last Train",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    1667,
+    3859,
+    3843,
+    1685,
+    4191,
+    1721
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 4112070,
+   "name": "An Eggstremely Hard Game",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1685,
+    597,
+    21,
+    1625,
+    4136,
+    3877,
+    4726
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4115450,
+   "name": "Phantom Blade Zero",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4231,
+    6915,
+    19,
+    25959,
+    4604,
+    29482,
+    122
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4128400,
+   "name": "eBaseball™: PRO SPIRIT",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    701,
+    5727,
+    5055,
+    1775,
+    3859,
+    113
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 4162040,
+   "name": "Zenless Zone Zero",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    4085,
+    113,
+    19,
+    4726,
+    4136,
+    1646,
+    1756
+   ],
+   "discovered_via_tags": [
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4210580,
+   "name": "Ore Factory Squad ⛏️",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    5981,
+    3843,
+    3810,
+    255534,
+    1685,
+    1643
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4244510,
+   "name": "Pratfall",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1637,
+    3859,
+    3843,
+    3968,
+    1719,
+    1716,
+    5125
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4252290,
+   "name": "Meowgic",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    4057,
+    4136,
+    1685,
+    3968,
+    19,
+    21
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4282500,
+   "name": "hololive Dreams",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1752,
+    122,
+    4726,
+    19,
+    21,
+    4191,
+    8093
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 4317790,
+   "name": "Last Pirates: Die Together",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    3843,
+    1667,
+    4136,
+    1685,
+    3839,
+    4191,
+    3968
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4324480,
+   "name": "Dirty Business",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1685,
+    12472,
+    6378,
+    1702,
+    3859,
+    7332
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4356430,
+   "name": "NBA 2K27",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    701,
+    599,
+    4191,
+    1746,
+    1775,
+    4747,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D"
+   ]
+  },
+  {
+   "app_id": 4369130,
+   "name": "Chop Chop Inc.",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    35079,
+    1702,
+    1719,
+    3839,
+    1654,
+    3834,
+    8945
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4380490,
+   "name": "Cat Mail Co.",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    1654,
+    599,
+    12472,
+    97376,
+    17894,
+    3843,
+    3859
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4384550,
+   "name": "Call of Duty®: Black Ops 6",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1774,
+    1663,
+    3839,
+    4175,
+    4168,
+    1678
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4435490,
+   "name": "Call of Duty®: Modern Warfare® 4",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    1774,
+    1663,
+    3839,
+    1775,
+    3859,
+    4145
+   ],
+   "discovered_via_tags": [
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4502710,
+   "name": "Stonewards",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    493,
+    3843,
+    3959,
+    5981,
+    3839,
+    19,
+    1662
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4512570,
+   "name": "A Game About Chopping Trees",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    1654,
+    97376,
+    3834,
+    30358,
+    4166,
+    4252
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  },
+  {
+   "app_id": 4570720,
+   "name": "DragonSword : Awakening",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    19,
+    4085,
+    1695,
+    122,
+    21,
+    4231,
+    4434
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "Third Person"
+   ]
+  },
+  {
+   "app_id": 4992070,
+   "name": "Sort Them Ducks",
+   "search_released_raw": null,
+   "search_tag_ids": [
+    599,
+    597,
+    560542,
+    1239876,
+    1738,
+    35079,
+    5652
+   ],
+   "discovered_via_tags": [
+    "3D",
+    "First-Person"
+   ]
+  }
+ ]
+}

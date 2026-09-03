@@ -1,0 +1,6013 @@
+{
+  "checked": 46909,
+  "ok": true,
+  "n_errors": 0,
+  "n_warnings": 2063,
+  "counts_by_code": {
+    "UNPARSED_LABELS": 2017,
+    "INDIE_PASSED_SOURCE_FILTER": 31,
+    "INCLUDED_WITHOUT_DATE": 15
+  },
+  "issues": [
+    {
+      "app_id": 1200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Graphcis']"
+    },
+    {
+      "app_id": 1930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Misc']"
+    },
+    {
+      "app_id": 2450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Peripherals']"
+    },
+    {
+      "app_id": 7510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Misc']"
+    },
+    {
+      "app_id": 8140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Controller']"
+    },
+    {
+      "app_id": 8170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Input Devices']"
+    },
+    {
+      "app_id": 8780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Direct X Version', 'Input Devices']"
+    },
+    {
+      "app_id": 8870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Video Card Memory']"
+    },
+    {
+      "app_id": 9480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Display']"
+    },
+    {
+      "app_id": 21100,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Drive Space']"
+    },
+    {
+      "app_id": 21130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Input Devices']"
+    },
+    {
+      "app_id": 21690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Display', 'Peripherals']"
+    },
+    {
+      "app_id": 21780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['*Supported Video Cards at Time of Release']"
+    },
+    {
+      "app_id": 22300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Controller support']"
+    },
+    {
+      "app_id": 22370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Controller support']"
+    },
+    {
+      "app_id": 33230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Supported Peripherals']"
+    },
+    {
+      "app_id": 33900,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 43000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Controller Support']"
+    },
+    {
+      "app_id": 46370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Audio Card']"
+    },
+    {
+      "app_id": 48190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Peripherals', 'Supported Video Cards']"
+    },
+    {
+      "app_id": 48700,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 49520,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Video Card (duplicado)']"
+    },
+    {
+      "app_id": 50130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Peripherals']"
+    },
+    {
+      "app_id": 55100,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['OS * (duplicado)', 'Processor (duplicado)', 'Memory (duplicado)', 'Graphics (duplicado)', 'Hard Drive (duplicado)']"
+    },
+    {
+      "app_id": 57900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Video Card (duplicado)', 'OTHER REQUIREMENTS & SUPPORTS']"
+    },
+    {
+      "app_id": 63380,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 63620,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 63950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Peripherals', 'Multiplay']"
+    },
+    {
+      "app_id": 102500,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 201510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Supported Input Devices']"
+    },
+    {
+      "app_id": 201870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Peripherals']"
+    },
+    {
+      "app_id": 202170,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 207790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Multiplayer']"
+    },
+    {
+      "app_id": 211500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 218620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 223750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 225640,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 232750,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 233270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Perpherals Support']"
+    },
+    {
+      "app_id": 233800,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 238070,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 238430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['Hardware']"
+    },
+    {
+      "app_id": 242050,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 247970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 250820,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 252870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 266410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 284160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 292120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['*Maximum supported frame rate']"
+    },
+    {
+      "app_id": 292140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['*Maximum supported frame rate']"
+    },
+    {
+      "app_id": 345350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['*Maximum supported frame rate']"
+    },
+    {
+      "app_id": 365960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 392110,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 417910,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 422890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 431380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 437350,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 448850,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 458430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 501400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 520330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 551190,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 586110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 590830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 605610,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 607760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 616820,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 619500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 635260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 658490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 674140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 676270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 685690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 731340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 738550,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 744690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 748250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 789940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 801550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 881410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 882140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 893910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 893950,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 914260,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 954300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 963720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 993170,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1000360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1046760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1055040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1066740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1073120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1075950,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 1079800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1118040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1135260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1145360,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1145630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1166140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1177340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1192380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1192900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1200150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1219770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1221670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1225580,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1225590,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1233610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1260800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1263210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1265800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1282670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1302240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1311250,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1316160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1334290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1341490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1344440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1365930,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1367710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1368890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1376580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1376960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1377160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1397390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1401970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1403400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1403940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1411970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1416040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1416070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1422940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1429070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1462520,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1481700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1489490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1490800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1490900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1493280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1511280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1523100,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1540000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1545020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1546240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1549850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1549860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1550110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1568600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1573730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1576560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1581480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1583190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1584240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1588610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1593370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1597770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1599130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1609130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1621990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1633780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1634070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1639480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1652730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1669500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1671740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1674920,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1687100,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1689120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1690050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1693930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1701560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1707990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1712350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1713550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1723680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1724000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1749860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1763510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1765300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1775990,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1778030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1784650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1803610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1805310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1812230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1816810,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1821670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1823080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1824960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1831670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1833080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1840020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1843690,
+      "code": "INCLUDED_WITHOUT_DATE",
+      "severity": "WARNING",
+      "detail": "incluido sem data utilizavel (raw='')"
+    },
+    {
+      "app_id": 1843760,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1848850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1850050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1850530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1852650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1853510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1861410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1896110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1907400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1910860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1910950,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 1911200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1914710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1914750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1916360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1917160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1922060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1925940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1926620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1928020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1937070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1938360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1941780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1942110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1952490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1955320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1956180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1956860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1957780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1967310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1972720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1983140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1992860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1993570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1995710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1996740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 1998310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2006580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2008440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2012840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['ULTRA']"
+    },
+    {
+      "app_id": 2019620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2053040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2057830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2058030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2058690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2061010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2066610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2069310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2074360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2077180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2083830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2086440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2092670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2093550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2096570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2098670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2098920,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2099240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2108080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2108640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2110710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2113900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2116390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2117450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2121740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2124050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2130170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2133070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2141770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2142400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2144390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2147360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2147600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2148110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2151960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2152560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2153780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2154950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2155350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2159400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2159560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2160700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2165690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2167190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2168240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2170380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2172630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2173920,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2177940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2180340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2185160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2185720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2186490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2188530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2189620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2191220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2192970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2194200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2198850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2198970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2199980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2200220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2200240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2200250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2200330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2201880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2202150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2202270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2203130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2203850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2205650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2205860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2207160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2209990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2210020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2210750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2210760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2210890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2211410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2212940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2217770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2220260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2221150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2223010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2223880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2225990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2226150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2227660,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2230950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2231750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2232840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2234080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2234300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2234550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2235620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2236460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2237270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2237710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2237740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2240010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2241880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2242750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2243380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2245750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2246120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2246550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2246650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2250850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2252190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2255300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2256230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2256650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2259730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2261900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2261930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2262410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2266160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2266270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2266790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2267800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2268200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2269730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2270420,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2270940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2271050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2272020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2272310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2272630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2273520,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2274200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2274800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2275760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2275840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2275880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2278430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2279040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2284600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2284640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2284860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2285640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2286620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2286680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2288760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2291140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2291920,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2292630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2292740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2292980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2293180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2293440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2294210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2294980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2296380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2299270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2299890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2299950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2300160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2300320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2301640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2302120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2306120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2307030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2307350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2307400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2308340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2308940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2309070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2310880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2312110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2313440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2313930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2315940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2315970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2317110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2317610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2317870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2318230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2318260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2319320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2319490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2320910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2321650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2321700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2322530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2326200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2329760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2329940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2330030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2330850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2331210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2331370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2331860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2333280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2334300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2334590,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2334680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2335370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2340670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2340980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2341210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2342360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2342410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2342760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2342930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2343290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2347320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2347610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2349200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2350290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2350480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2351360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2352770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2353980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2354400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2355440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2355990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2357290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2358230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2358600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2359460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2359470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2360690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2360710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2361560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2361840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2364030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2365350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2366690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2366970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2367440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2368330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2370000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2370600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2371040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2371480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2371490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2372750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2374030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2374730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2376450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2377070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2377480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2379060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2379680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2380600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2380910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2381940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2381990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2382280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2383380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2384300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2385330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2386790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2388890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2389420,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2390170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2391140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2393880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2393970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2395580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2396540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2397300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2397600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2398480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2398680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2398870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2402070,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2402820,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2403060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2403080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2403670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2405400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2406910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2407520,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2407710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2408080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2408110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2410750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2410800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2410900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2411260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2411410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2411870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2412740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2413040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2414550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2415430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2415450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2418630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2420000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2420700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2421540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2422910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2423860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2424470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2424850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2426000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2426150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2428440,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2428640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2431510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2431720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2431730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2433370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2433960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2434120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2434810,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2435180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2436400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2436680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2437230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2437390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2438270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2438440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2438900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2439370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2439730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2440750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2441700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2445540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2445750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2445980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2446500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2447550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2447880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2449030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2451320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2451980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2453160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2454740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2455190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2457010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2457820,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2457930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2459250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2461270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2465730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2466640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2467300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2467630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2468490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2469260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2469410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2470350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2471320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2472170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2472930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2475220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2475250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2475790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2480010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2480210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2480250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2480260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2480570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2481990,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2482940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2483340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2483350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2484570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2485610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2488620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2491820,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2492350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2492600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2492650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2494030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2494610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2495340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2496180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2498020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2498170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2501980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2503750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2504390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2504880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2505020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2507370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2508170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2508720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2510540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2510950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2511050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2511110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2511130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2512050,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2512260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2513040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2514800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2515110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2515280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2516750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2517000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2518790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2519220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2519830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2519940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2521100,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2521270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2521460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2521970,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2522280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2522300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2523160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2523690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2524500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2524890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2525140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2525650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2530030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2531440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2536130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2536530,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2537010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2538040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2538170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2538300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2539210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2539890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2539960,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2544160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2544590,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2544880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2547710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2549080,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2549390,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2550040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2550270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2550730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2551210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2551430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2552370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2552750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2553260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2553320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2553560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2555060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2556280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2556450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2556620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2557020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2557700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2557770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2558630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2559060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2559960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2560280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2563740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2564460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2565310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2566200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2567550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2567790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2568060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2568480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2569130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2569780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2569930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2570200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2577900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2578220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2587250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2587850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2587930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2589370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2589440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2589880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2590670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2591030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2592320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2593150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2596890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2597880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2598890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2599450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2600670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2605140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2605210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2605290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2609610,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2611600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2614800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2620220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2620240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2620340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2621260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2621440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2622970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2623630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2625430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2627700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2629640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2633440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2634350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2635290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2636890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2638910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2639870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2640240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2640660,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2641910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2642330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2644440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2645730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2650890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2657320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2657840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2657960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2658620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2661140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2663890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2665120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2665370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2667980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2672470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2673750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2674580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2675330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2676160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2677210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2677280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2678460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2678700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2679320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2685780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2686630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2687660,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2691490,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2692580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2692720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2694200,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2696780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2698100,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2698450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2699110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2699190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2700310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2702250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2702300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2705210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2706830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2707150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2707350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2707540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2708470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2708530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2709500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2710650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2710790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2710800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2711020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2712710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2713250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2713940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2714900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2715000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2715910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2717330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2718310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2719160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2719740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2720120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2720620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2720780,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2721900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2722120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2722380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2722770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2724180,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2725230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2725670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2726020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2730240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2730800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2731790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2732660,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2733280,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2735110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2735190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2736950,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2739350,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2739920,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2740110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2741300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2743060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2743800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2744220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2744710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2744840,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2745660,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2746510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2749170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2749940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2752090,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2753420,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2753460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2754090,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2754690,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2757400,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2758220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2758230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2758410,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2759750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2760860,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2761670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2761800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2763980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2766640,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2768020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2769270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2770250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2770340,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2771730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2772190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2774710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2775470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2777970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2778220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2778790,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2779440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2779600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2779620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2780600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2784760,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2785740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2786960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2787110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2788740,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2789300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2789890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2791290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2791320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2792300,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2793520,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2794230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2795160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2797590,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2799930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2800480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2800500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2800850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2801630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2802560,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2804940,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2805170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2807190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2807290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2807960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2808980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2811000,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2815470,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2816270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2816730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2821830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2821870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2822360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2822600,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2822770,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2825380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2825430,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2825570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2827530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2828750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2829450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2831700,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2832160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2834620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2834910,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2835960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2836810,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2840440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2840730,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2842670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2843060,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2845720,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2855020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2856210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2857240,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2858370,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2858830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2859220,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2860190,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2860800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2860870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2863040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2864270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2867150,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2867450,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2870120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2873040,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2873750,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2874250,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2874540,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2874970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2875120,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2875580,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2875870,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2876380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2878270,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2882650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2883650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2884170,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2884290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2884930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2885330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2892440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2892510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2892680,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2894900,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2896630,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2898310,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2899130,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2899670,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2899880,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2900210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2906500,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2907340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2909380,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2911230,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2911510,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2912970,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2912980,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2913020,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2917550,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2918300,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2920340,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2922290,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2922710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2923260,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2923710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2924090,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2926320,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2929890,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2932160,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2933530,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2933590,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2934110,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2934520,
+      "code": "INDIE_PASSED_SOURCE_FILTER",
+      "severity": "WARNING",
+      "detail": "incluido com is_indie=true: o untags do discovery pode ter falhado, ou o app veio de outra origem"
+    },
+    {
+      "app_id": 2934620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2937440,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2937930,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2938800,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2939850,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2941710,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2941960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2942030,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2943570,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2943620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2943650,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2944480,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2945360,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2946010,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2946140,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2947620,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2947830,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2948960,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2950330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2950460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2951330,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2952210,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2952820,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    },
+    {
+      "app_id": 2955460,
+      "code": "UNPARSED_LABELS",
+      "severity": "WARNING",
+      "detail": "rotulos nao mapeados no recomendado: ['VR Support']"
+    }
+  ]
+}

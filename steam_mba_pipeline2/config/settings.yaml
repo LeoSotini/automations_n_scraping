@@ -1,0 +1,105 @@
+﻿# Configuracao operacional do pipeline.
+# Valores de rate limiting calibrados pelas medicoes empiricas da FASE 1
+# (docs/FASE1_investigacao.md, secao 6.2). NAO sao chutes.
+
+scraper_version: "0.1.0"
+
+http:
+  # Identificacao apropriada do cliente (item 3 do projeto).
+  user_agent: >-
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+    (KHTML, like Gecko) Chrome/124.0 Safari/537.36
+    (academic-research; MBA DSA TCC; +mailto:leonardo.de-lima@siemens-energy.com)
+  accept_language: "en-US,en;q=0.9"
+  connect_timeout_s: 10
+  read_timeout_s: 30
+
+rate_limits:
+  # /search/results/ deu HTTP 429 na 17a requisicao a 0.35s/req.
+  # 4.0s da ~11x de margem.
+  search:
+    min_interval_s: 4.0
+    max_retries: 5
+    backoff_base_s: 4.0
+  # /api/appdetails aguentou 30/30 a 0.35s/req sem 429. 0.6s e conservador.
+  appdetails:
+    min_interval_s: 0.6
+    max_retries: 3
+    backoff_base_s: 2.0
+  store_html:
+    min_interval_s: 1.0
+    max_retries: 3
+    backoff_base_s: 2.0
+  api:
+    min_interval_s: 1.0
+    max_retries: 3
+    backoff_base_s: 2.0
+
+  # A Steam NAO envia header Retry-After (verificado). O backoff e cego:
+  # backoff_base_s * 2**(tentativa-1), com jitter para evitar sincronizacao.
+  jitter_fraction: 0.25
+  max_backoff_s: 120.0
+
+endpoints:
+  tag_list: "https://api.steampowered.com/IStoreService/GetTagList/v1/"
+  search: "https://store.steampowered.com/search/results/"
+  appdetails: "https://store.steampowered.com/api/appdetails"
+  store_page: "https://store.steampowered.com/app/{app_id}/"
+  api_app_list: "https://api.steampowered.com/IStoreService/GetAppList/v1/"
+
+discovery:
+  page_size: 50            # maximo aceito pelo endpoint
+  category1: 998           # 998 = Games (exclui DLC/software/video no servidor)
+  os: "win"                # item 2.2: exige suporte a Windows
+  # ATENCAO — NAO usar sort_by=Released_DESC nem Reviews_DESC.
+  # Medido em 2026-08-31 (investigation/diag_sort_by.py): o parametro NAO apenas
+  # ordena, ele FILTRA itens sem a chave de ordenacao.
+  #   3D NOT Indie, sem sort_by      -> 26.755
+  #   3D NOT Indie, Released_DESC    -> 15.744  (-41,2%)
+  #   3D NOT Indie, Reviews_DESC     ->  9.012  (-66,3%)
+  #   3D, Relevance                  -> identico a sem sort_by
+  # Perder 41% da populacao por preferencia de ordenacao seria vies silencioso,
+  # concentrado justamente em entradas com data irregular — o eixo do estudo.
+  # Vazio = endpoint decide (equivalente a Relevance, populacao integral).
+  sort_by: ""
+  max_pages_per_tag: 2000  # trava de seguranca (2000 * 50 = 100k)
+
+scrape:
+  checkpoint_every: 25
+  fetch_tags_from_html: true   # decisao Q3/D3
+  max_attempts: 3
+  # Pausa adicional ENTRE JOGOS, aplicada depois de concluir cada app_id.
+  # Somada ao min_interval_s de cada endpoint, e o ritmo efetivo da coleta.
+  # Medicoes da FASE 1: /api/appdetails aguentou 30/30 requisicoes a 0,35s sem
+  # nenhum 429; o endpoint sensivel e o /search/results/ (429 na 17a req).
+  # Este valor e portanto conservador por escolha metodologica, nao por
+  # necessidade medida â€” ver docs/DECISOES.md (D11) para o custo em tempo.
+  sleep_between_apps_s: 2.0
+  # AGE GATE â€” ver docs/DECISOES.md (D9).
+  # A Steam serve duas variantes de bloqueio por idade:
+  #   (a) interstitial NA PROPRIA PAGINA (HTTP 200, ~51 KB, sem InitAppTagModal),
+  #       resolvido por auto-declaracao de data de nascimento, SEM autenticacao;
+  #   (b) redirect para /login/?redir=agecheck/... que EXIGE AUTENTICACAO.
+  # O caso (b) NUNCA e contornado (item 3 do projeto).
+  # O caso (a) e controlado por esta chave. Com false, jogos com interstitial
+  # ficam sem tags (tags_source=AGE_GATE_INTERSTITIAL) â€” e como o gate incide
+  # sobre titulos mature/AAA de acao, isso enviesa contra a populacao-alvo.
+  accept_age_gate_interstitial: true
+  age_gate_cookies:
+    birthtime: "283993201"          # 1979-01-01
+    lastagecheckage: "1-January-1979"
+    wants_mature_content: "1"
+    Steam_Language: "english"
+
+paths:
+  data_dir: "data"
+  raw_appdetails: "data/raw/appdetails"
+  raw_tags: "data/raw/store_html"
+  raw_taxonomy: "data/raw"
+  processed: "data/processed"
+  checkpoints: "data/checkpoints"
+  logs: "data/logs"
+
+logging:
+  console_level: "INFO"
+  file_level: "DEBUG"

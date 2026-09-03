@@ -1,0 +1,35 @@
+2026-08-31 12:09:17 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_120917.log
+2026-08-31 12:09:17 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 12:09:17 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.1.0
+2026-08-31 12:09:17 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_120917.log
+2026-08-31 12:09:17 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 12:09:17 | INFO    | steamreq.tags | [TAGS]      taxonomia carregada do cache | 446 tags | coletada em 2026-08-31T13:00:47Z
+2026-08-31 12:09:17 | INFO    | steamreq.cli | [TAGS]      446 tags oficiais | 42/42 tags do filtro resolvidas
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D                     -> 4191
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte First-Person           -> 3839
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Third Person           -> 1697
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Third-Person Shooter   -> 3814
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte FPS                    -> 1663
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D Platformer          -> 5395
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte 3D Fighter             -> 6506
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Immersive Sim          -> 9204
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Walking Simulator      -> 5900
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Automobile Sim         -> 1100687
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Flight                 -> 15045
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Space Sim              -> 16598
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Looter Shooter         -> 353880
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Hero Shooter           -> 620519
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Arena Shooter          -> 5547
+2026-08-31 12:09:17 | DEBUG   | steamreq.cli | [TAGS]      positiva forte Rail Shooter           -> 3954
+2026-08-31 12:09:17 | INFO    | steamreq.cli | [DISCOVERY] MODO PILOTO: 8 paginas por tag, gravando em candidates_pilot.json (nao afeta a coleta definitiva)
+2026-08-31 12:09:17 | INFO    | steamreq.discovery | [DISCOVERY] 2 tags positivas a consultar | untags=Indie(492) | ritmo 4.0s/req
+2026-08-31 12:09:17 | INFO    | steamreq.discovery | [DISCOVERY] --- tag 1/2: 3D ---
+2026-08-31 12:09:18 | INFO    | steamreq.discovery | [DISCOVERY] tag 3D (4191) untags=Indie(492) -> total_count=15,744
+2026-08-31 12:09:34 | INFO    | steamreq.discovery | [DISCOVERY] 3D                     | pag 0005/0315 | 250 app_ids | 1.6% | decorrido 00:00:16
+2026-08-31 12:09:46 | INFO    | steamreq.discovery | [DISCOVERY] 3D                     | +400 novos | uniao=400
+2026-08-31 12:09:46 | INFO    | steamreq.discovery | [DISCOVERY] --- tag 2/2: First-Person ---
+2026-08-31 12:09:50 | INFO    | steamreq.discovery | [DISCOVERY] tag First-Person (3839) untags=Indie(492) -> total_count=9,249
+2026-08-31 12:10:06 | INFO    | steamreq.discovery | [DISCOVERY] First-Person           | pag 0005/0185 | 501 app_ids | 2.7% | decorrido 00:00:48
+2026-08-31 12:10:18 | INFO    | steamreq.discovery | [DISCOVERY] First-Person           | +251 novos | uniao=651
+2026-08-31 12:10:18 | INFO    | steamreq.discovery | [DISCOVERY] uniao de 2 tags positivas -> 651 app_ids unicos
+2026-08-31 12:10:18 | INFO    | steamreq.discovery | [DISCOVERY] gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed/candidates_pilot.json

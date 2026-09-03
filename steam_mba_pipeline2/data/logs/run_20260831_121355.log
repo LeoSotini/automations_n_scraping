@@ -1,0 +1,1364 @@
+2026-08-31 12:13:55 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_121355.log
+2026-08-31 12:13:55 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 12:13:55 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.1.0
+2026-08-31 12:13:55 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_121355.log
+2026-08-31 12:13:55 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 12:13:55 | INFO    | steamreq.cli | [SCRAPE]    limitado a 300 apps (modo de teste)
+2026-08-31 12:13:55 | WARNING | steamreq.storage | checkpoint foi criado com filter_version=1.0.0 mas a configuracao atual e 1.1.0. Os registros ja coletados permanecem validos (o raw e imutavel), mas o estagio de filtro deve ser reexecutado.
+2026-08-31 12:13:55 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:13:55 | INFO    | steamreq.scraper | [SCRAPE]    300 app_ids na fila | tags do HTML=True | ritmo appdetails=0.6s | pausa entre jogos=2.0s
+2026-08-31 12:13:55 | INFO    | steamreq.scraper | [SCRAPE]    estimativa de duracao: 0.3 h (0.0 dias) no ritmo configurado
+2026-08-31 12:13:55 | INFO    | steamreq.scraper | [SCRAPE 001/300 | 0.3%] app_id=10
+2026-08-31 12:13:56 | INFO    | steamreq.scraper |    [OK] appdetails 8.5 KB | type=game | release=Nov 1, 2000 | reviews=169,575
+2026-08-31 12:13:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:13:57 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:13:59 | INFO    | steamreq.scraper | [SCRAPE 002/300 | 0.7%] app_id=440
+2026-08-31 12:13:59 | INFO    | steamreq.scraper |    [OK] appdetails 27.4 KB | type=game | release=Oct 10, 2007 | reviews=47,784
+2026-08-31 12:13:59 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:13:59 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:01 | INFO    | steamreq.scraper | [SCRAPE 003/300 | 1.0%] app_id=500
+2026-08-31 12:14:01 | INFO    | steamreq.scraper |    [OK] appdetails 20.4 KB | type=game | release=Nov 17, 2008 | reviews=58,079
+2026-08-31 12:14:02 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:02 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:04 | INFO    | steamreq.scraper | [SCRAPE 004/300 | 1.3%] app_id=550
+2026-08-31 12:14:04 | INFO    | steamreq.scraper |    [OK] appdetails 22.6 KB | type=game | release=Nov 16, 2009 | reviews=814,302
+2026-08-31 12:14:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:07 | DEBUG   | steamreq.scraper | [SCRAPE 005/300 | 1.7%] app_id=620 | SKIP (ja concluido)
+2026-08-31 12:14:07 | DEBUG   | steamreq.scraper | [SCRAPE 006/300 | 2.0%] app_id=730 | SKIP (ja concluido)
+2026-08-31 12:14:07 | INFO    | steamreq.scraper | [SCRAPE 007/300 | 2.3%] app_id=8870
+2026-08-31 12:14:07 | INFO    | steamreq.scraper |    [OK] appdetails 21.7 KB | type=game | release=Mar 25, 2013 | reviews=109,562
+2026-08-31 12:14:08 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:08 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:10 | INFO    | steamreq.scraper | [SCRAPE 008/300 | 2.7%] app_id=10680
+2026-08-31 12:14:10 | INFO    | steamreq.scraper |    [OK] appdetails 15.0 KB | type=game | release=Feb 16, 2010 | reviews=16,173
+2026-08-31 12:14:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:10 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:12 | INFO    | steamreq.scraper | [SCRAPE 009/300 | 3.0%] app_id=12200
+2026-08-31 12:14:13 | INFO    | steamreq.scraper |    [OK] appdetails 12.7 KB | type=game | release=Oct 21, 2008 | reviews=37,374
+2026-08-31 12:14:13 | DEBUG   | steamreq.scraper | age gate na pagina para app 12200; reenviando com auto-declaracao de idade
+2026-08-31 12:14:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:14 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:16 | INFO    | steamreq.scraper | [SCRAPE 010/300 | 3.3%] app_id=12210
+2026-08-31 12:14:17 | INFO    | steamreq.scraper |    [OK] appdetails 19.2 KB | type=game | release=Mar 24, 2020 | reviews=179,560
+2026-08-31 12:14:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:17 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:19 | INFO    | steamreq.scraper | [SCRAPE 011/300 | 3.7%] app_id=21690
+2026-08-31 12:14:19 | INFO    | steamreq.scraper |    [OK] appdetails 31.7 KB | type=game | release=Sep 15, 2009 | reviews=48,204
+2026-08-31 12:14:20 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:20 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:22 | INFO    | steamreq.scraper | [SCRAPE 012/300 | 4.0%] app_id=22380
+2026-08-31 12:14:22 | INFO    | steamreq.scraper |    [OK] appdetails 17.1 KB | type=game | release=Oct 19, 2010 | reviews=211,369
+2026-08-31 12:14:23 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:23 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:25 | INFO    | steamreq.scraper | [SCRAPE 013/300 | 4.3%] app_id=39210
+2026-08-31 12:14:25 | INFO    | steamreq.scraper |    [OK] appdetails 22.3 KB | type=game | release=Feb 18, 2014 | reviews=78,507
+2026-08-31 12:14:25 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:25 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:27 | INFO    | steamreq.scraper | [SCRAPE 014/300 | 4.7%] app_id=42700
+2026-08-31 12:14:28 | INFO    | steamreq.scraper |    [OK] appdetails 15.6 KB | type=game | release=Nov 9, 2010 | reviews=22,144
+2026-08-31 12:14:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:29 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:31 | INFO    | steamreq.scraper | [SCRAPE 015/300 | 5.0%] app_id=49520
+2026-08-31 12:14:31 | INFO    | steamreq.scraper |    [OK] appdetails 29.8 KB | type=game | release=Sep 17, 2012 | reviews=215,372
+2026-08-31 12:14:32 | DEBUG   | steamreq.scraper | age gate na pagina para app 49520; reenviando com auto-declaracao de idade
+2026-08-31 12:14:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:33 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:35 | INFO    | steamreq.scraper | [SCRAPE 016/300 | 5.3%] app_id=107410
+2026-08-31 12:14:35 | INFO    | steamreq.scraper |    [OK] appdetails 40.6 KB | type=game | release=Sep 12, 2013 | reviews=230,748
+2026-08-31 12:14:36 | DEBUG   | steamreq.scraper | age gate na pagina para app 107410; reenviando com auto-declaracao de idade
+2026-08-31 12:14:37 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:37 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:39 | INFO    | steamreq.scraper | [SCRAPE 017/300 | 5.7%] app_id=108710
+2026-08-31 12:14:39 | INFO    | steamreq.scraper |    [OK] appdetails 15.3 KB | type=game | release=Feb 16, 2012 | reviews=45,174
+2026-08-31 12:14:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 108710; reenviando com auto-declaracao de idade
+2026-08-31 12:14:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:43 | INFO    | steamreq.scraper | [SCRAPE 018/300 | 6.0%] app_id=202750
+2026-08-31 12:14:43 | INFO    | steamreq.scraper |    [OK] appdetails 13.5 KB | type=game | release=May 22, 2012 | reviews=8,273
+2026-08-31 12:14:44 | DEBUG   | steamreq.scraper | age gate na pagina para app 202750; reenviando com auto-declaracao de idade
+2026-08-31 12:14:44 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:44 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:46 | INFO    | steamreq.scraper | [SCRAPE 019/300 | 6.3%] app_id=202970
+2026-08-31 12:14:47 | INFO    | steamreq.scraper |    [OK] appdetails 16.2 KB | type=game | release=Nov 12, 2012 | reviews=23,229
+2026-08-31 12:14:47 | DEBUG   | steamreq.scraper | age gate na pagina para app 202970; reenviando com auto-declaracao de idade
+2026-08-31 12:14:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:48 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:50 | INFO    | steamreq.scraper | [SCRAPE 020/300 | 6.7%] app_id=203160
+2026-08-31 12:14:51 | INFO    | steamreq.scraper |    [OK] appdetails 24.2 KB | type=game | release=Mar 4, 2013 | reviews=172,590
+2026-08-31 12:14:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 203160; reenviando com auto-declaracao de idade
+2026-08-31 12:14:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:14:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:14:54 | INFO    | steamreq.scraper | [SCRAPE 021/300 | 7.0%] app_id=204100
+2026-08-31 12:14:55 | INFO    | steamreq.scraper |    [OK] appdetails 20.5 KB | type=game | release=May 31, 2012 | reviews=54,834
+2026-08-31 12:14:55 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:55 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:14:57 | INFO    | steamreq.scraper | [SCRAPE 022/300 | 7.3%] app_id=205100
+2026-08-31 12:14:57 | INFO    | steamreq.scraper |    [OK] appdetails 16.1 KB | type=game | release=Oct 8, 2012 | reviews=67,305
+2026-08-31 12:14:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:14:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:00 | INFO    | steamreq.scraper | [SCRAPE 023/300 | 7.7%] app_id=208650
+2026-08-31 12:15:00 | INFO    | steamreq.scraper |    [OK] appdetails 21.8 KB | type=game | release=Jun 23, 2015 | reviews=110,828
+2026-08-31 12:15:01 | DEBUG   | steamreq.scraper | age gate na pagina para app 208650; reenviando com auto-declaracao de idade
+2026-08-31 12:15:02 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:02 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:04 | INFO    | steamreq.scraper | [SCRAPE 024/300 | 8.0%] app_id=214490
+2026-08-31 12:15:04 | INFO    | steamreq.scraper |    [OK] appdetails 20.3 KB | type=game | release=Oct 6, 2014 | reviews=48,454
+2026-08-31 12:15:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:07 | INFO    | steamreq.scraper | [SCRAPE 025/300 | 8.3%] app_id=216150
+2026-08-31 12:15:07 | INFO    | steamreq.scraper |    [OK] appdetails 18.2 KB | type=game | release=Aug 9, 2012 | reviews=101
+2026-08-31 12:15:07 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:07 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:07 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:15:07 | INFO    | steamreq.scraper | [CHECKPOINT] 23 completos | 0 parciais | 0 falhas | 2 pulados | 275 restantes
+2026-08-31 12:15:07 | INFO    | steamreq.scraper |              estado global: COMPLETE=38 PARTIAL=1 FAILED=1 PENDING=270
+2026-08-31 12:15:07 | INFO    | steamreq.scraper |              decorrido 00:01:12 | ETA 00:14:20 (~3.13s/app) | HTTP: 54 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:15:09 | INFO    | steamreq.scraper | [SCRAPE 026/300 | 8.7%] app_id=218620
+2026-08-31 12:15:10 | INFO    | steamreq.scraper |    [OK] appdetails 36.3 KB | type=game | release=Aug 13, 2013 | reviews=445,180
+2026-08-31 12:15:10 | DEBUG   | steamreq.scraper | age gate na pagina para app 218620; reenviando com auto-declaracao de idade
+2026-08-31 12:15:12 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:12 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:14 | INFO    | steamreq.scraper | [SCRAPE 027/300 | 9.0%] app_id=220240
+2026-08-31 12:15:14 | INFO    | steamreq.scraper |    [OK] appdetails 21.4 KB | type=game | release=Dec 4, 2012 | reviews=122,361
+2026-08-31 12:15:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:14 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:16 | INFO    | steamreq.scraper | [SCRAPE 028/300 | 9.3%] app_id=220440
+2026-08-31 12:15:17 | INFO    | steamreq.scraper |    [OK] appdetails 21.9 KB | type=game | release=Jan 24, 2013 | reviews=20,855
+2026-08-31 12:15:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:19 | INFO    | steamreq.scraper | [SCRAPE 029/300 | 9.7%] app_id=221100
+2026-08-31 12:15:19 | INFO    | steamreq.scraper |    [OK] appdetails 37.6 KB | type=game | release=Dec 13, 2018 | reviews=387,054
+2026-08-31 12:15:20 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:20 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:22 | INFO    | steamreq.scraper | [SCRAPE 030/300 | 10.0%] app_id=223750
+2026-08-31 12:15:23 | INFO    | steamreq.scraper |    [OK] appdetails 30.4 KB | type=game | release=Aug 2, 2013 | reviews=710
+2026-08-31 12:15:23 | DEBUG   | steamreq.scraper | age gate na pagina para app 223750; reenviando com auto-declaracao de idade
+2026-08-31 12:15:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:26 | INFO    | steamreq.scraper | [SCRAPE 031/300 | 10.3%] app_id=230410
+2026-08-31 12:15:27 | INFO    | steamreq.scraper |    [OK] appdetails 23.6 KB | type=game | release=Mar 25, 2013 | reviews=2,879
+2026-08-31 12:15:27 | DEBUG   | steamreq.scraper | age gate na pagina para app 230410; reenviando com auto-declaracao de idade
+2026-08-31 12:15:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:28 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:15:30 | INFO    | steamreq.scraper | [SCRAPE 032/300 | 10.7%] app_id=232090
+2026-08-31 12:15:30 | INFO    | steamreq.scraper |    [OK] appdetails 68.4 KB | type=game | release=Nov 18, 2016 | reviews=87,881
+2026-08-31 12:15:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:31 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:33 | INFO    | steamreq.scraper | [SCRAPE 033/300 | 11.0%] app_id=235460
+2026-08-31 12:15:33 | INFO    | steamreq.scraper |    [OK] appdetails 13.9 KB | type=game | release=Jan 9, 2014 | reviews=69,005
+2026-08-31 12:15:34 | DEBUG   | steamreq.scraper | age gate na pagina para app 235460; reenviando com auto-declaracao de idade
+2026-08-31 12:15:35 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:35 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:37 | INFO    | steamreq.scraper | [SCRAPE 034/300 | 11.3%] app_id=236390
+2026-08-31 12:15:37 | INFO    | steamreq.scraper |    [OK] appdetails 32.0 KB | type=game | release=Aug 15, 2013 | reviews=1,991
+2026-08-31 12:15:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:38 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:40 | INFO    | steamreq.scraper | [SCRAPE 035/300 | 11.7%] app_id=239140
+2026-08-31 12:15:40 | INFO    | steamreq.scraper |    [OK] appdetails 28.8 KB | type=game | release=Jan 26, 2015 | reviews=377,712
+2026-08-31 12:15:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 239140; reenviando com auto-declaracao de idade
+2026-08-31 12:15:42 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:42 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:44 | INFO    | steamreq.scraper | [SCRAPE 036/300 | 12.0%] app_id=241930
+2026-08-31 12:15:44 | INFO    | steamreq.scraper |    [OK] appdetails 15.1 KB | type=game | release=Sep 30, 2014 | reviews=63,585
+2026-08-31 12:15:44 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:44 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:46 | INFO    | steamreq.scraper | [SCRAPE 037/300 | 12.3%] app_id=243470
+2026-08-31 12:15:47 | INFO    | steamreq.scraper |    [OK] appdetails 22.1 KB | type=game | release=May 26, 2014 | reviews=48,981
+2026-08-31 12:15:47 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:47 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:49 | INFO    | steamreq.scraper | [SCRAPE 038/300 | 12.7%] app_id=249130
+2026-08-31 12:15:50 | INFO    | steamreq.scraper |    [OK] appdetails 15.5 KB | type=game | release=Oct 22, 2013 | reviews=22,511
+2026-08-31 12:15:50 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:15:50 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:52 | INFO    | steamreq.scraper | [SCRAPE 039/300 | 13.0%] app_id=254700
+2026-08-31 12:15:52 | INFO    | steamreq.scraper |    [OK] appdetails 18.7 KB | type=game | release=Feb 27, 2014 | reviews=78,239
+2026-08-31 12:15:53 | DEBUG   | steamreq.scraper | age gate na pagina para app 254700; reenviando com auto-declaracao de idade
+2026-08-31 12:15:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:56 | INFO    | steamreq.scraper | [SCRAPE 040/300 | 13.3%] app_id=261550
+2026-08-31 12:15:56 | INFO    | steamreq.scraper |    [OK] appdetails 21.1 KB | type=game | release=Oct 25, 2022 | reviews=229,938
+2026-08-31 12:15:57 | DEBUG   | steamreq.scraper | age gate na pagina para app 261550; reenviando com auto-declaracao de idade
+2026-08-31 12:15:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:15:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:15:59 | INFO    | steamreq.scraper | [SCRAPE 041/300 | 13.7%] app_id=266410
+2026-08-31 12:16:00 | INFO    | steamreq.scraper |    [OK] appdetails 79.1 KB | type=game | release=Jan 12, 2015 | reviews=5,853
+2026-08-31 12:16:00 | INFO    | steamreq.scraper |    [OK] 17 tags via STORE_HTML
+2026-08-31 12:16:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:02 | INFO    | steamreq.scraper | [SCRAPE 042/300 | 14.0%] app_id=270880
+2026-08-31 12:16:03 | INFO    | steamreq.scraper |    [OK] appdetails 36.8 KB | type=game | release=Feb 2, 2016 | reviews=167,091
+2026-08-31 12:16:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:03 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:05 | INFO    | steamreq.scraper | [SCRAPE 043/300 | 14.3%] app_id=284160
+2026-08-31 12:16:05 | INFO    | steamreq.scraper |    [OK] appdetails 29.8 KB | type=game | release=May 29, 2015 | reviews=386,157
+2026-08-31 12:16:06 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:06 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:08 | INFO    | steamreq.scraper | [SCRAPE 044/300 | 14.7%] app_id=287700
+2026-08-31 12:16:08 | INFO    | steamreq.scraper |    [OK] appdetails 23.0 KB | type=game | release=Sep 1, 2015 | reviews=72,874
+2026-08-31 12:16:09 | DEBUG   | steamreq.scraper | age gate na pagina para app 287700; reenviando com auto-declaracao de idade
+2026-08-31 12:16:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:10 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:12 | INFO    | steamreq.scraper | [SCRAPE 045/300 | 15.0%] app_id=288470
+2026-08-31 12:16:12 | INFO    | steamreq.scraper |    [OK] appdetails 12.8 KB | type=game | release=Sep 12, 2014 | reviews=14,694
+2026-08-31 12:16:12 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:12 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:14 | DEBUG   | steamreq.scraper | [SCRAPE 046/300 | 15.3%] app_id=292030 | SKIP (ja concluido)
+2026-08-31 12:16:14 | INFO    | steamreq.scraper | [SCRAPE 047/300 | 15.7%] app_id=298110
+2026-08-31 12:16:15 | INFO    | steamreq.scraper |    [OK] appdetails 24.9 KB | type=game | release=Nov 17, 2014 | reviews=68,192
+2026-08-31 12:16:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:15 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:17 | INFO    | steamreq.scraper | [SCRAPE 048/300 | 16.0%] app_id=302510
+2026-08-31 12:16:17 | INFO    | steamreq.scraper |    [OK] appdetails 18.8 KB | type=game | release=Oct 10, 2014 | reviews=38,120
+2026-08-31 12:16:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:18 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:20 | INFO    | steamreq.scraper | [SCRAPE 049/300 | 16.3%] app_id=304390
+2026-08-31 12:16:20 | INFO    | steamreq.scraper |    [OK] appdetails 25.4 KB | type=game | release=Feb 13, 2017 | reviews=107,850
+2026-08-31 12:16:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:23 | INFO    | steamreq.scraper | [SCRAPE 050/300 | 16.7%] app_id=311210
+2026-08-31 12:16:23 | INFO    | steamreq.scraper |    [OK] appdetails 26.7 KB | type=game | release=Nov 5, 2015 | reviews=156,748
+2026-08-31 12:16:24 | DEBUG   | steamreq.scraper | age gate na pagina para app 311210; reenviando com auto-declaracao de idade
+2026-08-31 12:16:25 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:25 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:16:25 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:16:25 | INFO    | steamreq.scraper | [CHECKPOINT] 47 completos | 0 parciais | 0 falhas | 3 pulados | 250 restantes
+2026-08-31 12:16:25 | INFO    | steamreq.scraper |              estado global: COMPLETE=62 PARTIAL=1 FAILED=1 PENDING=246
+2026-08-31 12:16:25 | INFO    | steamreq.scraper |              decorrido 00:02:29 | ETA 00:13:16 (~3.18s/app) | HTTP: 111 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:16:27 | INFO    | steamreq.scraper | [SCRAPE 051/300 | 17.0%] app_id=313690
+2026-08-31 12:16:27 | INFO    | steamreq.scraper |    [OK] appdetails 18.9 KB | type=game | release=Nov 11, 2014 | reviews=7,498
+2026-08-31 12:16:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:28 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:30 | INFO    | steamreq.scraper | [SCRAPE 052/300 | 17.3%] app_id=329050
+2026-08-31 12:16:30 | INFO    | steamreq.scraper |    [OK] appdetails 17.2 KB | type=game | release=Jun 23, 2015 | reviews=16,862
+2026-08-31 12:16:31 | DEBUG   | steamreq.scraper | age gate na pagina para app 329050; reenviando com auto-declaracao de idade
+2026-08-31 12:16:32 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:32 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:34 | INFO    | steamreq.scraper | [SCRAPE 053/300 | 17.7%] app_id=349040
+2026-08-31 12:16:34 | INFO    | steamreq.scraper |    [OK] appdetails 17.2 KB | type=game | release=Feb 4, 2016 | reviews=72,340
+2026-08-31 12:16:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:34 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:16:36 | INFO    | steamreq.scraper | [SCRAPE 054/300 | 18.0%] app_id=356190
+2026-08-31 12:16:37 | INFO    | steamreq.scraper |    [OK] appdetails 15.6 KB | type=game | release=Oct 9, 2017 | reviews=87,484
+2026-08-31 12:16:37 | DEBUG   | steamreq.scraper | age gate na pagina para app 356190; reenviando com auto-declaracao de idade
+2026-08-31 12:16:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:38 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:40 | INFO    | steamreq.scraper | [SCRAPE 055/300 | 18.3%] app_id=359320
+2026-08-31 12:16:40 | INFO    | steamreq.scraper |    [OK] appdetails 29.5 KB | type=game | release=Apr 2, 2015 | reviews=82,162
+2026-08-31 12:16:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:43 | INFO    | steamreq.scraper | [SCRAPE 056/300 | 18.7%] app_id=359550
+2026-08-31 12:16:43 | INFO    | steamreq.scraper |    [OK] appdetails 27.7 KB | type=game | release=Dec 1, 2015 | reviews=1,251,546
+2026-08-31 12:16:44 | DEBUG   | steamreq.scraper | age gate na pagina para app 359550; reenviando com auto-declaracao de idade
+2026-08-31 12:16:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:47 | INFO    | steamreq.scraper | [SCRAPE 057/300 | 19.0%] app_id=364360
+2026-08-31 12:16:47 | INFO    | steamreq.scraper |    [OK] appdetails 33.0 KB | type=game | release=May 24, 2016 | reviews=32,618
+2026-08-31 12:16:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:50 | INFO    | steamreq.scraper | [SCRAPE 058/300 | 19.3%] app_id=368260
+2026-08-31 12:16:50 | INFO    | steamreq.scraper |    [OK] appdetails 25.3 KB | type=game | release=Dec 1, 2022 | reviews=16,957
+2026-08-31 12:16:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 368260; reenviando com auto-declaracao de idade
+2026-08-31 12:16:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:54 | INFO    | steamreq.scraper | [SCRAPE 059/300 | 19.7%] app_id=374320
+2026-08-31 12:16:54 | INFO    | steamreq.scraper |    [OK] appdetails 17.6 KB | type=game | release=Apr 11, 2016 | reviews=277,779
+2026-08-31 12:16:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:16:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:16:56 | INFO    | steamreq.scraper | [SCRAPE 060/300 | 20.0%] app_id=377160
+2026-08-31 12:16:57 | INFO    | steamreq.scraper |    [OK] appdetails 39.6 KB | type=game | release=Nov 9, 2015 | reviews=290,130
+2026-08-31 12:16:57 | DEBUG   | steamreq.scraper | age gate na pagina para app 377160; reenviando com auto-declaracao de idade
+2026-08-31 12:16:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:16:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:00 | INFO    | steamreq.scraper | [SCRAPE 061/300 | 20.3%] app_id=379720
+2026-08-31 12:17:01 | INFO    | steamreq.scraper |    [OK] appdetails 21.7 KB | type=game | release=May 12, 2016 | reviews=155,179
+2026-08-31 12:17:01 | DEBUG   | steamreq.scraper | age gate na pagina para app 379720; reenviando com auto-declaracao de idade
+2026-08-31 12:17:02 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:17:02 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:04 | INFO    | steamreq.scraper | [SCRAPE 062/300 | 20.7%] app_id=380600
+2026-08-31 12:17:05 | INFO    | steamreq.scraper |    [OK] appdetails 33.1 KB | type=game | release=Aug 28, 2017 | reviews=556
+2026-08-31 12:17:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:07 | INFO    | steamreq.scraper | [SCRAPE 063/300 | 21.0%] app_id=381210
+2026-08-31 12:17:08 | INFO    | steamreq.scraper |    [OK] appdetails 26.6 KB | type=game | release=Jun 14, 2016 | reviews=682,791
+2026-08-31 12:17:08 | DEBUG   | steamreq.scraper | age gate na pagina para app 381210; reenviando com auto-declaracao de idade
+2026-08-31 12:17:09 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:17:09 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:11 | INFO    | steamreq.scraper | [SCRAPE 064/300 | 21.3%] app_id=391220
+2026-08-31 12:17:11 | INFO    | steamreq.scraper |    [OK] appdetails 26.4 KB | type=game | release=Feb 9, 2016 | reviews=126,721
+2026-08-31 12:17:12 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:12 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:14 | INFO    | steamreq.scraper | [SCRAPE 065/300 | 21.7%] app_id=393380
+2026-08-31 12:17:14 | INFO    | steamreq.scraper |    [OK] appdetails 33.8 KB | type=game | release=Sep 23, 2020 | reviews=180,016
+2026-08-31 12:17:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:15 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:17 | INFO    | steamreq.scraper | [SCRAPE 066/300 | 22.0%] app_id=397540
+2026-08-31 12:17:17 | INFO    | steamreq.scraper |    [OK] appdetails 22.3 KB | type=game | release=Mar 13, 2020 | reviews=127,712
+2026-08-31 12:17:18 | DEBUG   | steamreq.scraper | age gate na pagina para app 397540; reenviando com auto-declaracao de idade
+2026-08-31 12:17:19 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:17:19 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:21 | INFO    | steamreq.scraper | [SCRAPE 067/300 | 22.3%] app_id=405310
+2026-08-31 12:17:21 | INFO    | steamreq.scraper |    [OK] appdetails 16.7 KB | type=game | release=Jan 26, 2016 | reviews=5,972
+2026-08-31 12:17:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:23 | INFO    | steamreq.scraper | [SCRAPE 068/300 | 22.7%] app_id=412020
+2026-08-31 12:17:24 | INFO    | steamreq.scraper |    [OK] appdetails 25.7 KB | type=game | release=Feb 14, 2020 | reviews=117,090
+2026-08-31 12:17:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:26 | INFO    | steamreq.scraper | [SCRAPE 069/300 | 23.0%] app_id=418370
+2026-08-31 12:17:27 | INFO    | steamreq.scraper |    [OK] appdetails 15.1 KB | type=game | release=Jan 23, 2017 | reviews=87,328
+2026-08-31 12:17:27 | DEBUG   | steamreq.scraper | age gate na pagina para app 418370; reenviando com auto-declaracao de idade
+2026-08-31 12:17:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:17:28 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:30 | INFO    | steamreq.scraper | [SCRAPE 070/300 | 23.3%] app_id=427410
+2026-08-31 12:17:30 | INFO    | steamreq.scraper |    [OK] appdetails 42.2 KB | type=game | release=Jul 22, 2025 | reviews=41,683
+2026-08-31 12:17:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:31 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:33 | INFO    | steamreq.scraper | [SCRAPE 071/300 | 23.7%] app_id=438100
+2026-08-31 12:17:33 | INFO    | steamreq.scraper |    [OK] appdetails 17.3 KB | type=game | release=Feb 1, 2017 | reviews=146
+2026-08-31 12:17:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:17:36 | INFO    | steamreq.scraper | [SCRAPE 072/300 | 24.0%] app_id=447040
+2026-08-31 12:17:36 | INFO    | steamreq.scraper |    [OK] appdetails 18.6 KB | type=game | release=Nov 28, 2016 | reviews=94,766
+2026-08-31 12:17:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:38 | INFO    | steamreq.scraper | [SCRAPE 073/300 | 24.3%] app_id=454650
+2026-08-31 12:17:39 | INFO    | steamreq.scraper |    [OK] appdetails 26.7 KB | type=game | release=Oct 27, 2016 | reviews=44,982
+2026-08-31 12:17:39 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:39 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:41 | INFO    | steamreq.scraper | [SCRAPE 074/300 | 24.7%] app_id=460790
+2026-08-31 12:17:42 | INFO    | steamreq.scraper |    [OK] appdetails 28.5 KB | type=game | release=Apr 11, 2017 | reviews=27,296
+2026-08-31 12:17:42 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:42 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:44 | INFO    | steamreq.scraper | [SCRAPE 075/300 | 25.0%] app_id=460930
+2026-08-31 12:17:44 | INFO    | steamreq.scraper |    [OK] appdetails 27.1 KB | type=game | release=Mar 6, 2017 | reviews=98,670
+2026-08-31 12:17:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:45 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:17:45 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:17:45 | INFO    | steamreq.scraper | [CHECKPOINT] 72 completos | 0 parciais | 0 falhas | 3 pulados | 225 restantes
+2026-08-31 12:17:45 | INFO    | steamreq.scraper |              estado global: COMPLETE=87 PARTIAL=1 FAILED=1 PENDING=221
+2026-08-31 12:17:45 | INFO    | steamreq.scraper |              decorrido 00:03:49 | ETA 00:11:56 (~3.19s/app) | HTTP: 170 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:17:47 | INFO    | steamreq.scraper | [SCRAPE 076/300 | 25.3%] app_id=476600
+2026-08-31 12:17:47 | INFO    | steamreq.scraper |    [OK] appdetails 24.7 KB | type=game | release=Nov 2, 2017 | reviews=33,273
+2026-08-31 12:17:47 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:47 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:17:49 | INFO    | steamreq.scraper | [SCRAPE 077/300 | 25.7%] app_id=489830
+2026-08-31 12:17:50 | INFO    | steamreq.scraper |    [OK] appdetails 14.5 KB | type=game | release=Oct 27, 2016 | reviews=218,355
+2026-08-31 12:17:50 | DEBUG   | steamreq.scraper | age gate na pagina para app 489830; reenviando com auto-declaracao de idade
+2026-08-31 12:17:51 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:17:51 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:53 | INFO    | steamreq.scraper | [SCRAPE 078/300 | 26.0%] app_id=490110
+2026-08-31 12:17:54 | INFO    | steamreq.scraper |    [OK] appdetails 30.4 KB | type=game | release=May 13, 2025 | reviews=7,781
+2026-08-31 12:17:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:56 | INFO    | steamreq.scraper | [SCRAPE 079/300 | 26.3%] app_id=495420
+2026-08-31 12:17:56 | INFO    | steamreq.scraper |    [OK] appdetails 25.8 KB | type=game | release=Mar 13, 2020 | reviews=58,899
+2026-08-31 12:17:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:17:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:17:59 | INFO    | steamreq.scraper | [SCRAPE 080/300 | 26.7%] app_id=502500
+2026-08-31 12:17:59 | INFO    | steamreq.scraper |    [OK] appdetails 21.6 KB | type=game | release=Jan 31, 2019 | reviews=46,092
+2026-08-31 12:18:00 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:02 | INFO    | steamreq.scraper | [SCRAPE 081/300 | 27.0%] app_id=513710
+2026-08-31 12:18:02 | INFO    | steamreq.scraper |    [OK] appdetails 29.9 KB | type=game | release=Jun 17, 2025 | reviews=98,218
+2026-08-31 12:18:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:03 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:05 | INFO    | steamreq.scraper | [SCRAPE 082/300 | 27.3%] app_id=518790
+2026-08-31 12:18:05 | INFO    | steamreq.scraper |    [OK] appdetails 28.0 KB | type=game | release=Feb 16, 2017 | reviews=169,904
+2026-08-31 12:18:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:07 | INFO    | steamreq.scraper | [SCRAPE 083/300 | 27.7%] app_id=534380
+2026-08-31 12:18:08 | INFO    | steamreq.scraper |    [OK] appdetails 27.1 KB | type=game | release=Feb 3, 2022 | reviews=164,590
+2026-08-31 12:18:08 | DEBUG   | steamreq.scraper | age gate na pagina para app 534380; reenviando com auto-declaracao de idade
+2026-08-31 12:18:09 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:09 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:11 | INFO    | steamreq.scraper | [SCRAPE 084/300 | 28.0%] app_id=546560
+2026-08-31 12:18:12 | INFO    | steamreq.scraper |    [OK] appdetails 18.0 KB | type=game | release=Mar 23, 2020 | reviews=92,812
+2026-08-31 12:18:12 | DEBUG   | steamreq.scraper | age gate na pagina para app 546560; reenviando com auto-declaracao de idade
+2026-08-31 12:18:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:18:15 | INFO    | steamreq.scraper | [SCRAPE 085/300 | 28.3%] app_id=548430
+2026-08-31 12:18:16 | INFO    | steamreq.scraper |    [OK] appdetails 67.0 KB | type=game | release=May 13, 2020 | reviews=302,777
+2026-08-31 12:18:16 | DEBUG   | steamreq.scraper | age gate na pagina para app 548430; reenviando com auto-declaracao de idade
+2026-08-31 12:18:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:19 | INFO    | steamreq.scraper | [SCRAPE 086/300 | 28.7%] app_id=552500
+2026-08-31 12:18:20 | INFO    | steamreq.scraper |    [OK] appdetails 23.7 KB | type=game | release=Mar 8, 2018 | reviews=90,922
+2026-08-31 12:18:20 | DEBUG   | steamreq.scraper | age gate na pagina para app 552500; reenviando com auto-declaracao de idade
+2026-08-31 12:18:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:23 | INFO    | steamreq.scraper | [SCRAPE 087/300 | 29.0%] app_id=552520
+2026-08-31 12:18:24 | INFO    | steamreq.scraper |    [OK] appdetails 26.1 KB | type=game | release=Mar 26, 2018 | reviews=172,652
+2026-08-31 12:18:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:26 | INFO    | steamreq.scraper | [SCRAPE 088/300 | 29.3%] app_id=552990
+2026-08-31 12:18:27 | INFO    | steamreq.scraper |    [OK] appdetails 25.8 KB | type=game | release=Nov 15, 2017 | reviews=2,032
+2026-08-31 12:18:27 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:27 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:29 | INFO    | steamreq.scraper | [SCRAPE 089/300 | 29.7%] app_id=553850
+2026-08-31 12:18:29 | INFO    | steamreq.scraper |    [OK] appdetails 32.6 KB | type=game | release=Feb 8, 2024 | reviews=836,949
+2026-08-31 12:18:30 | DEBUG   | steamreq.scraper | age gate na pagina para app 553850; reenviando com auto-declaracao de idade
+2026-08-31 12:18:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:31 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:33 | INFO    | steamreq.scraper | [SCRAPE 090/300 | 30.0%] app_id=570940
+2026-08-31 12:18:33 | INFO    | steamreq.scraper |    [OK] appdetails 11.8 KB | type=game | release=May 23, 2018 | reviews=99,888
+2026-08-31 12:18:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:36 | INFO    | steamreq.scraper | [SCRAPE 091/300 | 30.3%] app_id=571260
+2026-08-31 12:18:36 | INFO    | steamreq.scraper |    [OK] appdetails 27.4 KB | type=game | release=Jun 15, 2017 | reviews=3,345
+2026-08-31 12:18:37 | INFO    | steamreq.scraper |    [OK] 16 tags via STORE_HTML
+2026-08-31 12:18:37 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:39 | INFO    | steamreq.scraper | [SCRAPE 092/300 | 30.7%] app_id=578080
+2026-08-31 12:18:39 | INFO    | steamreq.scraper |    [OK] appdetails 29.9 KB | type=game | release=Dec 21, 2017 | reviews=1,763,091
+2026-08-31 12:18:39 | DEBUG   | steamreq.scraper | age gate na pagina para app 578080; reenviando com auto-declaracao de idade
+2026-08-31 12:18:40 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:40 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:42 | DEBUG   | steamreq.scraper | [SCRAPE 093/300 | 31.0%] app_id=582010 | SKIP (ja concluido)
+2026-08-31 12:18:42 | INFO    | steamreq.scraper | [SCRAPE 094/300 | 31.3%] app_id=582160
+2026-08-31 12:18:43 | INFO    | steamreq.scraper |    [OK] appdetails 21.5 KB | type=game | release=Oct 26, 2017 | reviews=119,498
+2026-08-31 12:18:43 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:43 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:45 | INFO    | steamreq.scraper | [SCRAPE 095/300 | 31.7%] app_id=582660
+2026-08-31 12:18:45 | INFO    | steamreq.scraper |    [OK] appdetails 23.8 KB | type=game | release=May 24, 2017 | reviews=62,957
+2026-08-31 12:18:46 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:46 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:48 | INFO    | steamreq.scraper | [SCRAPE 096/300 | 32.0%] app_id=601150
+2026-08-31 12:18:48 | INFO    | steamreq.scraper |    [OK] appdetails 18.6 KB | type=game | release=Mar 7, 2019 | reviews=118,609
+2026-08-31 12:18:49 | DEBUG   | steamreq.scraper | age gate na pagina para app 601150; reenviando com auto-declaracao de idade
+2026-08-31 12:18:50 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:50 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:52 | INFO    | steamreq.scraper | [SCRAPE 097/300 | 32.3%] app_id=607080
+2026-08-31 12:18:52 | INFO    | steamreq.scraper |    [OK] appdetails 29.8 KB | type=game | release=Aug 24, 2021 | reviews=12,265
+2026-08-31 12:18:53 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:53 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:55 | INFO    | steamreq.scraper | [SCRAPE 098/300 | 32.7%] app_id=613100
+2026-08-31 12:18:55 | INFO    | steamreq.scraper |    [OK] appdetails 24.3 KB | type=game | release=May 17, 2018 | reviews=92,210
+2026-08-31 12:18:56 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:18:56 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:18:58 | INFO    | steamreq.scraper | [SCRAPE 099/300 | 33.0%] app_id=631510
+2026-08-31 12:18:58 | INFO    | steamreq.scraper |    [OK] appdetails 14.7 KB | type=game | release=Mar 13, 2018 | reviews=19,271
+2026-08-31 12:18:58 | DEBUG   | steamreq.scraper | age gate na pagina para app 631510; reenviando com auto-declaracao de idade
+2026-08-31 12:18:59 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:18:59 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:01 | INFO    | steamreq.scraper | [SCRAPE 100/300 | 33.3%] app_id=637650
+2026-08-31 12:19:02 | INFO    | steamreq.scraper |    [OK] appdetails 32.7 KB | type=game | release=Mar 6, 2018 | reviews=44,848
+2026-08-31 12:19:02 | DEBUG   | steamreq.scraper | age gate na pagina para app 637650; reenviando com auto-declaracao de idade
+2026-08-31 12:19:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:03 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:03 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:19:03 | INFO    | steamreq.scraper | [CHECKPOINT] 96 completos | 0 parciais | 0 falhas | 4 pulados | 200 restantes
+2026-08-31 12:19:03 | INFO    | steamreq.scraper |              estado global: COMPLETE=111 PARTIAL=1 FAILED=1 PENDING=197
+2026-08-31 12:19:03 | INFO    | steamreq.scraper |              decorrido 00:05:07 | ETA 00:10:41 (~3.21s/app) | HTTP: 228 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:19:05 | INFO    | steamreq.scraper | [SCRAPE 101/300 | 33.7%] app_id=655500
+2026-08-31 12:19:05 | INFO    | steamreq.scraper |    [OK] appdetails 9.5 KB | type=game | release=Oct 7, 2019 | reviews=35,459
+2026-08-31 12:19:06 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:06 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:19:08 | INFO    | steamreq.scraper | [SCRAPE 102/300 | 34.0%] app_id=668580
+2026-08-31 12:19:08 | INFO    | steamreq.scraper |    [OK] appdetails 31.0 KB | type=game | release=Feb 20, 2023 | reviews=38,978
+2026-08-31 12:19:09 | DEBUG   | steamreq.scraper | age gate na pagina para app 668580; reenviando com auto-declaracao de idade
+2026-08-31 12:19:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:10 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:12 | INFO    | steamreq.scraper | [SCRAPE 103/300 | 34.3%] app_id=678950
+2026-08-31 12:19:12 | INFO    | steamreq.scraper |    [OK] appdetails 22.4 KB | type=game | release=Jan 26, 2018 | reviews=55,010
+2026-08-31 12:19:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:15 | INFO    | steamreq.scraper | [SCRAPE 104/300 | 34.7%] app_id=690790
+2026-08-31 12:19:15 | INFO    | steamreq.scraper |    [OK] appdetails 29.1 KB | type=game | release=Feb 25, 2019 | reviews=39,020
+2026-08-31 12:19:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:15 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:17 | INFO    | steamreq.scraper | [SCRAPE 105/300 | 35.0%] app_id=694280
+2026-08-31 12:19:18 | INFO    | steamreq.scraper |    [OK] appdetails 25.1 KB | type=game | release=Feb 18, 2021 | reviews=9,869
+2026-08-31 12:19:18 | DEBUG   | steamreq.scraper | age gate na pagina para app 694280; reenviando com auto-declaracao de idade
+2026-08-31 12:19:19 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:19 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:19:21 | INFO    | steamreq.scraper | [SCRAPE 106/300 | 35.3%] app_id=699130
+2026-08-31 12:19:22 | INFO    | steamreq.scraper |    [OK] appdetails 28.1 KB | type=game | release=Sep 21, 2021 | reviews=24,753
+2026-08-31 12:19:22 | DEBUG   | steamreq.scraper | age gate na pagina para app 699130; reenviando com auto-declaracao de idade
+2026-08-31 12:19:23 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:23 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:25 | INFO    | steamreq.scraper | [SCRAPE 107/300 | 35.7%] app_id=714010
+2026-08-31 12:19:25 | INFO    | steamreq.scraper |    [OK] appdetails 25.3 KB | type=game | release=Jun 16, 2023 | reviews=264
+2026-08-31 12:19:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:26 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:28 | INFO    | steamreq.scraper | [SCRAPE 108/300 | 36.0%] app_id=742420
+2026-08-31 12:19:28 | INFO    | steamreq.scraper |    [OK] appdetails 20.4 KB | type=game | release=Aug 24, 2023 | reviews=5,663
+2026-08-31 12:19:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:29 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:31 | INFO    | steamreq.scraper | [SCRAPE 109/300 | 36.3%] app_id=750920
+2026-08-31 12:19:31 | INFO    | steamreq.scraper |    [OK] appdetails 39.9 KB | type=game | release=Sep 14, 2018 | reviews=72,312
+2026-08-31 12:19:32 | DEBUG   | steamreq.scraper | age gate na pagina para app 750920; reenviando com auto-declaracao de idade
+2026-08-31 12:19:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:33 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:35 | INFO    | steamreq.scraper | [SCRAPE 110/300 | 36.7%] app_id=752590
+2026-08-31 12:19:35 | INFO    | steamreq.scraper |    [OK] appdetails 20.8 KB | type=game | release=May 14, 2019 | reviews=62,296
+2026-08-31 12:19:35 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:35 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:37 | INFO    | steamreq.scraper | [SCRAPE 111/300 | 37.0%] app_id=766570
+2026-08-31 12:19:38 | INFO    | steamreq.scraper |    [OK] appdetails 37.4 KB | type=game | release=Nov 10, 2021 | reviews=0
+2026-08-31 12:19:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:38 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:40 | INFO    | steamreq.scraper | [SCRAPE 112/300 | 37.3%] app_id=767560
+2026-08-31 12:19:40 | INFO    | steamreq.scraper |    [OK] appdetails 15.1 KB | type=game | release=Apr 4, 2018 | reviews=0
+2026-08-31 12:19:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:43 | INFO    | steamreq.scraper | [SCRAPE 113/300 | 37.7%] app_id=782330
+2026-08-31 12:19:43 | INFO    | steamreq.scraper |    [OK] appdetails 19.2 KB | type=game | release=Mar 19, 2020 | reviews=189,816
+2026-08-31 12:19:44 | DEBUG   | steamreq.scraper | age gate na pagina para app 782330; reenviando com auto-declaracao de idade
+2026-08-31 12:19:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:47 | INFO    | steamreq.scraper | [SCRAPE 114/300 | 38.0%] app_id=784080
+2026-08-31 12:19:47 | INFO    | steamreq.scraper |    [OK] appdetails 23.5 KB | type=game | release=May 26, 2021 | reviews=13,230
+2026-08-31 12:19:47 | DEBUG   | steamreq.scraper | age gate na pagina para app 784080; reenviando com auto-declaracao de idade
+2026-08-31 12:19:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:19:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:50 | INFO    | steamreq.scraper | [SCRAPE 115/300 | 38.3%] app_id=801800
+2026-08-31 12:19:51 | INFO    | steamreq.scraper |    [OK] appdetails 24.7 KB | type=game | release=Mar 27, 2025 | reviews=4,423
+2026-08-31 12:19:51 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:51 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:19:53 | INFO    | steamreq.scraper | [SCRAPE 116/300 | 38.7%] app_id=805550
+2026-08-31 12:19:54 | INFO    | steamreq.scraper |    [OK] appdetails 68.3 KB | type=game | release=May 29, 2019 | reviews=33,596
+2026-08-31 12:19:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:56 | INFO    | steamreq.scraper | [SCRAPE 117/300 | 39.0%] app_id=812140
+2026-08-31 12:19:56 | INFO    | steamreq.scraper |    [OK] appdetails 25.9 KB | type=game | release=Oct 5, 2018 | reviews=171,680
+2026-08-31 12:19:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:19:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:19:59 | INFO    | steamreq.scraper | [SCRAPE 118/300 | 39.3%] app_id=814380
+2026-08-31 12:19:59 | INFO    | steamreq.scraper |    [OK] appdetails 17.7 KB | type=game | release=Mar 21, 2019 | reviews=258,939
+2026-08-31 12:20:00 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:02 | INFO    | steamreq.scraper | [SCRAPE 119/300 | 39.7%] app_id=815370
+2026-08-31 12:20:02 | INFO    | steamreq.scraper |    [OK] appdetails 37.7 KB | type=game | release=Sep 5, 2019 | reviews=78,699
+2026-08-31 12:20:02 | DEBUG   | steamreq.scraper | age gate na pagina para app 815370; reenviando com auto-declaracao de idade
+2026-08-31 12:20:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:03 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:05 | INFO    | steamreq.scraper | [SCRAPE 120/300 | 40.0%] app_id=835570
+2026-08-31 12:20:06 | INFO    | steamreq.scraper |    [OK] appdetails 31.2 KB | type=game | release=Apr 5, 2020 | reviews=4,122
+2026-08-31 12:20:06 | DEBUG   | steamreq.scraper | age gate na pagina para app 835570; reenviando com auto-declaracao de idade
+2026-08-31 12:20:07 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:07 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:09 | INFO    | steamreq.scraper | [SCRAPE 121/300 | 40.3%] app_id=850190
+2026-08-31 12:20:10 | INFO    | steamreq.scraper |    [OK] appdetails 25.6 KB | type=game | release=Feb 15, 2024 | reviews=13,722
+2026-08-31 12:20:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:10 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:12 | INFO    | steamreq.scraper | [SCRAPE 122/300 | 40.7%] app_id=851850
+2026-08-31 12:20:12 | INFO    | steamreq.scraper |    [OK] appdetails 25.7 KB | type=game | release=Jan 16, 2020 | reviews=43,887
+2026-08-31 12:20:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:15 | INFO    | steamreq.scraper | [SCRAPE 123/300 | 41.0%] app_id=870780
+2026-08-31 12:20:15 | INFO    | steamreq.scraper |    [OK] appdetails 24.4 KB | type=game | release=Aug 27, 2020 | reviews=49,778
+2026-08-31 12:20:16 | DEBUG   | steamreq.scraper | age gate na pagina para app 870780; reenviando com auto-declaracao de idade
+2026-08-31 12:20:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:19 | INFO    | steamreq.scraper | [SCRAPE 124/300 | 41.3%] app_id=881020
+2026-08-31 12:20:19 | INFO    | steamreq.scraper |    [OK] appdetails 18.9 KB | type=game | release=Jan 31, 2024 | reviews=41,076
+2026-08-31 12:20:20 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:20 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:22 | INFO    | steamreq.scraper | [SCRAPE 125/300 | 41.7%] app_id=883710
+2026-08-31 12:20:22 | INFO    | steamreq.scraper |    [OK] appdetails 20.5 KB | type=game | release=Jan 24, 2019 | reviews=155,219
+2026-08-31 12:20:22 | DEBUG   | steamreq.scraper | age gate na pagina para app 883710; reenviando com auto-declaracao de idade
+2026-08-31 12:20:23 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:23 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:23 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:20:23 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:20:23 | INFO    | steamreq.scraper | [CHECKPOINT] 121 completos | 0 parciais | 0 falhas | 4 pulados | 175 restantes
+2026-08-31 12:20:23 | INFO    | steamreq.scraper |              estado global: COMPLETE=136 PARTIAL=1 FAILED=1 PENDING=172
+2026-08-31 12:20:23 | INFO    | steamreq.scraper |              decorrido 00:06:28 | ETA 00:09:21 (~3.21s/app) | HTTP: 288 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:20:25 | INFO    | steamreq.scraper | [SCRAPE 126/300 | 42.0%] app_id=933110
+2026-08-31 12:20:26 | INFO    | steamreq.scraper |    [OK] appdetails 26.6 KB | type=game | release=Oct 15, 2020 | reviews=36,972
+2026-08-31 12:20:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:26 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:28 | INFO    | steamreq.scraper | [SCRAPE 127/300 | 42.3%] app_id=934700
+2026-08-31 12:20:29 | INFO    | steamreq.scraper |    [OK] appdetails 25.1 KB | type=game | release=Apr 22, 2024 | reviews=23,009
+2026-08-31 12:20:29 | DEBUG   | steamreq.scraper | age gate na pagina para app 934700; reenviando com auto-declaracao de idade
+2026-08-31 12:20:30 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:30 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:32 | INFO    | steamreq.scraper | [SCRAPE 128/300 | 42.7%] app_id=953880
+2026-08-31 12:20:32 | INFO    | steamreq.scraper |    [OK] appdetails 30.4 KB | type=game | release=Nov 1, 2021 | reviews=3,086
+2026-08-31 12:20:33 | DEBUG   | steamreq.scraper | age gate na pagina para app 953880; reenviando com auto-declaracao de idade
+2026-08-31 12:20:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:36 | INFO    | steamreq.scraper | [SCRAPE 129/300 | 43.0%] app_id=954740
+2026-08-31 12:20:36 | INFO    | steamreq.scraper |    [OK] appdetails 17.4 KB | type=game | release=Nov 14, 2019 | reviews=16,492
+2026-08-31 12:20:37 | DEBUG   | steamreq.scraper | age gate na pagina para app 954740; reenviando com auto-declaracao de idade
+2026-08-31 12:20:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:38 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:40 | INFO    | steamreq.scraper | [SCRAPE 130/300 | 43.3%] app_id=960090
+2026-08-31 12:20:40 | INFO    | steamreq.scraper |    [OK] appdetails 26.1 KB | type=game | release=Dec 17, 2018 | reviews=349,173
+2026-08-31 12:20:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:43 | INFO    | steamreq.scraper | [SCRAPE 131/300 | 43.7%] app_id=961200
+2026-08-31 12:20:43 | INFO    | steamreq.scraper |    [OK] appdetails 24.9 KB | type=game | release=Aug 20, 2024 | reviews=8,590
+2026-08-31 12:20:43 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:43 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:45 | INFO    | steamreq.scraper | [SCRAPE 132/300 | 44.0%] app_id=962130
+2026-08-31 12:20:46 | INFO    | steamreq.scraper |    [OK] appdetails 24.6 KB | type=game | release=Sep 27, 2022 | reviews=75,515
+2026-08-31 12:20:46 | DEBUG   | steamreq.scraper | age gate na pagina para app 962130; reenviando com auto-declaracao de idade
+2026-08-31 12:20:47 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:47 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:49 | INFO    | steamreq.scraper | [SCRAPE 133/300 | 44.3%] app_id=967050
+2026-08-31 12:20:49 | INFO    | steamreq.scraper |    [OK] appdetails 26.2 KB | type=game | release=Feb 22, 2019 | reviews=32,883
+2026-08-31 12:20:50 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:20:50 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:52 | INFO    | steamreq.scraper | [SCRAPE 134/300 | 44.7%] app_id=976730
+2026-08-31 12:20:52 | INFO    | steamreq.scraper |    [OK] appdetails 21.7 KB | type=game | release=Dec 3, 2019 | reviews=239,226
+2026-08-31 12:20:53 | DEBUG   | steamreq.scraper | age gate na pagina para app 976730; reenviando com auto-declaracao de idade
+2026-08-31 12:20:53 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:53 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:20:55 | INFO    | steamreq.scraper | [SCRAPE 135/300 | 45.0%] app_id=978300
+2026-08-31 12:20:56 | INFO    | steamreq.scraper |    [OK] appdetails 19.8 KB | type=game | release=May 21, 2021 | reviews=3,900
+2026-08-31 12:20:56 | DEBUG   | steamreq.scraper | age gate na pagina para app 978300; reenviando com auto-declaracao de idade
+2026-08-31 12:20:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:20:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:20:59 | INFO    | steamreq.scraper | [SCRAPE 136/300 | 45.3%] app_id=990080
+2026-08-31 12:21:00 | INFO    | steamreq.scraper |    [OK] appdetails 18.9 KB | type=game | release=Feb 10, 2023 | reviews=273,502
+2026-08-31 12:21:00 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:02 | INFO    | steamreq.scraper | [SCRAPE 137/300 | 45.7%] app_id=997010
+2026-08-31 12:21:02 | INFO    | steamreq.scraper |    [OK] appdetails 31.6 KB | type=game | release=Nov 10, 2022 | reviews=18,806
+2026-08-31 12:21:03 | DEBUG   | steamreq.scraper | age gate na pagina para app 997010; reenviando com auto-declaracao de idade
+2026-08-31 12:21:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:06 | INFO    | steamreq.scraper | [SCRAPE 138/300 | 46.0%] app_id=1012880
+2026-08-31 12:21:06 | INFO    | steamreq.scraper |    [OK] appdetails 22.4 KB | type=game | release=Jul 25, 2019 | reviews=18,295
+2026-08-31 12:21:07 | DEBUG   | steamreq.scraper | age gate na pagina para app 1012880; reenviando com auto-declaracao de idade
+2026-08-31 12:21:08 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:08 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:21:10 | INFO    | steamreq.scraper | [SCRAPE 139/300 | 46.3%] app_id=1029690
+2026-08-31 12:21:10 | INFO    | steamreq.scraper |    [OK] appdetails 30.9 KB | type=game | release=May 25, 2022 | reviews=24,530
+2026-08-31 12:21:11 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:11 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:13 | INFO    | steamreq.scraper | [SCRAPE 140/300 | 46.7%] app_id=1030840
+2026-08-31 12:21:13 | INFO    | steamreq.scraper |    [OK] appdetails 16.8 KB | type=game | release=Sep 24, 2020 | reviews=88,513
+2026-08-31 12:21:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:14 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:16 | INFO    | steamreq.scraper | [SCRAPE 141/300 | 47.0%] app_id=1049410
+2026-08-31 12:21:16 | INFO    | steamreq.scraper |    [OK] appdetails 21.3 KB | type=game | release=Nov 5, 2020 | reviews=28,310
+2026-08-31 12:21:16 | DEBUG   | steamreq.scraper | age gate na pagina para app 1049410; reenviando com auto-declaracao de idade
+2026-08-31 12:21:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:19 | INFO    | steamreq.scraper | [SCRAPE 142/300 | 47.3%] app_id=1062090
+2026-08-31 12:21:20 | INFO    | steamreq.scraper |    [OK] appdetails 35.1 KB | type=game | release=Mar 12, 2026 | reviews=38,322
+2026-08-31 12:21:20 | DEBUG   | steamreq.scraper | age gate na pagina para app 1062090; reenviando com auto-declaracao de idade
+2026-08-31 12:21:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:23 | INFO    | steamreq.scraper | [SCRAPE 143/300 | 47.7%] app_id=1067360
+2026-08-31 12:21:23 | INFO    | steamreq.scraper |    [OK] appdetails 39.6 KB | type=game | release=Aug 10, 2026 | reviews=2,931
+2026-08-31 12:21:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:26 | INFO    | steamreq.scraper | [SCRAPE 144/300 | 48.0%] app_id=1085660
+2026-08-31 12:21:26 | INFO    | steamreq.scraper |    [OK] appdetails 21.1 KB | type=game | release=Oct 1, 2019 | reviews=139,350
+2026-08-31 12:21:27 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:27 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:29 | DEBUG   | steamreq.scraper | [SCRAPE 145/300 | 48.3%] app_id=1091500 | SKIP (ja concluido)
+2026-08-31 12:21:29 | INFO    | steamreq.scraper | [SCRAPE 146/300 | 48.7%] app_id=1092790
+2026-08-31 12:21:29 | INFO    | steamreq.scraper |    [OK] appdetails 16.7 KB | type=game | release=Oct 19, 2021 | reviews=134,716
+2026-08-31 12:21:29 | DEBUG   | steamreq.scraper | age gate na pagina para app 1092790; reenviando com auto-declaracao de idade
+2026-08-31 12:21:30 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:30 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:32 | INFO    | steamreq.scraper | [SCRAPE 147/300 | 49.0%] app_id=1097840
+2026-08-31 12:21:33 | INFO    | steamreq.scraper |    [OK] appdetails 19.0 KB | type=game | release=Sep 9, 2019 | reviews=21,104
+2026-08-31 12:21:33 | DEBUG   | steamreq.scraper | age gate na pagina para app 1097840; reenviando com auto-declaracao de idade
+2026-08-31 12:21:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:36 | INFO    | steamreq.scraper | [SCRAPE 148/300 | 49.3%] app_id=1114150
+2026-08-31 12:21:36 | INFO    | steamreq.scraper |    [OK] appdetails 25.6 KB | type=game | release=Aug 29, 2024 | reviews=17,379
+2026-08-31 12:21:37 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:37 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:39 | INFO    | steamreq.scraper | [SCRAPE 149/300 | 49.7%] app_id=1119730
+2026-08-31 12:21:39 | INFO    | steamreq.scraper |    [OK] appdetails 23.0 KB | type=game | release=Nov 3, 2023 | reviews=40,571
+2026-08-31 12:21:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 1119730; reenviando com auto-declaracao de idade
+2026-08-31 12:21:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:43 | INFO    | steamreq.scraper | [SCRAPE 150/300 | 50.0%] app_id=1129580
+2026-08-31 12:21:43 | INFO    | steamreq.scraper |    [OK] appdetails 36.5 KB | type=game | release=Sep 23, 2021 | reviews=42,899
+2026-08-31 12:21:43 | DEBUG   | steamreq.scraper | age gate na pagina para app 1129580; reenviando com auto-declaracao de idade
+2026-08-31 12:21:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:45 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:21:45 | INFO    | steamreq.scraper | [CHECKPOINT] 145 completos | 0 parciais | 0 falhas | 5 pulados | 150 restantes
+2026-08-31 12:21:45 | INFO    | steamreq.scraper |              estado global: COMPLETE=160 PARTIAL=1 FAILED=1 PENDING=148
+2026-08-31 12:21:45 | INFO    | steamreq.scraper |              decorrido 00:07:49 | ETA 00:08:05 (~3.24s/app) | HTTP: 350 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:21:47 | INFO    | steamreq.scraper | [SCRAPE 151/300 | 50.3%] app_id=1144200
+2026-08-31 12:21:47 | INFO    | steamreq.scraper |    [OK] appdetails 27.0 KB | type=game | release=Dec 13, 2023 | reviews=263,686
+2026-08-31 12:21:47 | DEBUG   | steamreq.scraper | age gate na pagina para app 1144200; reenviando com auto-declaracao de idade
+2026-08-31 12:21:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:50 | INFO    | steamreq.scraper | [SCRAPE 152/300 | 50.7%] app_id=1149460
+2026-08-31 12:21:51 | INFO    | steamreq.scraper |    [OK] appdetails 30.9 KB | type=game | release=Dec 3, 2021 | reviews=55,143
+2026-08-31 12:21:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 1149460; reenviando com auto-declaracao de idade
+2026-08-31 12:21:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:21:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:54 | INFO    | steamreq.scraper | [SCRAPE 153/300 | 51.0%] app_id=1154030
+2026-08-31 12:21:54 | INFO    | steamreq.scraper |    [OK] appdetails 32.4 KB | type=game | release=Aug 1, 2025 | reviews=17,273
+2026-08-31 12:21:55 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:55 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:21:57 | INFO    | steamreq.scraper | [SCRAPE 154/300 | 51.3%] app_id=1172470
+2026-08-31 12:21:57 | INFO    | steamreq.scraper |    [OK] appdetails 16.6 KB | type=game | release=Nov 4, 2020 | reviews=1,580
+2026-08-31 12:21:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:21:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:00 | INFO    | steamreq.scraper | [SCRAPE 155/300 | 51.7%] app_id=1172620
+2026-08-31 12:22:00 | INFO    | steamreq.scraper |    [OK] appdetails 40.3 KB | type=game | release=Jun 3, 2020 | reviews=321,839
+2026-08-31 12:22:00 | DEBUG   | steamreq.scraper | age gate na pagina para app 1172620; reenviando com auto-declaracao de idade
+2026-08-31 12:22:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:03 | INFO    | steamreq.scraper | [SCRAPE 156/300 | 52.0%] app_id=1172710
+2026-08-31 12:22:04 | INFO    | steamreq.scraper |    [OK] appdetails 49.3 KB | type=game | release=Jun 10, 2025 | reviews=66,670
+2026-08-31 12:22:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:06 | DEBUG   | steamreq.scraper | [SCRAPE 157/300 | 52.3%] app_id=1174180 | SKIP (ja concluido)
+2026-08-31 12:22:06 | INFO    | steamreq.scraper | [SCRAPE 158/300 | 52.7%] app_id=1182900
+2026-08-31 12:22:06 | INFO    | steamreq.scraper |    [OK] appdetails 18.7 KB | type=game | release=Oct 17, 2022 | reviews=20,416
+2026-08-31 12:22:07 | DEBUG   | steamreq.scraper | age gate na pagina para app 1182900; reenviando com auto-declaracao de idade
+2026-08-31 12:22:08 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:08 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:10 | INFO    | steamreq.scraper | [SCRAPE 159/300 | 53.0%] app_id=1190970
+2026-08-31 12:22:10 | INFO    | steamreq.scraper |    [OK] appdetails 28.9 KB | type=game | release=Dec 14, 2023 | reviews=16,419
+2026-08-31 12:22:11 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:11 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:13 | INFO    | steamreq.scraper | [SCRAPE 160/300 | 53.3%] app_id=1196590
+2026-08-31 12:22:13 | INFO    | steamreq.scraper |    [OK] appdetails 20.2 KB | type=game | release=May 6, 2021 | reviews=105,993
+2026-08-31 12:22:14 | DEBUG   | steamreq.scraper | age gate na pagina para app 1196590; reenviando com auto-declaracao de idade
+2026-08-31 12:22:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:14 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:16 | INFO    | steamreq.scraper | [SCRAPE 161/300 | 53.7%] app_id=1203220
+2026-08-31 12:22:17 | INFO    | steamreq.scraper |    [OK] appdetails 57.1 KB | type=game | release=Aug 11, 2021 | reviews=197,943
+2026-08-31 12:22:17 | DEBUG   | steamreq.scraper | age gate na pagina para app 1203220; reenviando com auto-declaracao de idade
+2026-08-31 12:22:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:18 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:20 | INFO    | steamreq.scraper | [SCRAPE 162/300 | 54.0%] app_id=1222140
+2026-08-31 12:22:21 | INFO    | steamreq.scraper |    [OK] appdetails 21.4 KB | type=game | release=Jun 18, 2020 | reviews=225,187
+2026-08-31 12:22:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:23 | INFO    | steamreq.scraper | [SCRAPE 163/300 | 54.3%] app_id=1222680
+2026-08-31 12:22:23 | INFO    | steamreq.scraper |    [OK] appdetails 16.3 KB | type=game | release=Jun 4, 2020 | reviews=128,366
+2026-08-31 12:22:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:26 | INFO    | steamreq.scraper | [SCRAPE 164/300 | 54.7%] app_id=1229490
+2026-08-31 12:22:26 | INFO    | steamreq.scraper |    [OK] appdetails 22.8 KB | type=game | release=Sep 3, 2020 | reviews=212,228
+2026-08-31 12:22:27 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:27 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:29 | INFO    | steamreq.scraper | [SCRAPE 165/300 | 55.0%] app_id=1237320
+2026-08-31 12:22:29 | INFO    | steamreq.scraper |    [OK] appdetails 22.7 KB | type=game | release=Nov 7, 2022 | reviews=22,633
+2026-08-31 12:22:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:29 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:31 | INFO    | steamreq.scraper | [SCRAPE 166/300 | 55.3%] app_id=1238810
+2026-08-31 12:22:32 | INFO    | steamreq.scraper |    [OK] appdetails 18.0 KB | type=game | release=Oct 22, 2020 | reviews=236,430
+2026-08-31 12:22:32 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:32 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:34 | INFO    | steamreq.scraper | [SCRAPE 167/300 | 55.7%] app_id=1238840
+2026-08-31 12:22:35 | INFO    | steamreq.scraper |    [OK] appdetails 20.8 KB | type=game | release=Jun 11, 2020 | reviews=200,028
+2026-08-31 12:22:35 | DEBUG   | steamreq.scraper | age gate na pagina para app 1238840; reenviando com auto-declaracao de idade
+2026-08-31 12:22:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:38 | INFO    | steamreq.scraper | [SCRAPE 168/300 | 56.0%] app_id=1238860
+2026-08-31 12:22:38 | INFO    | steamreq.scraper |    [OK] appdetails 16.7 KB | type=game | release=Jun 11, 2020 | reviews=69,209
+2026-08-31 12:22:39 | DEBUG   | steamreq.scraper | age gate na pagina para app 1238860; reenviando com auto-declaracao de idade
+2026-08-31 12:22:40 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:40 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:42 | DEBUG   | steamreq.scraper | [SCRAPE 169/300 | 56.3%] app_id=1245620 | SKIP (ja concluido)
+2026-08-31 12:22:42 | INFO    | steamreq.scraper | [SCRAPE 170/300 | 56.7%] app_id=1248130
+2026-08-31 12:22:42 | INFO    | steamreq.scraper |    [OK] appdetails 22.1 KB | type=game | release=Nov 21, 2021 | reviews=69,334
+2026-08-31 12:22:43 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:43 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:45 | INFO    | steamreq.scraper | [SCRAPE 171/300 | 57.0%] app_id=1259420
+2026-08-31 12:22:45 | INFO    | steamreq.scraper |    [OK] appdetails 22.6 KB | type=game | release=May 17, 2021 | reviews=82,451
+2026-08-31 12:22:45 | DEBUG   | steamreq.scraper | age gate na pagina para app 1259420; reenviando com auto-declaracao de idade
+2026-08-31 12:22:46 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:46 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:48 | INFO    | steamreq.scraper | [SCRAPE 172/300 | 57.3%] app_id=1262540
+2026-08-31 12:22:49 | INFO    | steamreq.scraper |    [OK] appdetails 17.8 KB | type=game | release=Jun 4, 2020 | reviews=25,300
+2026-08-31 12:22:49 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:49 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:51 | INFO    | steamreq.scraper | [SCRAPE 173/300 | 57.7%] app_id=1262560
+2026-08-31 12:22:51 | INFO    | steamreq.scraper |    [OK] appdetails 12.1 KB | type=game | release=Jun 18, 2020 | reviews=25,026
+2026-08-31 12:22:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:54 | INFO    | steamreq.scraper | [SCRAPE 174/300 | 58.0%] app_id=1262580
+2026-08-31 12:22:54 | INFO    | steamreq.scraper |    [OK] appdetails 19.1 KB | type=game | release=Jun 18, 2020 | reviews=27,309
+2026-08-31 12:22:55 | DEBUG   | steamreq.scraper | age gate na pagina para app 1262580; reenviando com auto-declaracao de idade
+2026-08-31 12:22:56 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:22:56 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:58 | INFO    | steamreq.scraper | [SCRAPE 175/300 | 58.3%] app_id=1262600
+2026-08-31 12:22:58 | INFO    | steamreq.scraper |    [OK] appdetails 12.1 KB | type=game | release=Jun 4, 2020 | reviews=9,187
+2026-08-31 12:22:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:22:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:22:58 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:22:58 | INFO    | steamreq.scraper | [CHECKPOINT] 168 completos | 0 parciais | 0 falhas | 7 pulados | 125 restantes
+2026-08-31 12:22:58 | INFO    | steamreq.scraper |              estado global: COMPLETE=183 PARTIAL=1 FAILED=1 PENDING=125
+2026-08-31 12:22:58 | INFO    | steamreq.scraper |              decorrido 00:09:03 | ETA 00:06:44 (~3.23s/app) | HTTP: 406 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:23:00 | INFO    | steamreq.scraper | [SCRAPE 176/300 | 58.7%] app_id=1272080
+2026-08-31 12:23:01 | INFO    | steamreq.scraper |    [OK] appdetails 23.5 KB | type=game | release=Sep 21, 2023 | reviews=49,043
+2026-08-31 12:23:01 | DEBUG   | steamreq.scraper | age gate na pagina para app 1272080; reenviando com auto-declaracao de idade
+2026-08-31 12:23:02 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:02 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:04 | INFO    | steamreq.scraper | [SCRAPE 177/300 | 59.0%] app_id=1273400
+2026-08-31 12:23:05 | INFO    | steamreq.scraper |    [OK] appdetails 30.1 KB | type=game | release=Sep 20, 2022 | reviews=10,473
+2026-08-31 12:23:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:07 | INFO    | steamreq.scraper | [SCRAPE 178/300 | 59.3%] app_id=1282100
+2026-08-31 12:23:07 | INFO    | steamreq.scraper |    [OK] appdetails 24.0 KB | type=game | release=Jul 25, 2023 | reviews=46,129
+2026-08-31 12:23:08 | DEBUG   | steamreq.scraper | age gate na pagina para app 1282100; reenviando com auto-declaracao de idade
+2026-08-31 12:23:09 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:09 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:11 | INFO    | steamreq.scraper | [SCRAPE 179/300 | 59.7%] app_id=1282270
+2026-08-31 12:23:11 | INFO    | steamreq.scraper |    [OK] appdetails 29.3 KB | type=game | release=Nov 21, 2024 | reviews=0
+2026-08-31 12:23:11 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:11 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:13 | INFO    | steamreq.scraper | [SCRAPE 180/300 | 60.0%] app_id=1284190
+2026-08-31 12:23:14 | INFO    | steamreq.scraper |    [OK] appdetails 26.4 KB | type=game | release=Apr 10, 2024 | reviews=68,163
+2026-08-31 12:23:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:14 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:16 | INFO    | steamreq.scraper | [SCRAPE 181/300 | 60.3%] app_id=1284210
+2026-08-31 12:23:17 | INFO    | steamreq.scraper |    [OK] appdetails 24.1 KB | type=game | release=Aug 23, 2022 | reviews=509
+2026-08-31 12:23:17 | DEBUG   | steamreq.scraper | age gate na pagina para app 1284210; reenviando com auto-declaracao de idade
+2026-08-31 12:23:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:18 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:23:20 | INFO    | steamreq.scraper | [SCRAPE 182/300 | 60.7%] app_id=1285190
+2026-08-31 12:23:20 | INFO    | steamreq.scraper |    [OK] appdetails 38.1 KB | type=game | release=Sep 11, 2025 | reviews=57,154
+2026-08-31 12:23:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:23 | INFO    | steamreq.scraper | [SCRAPE 183/300 | 61.0%] app_id=1286830
+2026-08-31 12:23:23 | INFO    | steamreq.scraper |    [OK] appdetails 26.8 KB | type=game | release=Jul 21, 2020 | reviews=464
+2026-08-31 12:23:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:24 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 12:23:26 | INFO    | steamreq.scraper | [SCRAPE 184/300 | 61.3%] app_id=1297900
+2026-08-31 12:23:26 | INFO    | steamreq.scraper |    [OK] appdetails 36.0 KB | type=game | release=Jun 5, 2026 | reviews=25,862
+2026-08-31 12:23:27 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:27 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:29 | INFO    | steamreq.scraper | [SCRAPE 185/300 | 61.7%] app_id=1304930
+2026-08-31 12:23:29 | INFO    | steamreq.scraper |    [OK] appdetails 35.5 KB | type=game | release=Mar 5, 2024 | reviews=90,455
+2026-08-31 12:23:29 | DEBUG   | steamreq.scraper | age gate na pagina para app 1304930; reenviando com auto-declaracao de idade
+2026-08-31 12:23:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:31 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:33 | INFO    | steamreq.scraper | [SCRAPE 186/300 | 62.0%] app_id=1326470
+2026-08-31 12:23:33 | INFO    | steamreq.scraper |    [OK] appdetails 18.8 KB | type=game | release=Feb 22, 2024 | reviews=282,692
+2026-08-31 12:23:33 | DEBUG   | steamreq.scraper | age gate na pagina para app 1326470; reenviando com auto-declaracao de idade
+2026-08-31 12:23:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:36 | INFO    | steamreq.scraper | [SCRAPE 187/300 | 62.3%] app_id=1331550
+2026-08-31 12:23:37 | INFO    | steamreq.scraper |    [OK] appdetails 40.5 KB | type=game | release=Aug 28, 2026 | reviews=13,247
+2026-08-31 12:23:37 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:37 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:39 | INFO    | steamreq.scraper | [SCRAPE 188/300 | 62.7%] app_id=1338770
+2026-08-31 12:23:39 | INFO    | steamreq.scraper |    [OK] appdetails 30.9 KB | type=game | release=Jun 4, 2021 | reviews=12,692
+2026-08-31 12:23:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 1338770; reenviando com auto-declaracao de idade
+2026-08-31 12:23:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:43 | INFO    | steamreq.scraper | [SCRAPE 189/300 | 63.0%] app_id=1343370
+2026-08-31 12:23:43 | INFO    | steamreq.scraper |    [OK] appdetails 29.1 KB | type=game | release=Feb 24, 2021 | reviews=0
+2026-08-31 12:23:44 | DEBUG   | steamreq.scraper | age gate na pagina para app 1343370; reenviando com auto-declaracao de idade
+2026-08-31 12:23:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:47 | INFO    | steamreq.scraper | [SCRAPE 190/300 | 63.3%] app_id=1351240
+2026-08-31 12:23:47 | INFO    | steamreq.scraper |    [OK] appdetails 37.2 KB | type=game | release=Mar 7, 2024 | reviews=4,370
+2026-08-31 12:23:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:50 | INFO    | steamreq.scraper | [SCRAPE 191/300 | 63.7%] app_id=1361210
+2026-08-31 12:23:50 | INFO    | steamreq.scraper |    [OK] appdetails 34.8 KB | type=game | release=Nov 30, 2022 | reviews=108,010
+2026-08-31 12:23:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 1361210; reenviando com auto-declaracao de idade
+2026-08-31 12:23:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:23:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:54 | INFO    | steamreq.scraper | [SCRAPE 192/300 | 64.0%] app_id=1364780
+2026-08-31 12:23:54 | INFO    | steamreq.scraper |    [OK] appdetails 35.3 KB | type=game | release=Jun 1, 2023 | reviews=49,573
+2026-08-31 12:23:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:56 | INFO    | steamreq.scraper | [SCRAPE 193/300 | 64.3%] app_id=1369670
+2026-08-31 12:23:57 | INFO    | steamreq.scraper |    [OK] appdetails 30.5 KB | type=game | release=Dec 17, 2021 | reviews=8,899
+2026-08-31 12:23:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:23:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:23:59 | INFO    | steamreq.scraper | [SCRAPE 194/300 | 64.7%] app_id=1371980
+2026-08-31 12:23:59 | INFO    | steamreq.scraper |    [OK] appdetails 40.1 KB | type=game | release=Apr 18, 2024 | reviews=65,422
+2026-08-31 12:24:00 | DEBUG   | steamreq.scraper | age gate na pagina para app 1371980; reenviando com auto-declaracao de idade
+2026-08-31 12:24:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:24:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:03 | INFO    | steamreq.scraper | [SCRAPE 195/300 | 65.0%] app_id=1374490
+2026-08-31 12:24:03 | INFO    | steamreq.scraper |    [OK] appdetails 36.8 KB | type=game | release=Apr 15, 2025 | reviews=27,179
+2026-08-31 12:24:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:06 | INFO    | steamreq.scraper | [SCRAPE 196/300 | 65.3%] app_id=1384160
+2026-08-31 12:24:06 | INFO    | steamreq.scraper |    [OK] appdetails 44.8 KB | type=game | release=Jun 11, 2021 | reviews=47,560
+2026-08-31 12:24:06 | DEBUG   | steamreq.scraper | age gate na pagina para app 1384160; reenviando com auto-declaracao de idade
+2026-08-31 12:24:08 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:24:08 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:10 | INFO    | steamreq.scraper | [SCRAPE 197/300 | 65.7%] app_id=1401590
+2026-08-31 12:24:10 | INFO    | steamreq.scraper |    [OK] appdetails 31.8 KB | type=game | release=Dec 5, 2023 | reviews=21,962
+2026-08-31 12:24:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:10 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:12 | INFO    | steamreq.scraper | [SCRAPE 198/300 | 66.0%] app_id=1407200
+2026-08-31 12:24:13 | INFO    | steamreq.scraper |    [OK] appdetails 29.5 KB | type=game | release=Apr 28, 2021 | reviews=533
+2026-08-31 12:24:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:15 | INFO    | steamreq.scraper | [SCRAPE 199/300 | 66.3%] app_id=1431300
+2026-08-31 12:24:15 | INFO    | steamreq.scraper |    [OK] appdetails 25.6 KB | type=game | release=Jun 22, 2026 | reviews=12,300
+2026-08-31 12:24:16 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:16 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:18 | INFO    | steamreq.scraper | [SCRAPE 200/300 | 66.7%] app_id=1442430
+2026-08-31 12:24:18 | INFO    | steamreq.scraper |    [OK] appdetails 31.7 KB | type=game | release=Nov 27, 2025 | reviews=3,832
+2026-08-31 12:24:19 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:19 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:24:19 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:24:19 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:24:19 | INFO    | steamreq.scraper | [CHECKPOINT] 193 completos | 0 parciais | 0 falhas | 7 pulados | 100 restantes
+2026-08-31 12:24:19 | INFO    | steamreq.scraper |              estado global: COMPLETE=208 PARTIAL=1 FAILED=1 PENDING=100
+2026-08-31 12:24:19 | INFO    | steamreq.scraper |              decorrido 00:10:23 | ETA 00:05:22 (~3.23s/app) | HTTP: 466 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:24:21 | INFO    | steamreq.scraper | [SCRAPE 201/300 | 67.0%] app_id=1446780
+2026-08-31 12:24:21 | INFO    | steamreq.scraper |    [OK] appdetails 27.5 KB | type=game | release=Jan 12, 2022 | reviews=79,564
+2026-08-31 12:24:22 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:22 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:24 | INFO    | steamreq.scraper | [SCRAPE 202/300 | 67.3%] app_id=1449690
+2026-08-31 12:24:24 | INFO    | steamreq.scraper |    [OK] appdetails 14.1 KB | type=game | release=Oct 29, 2020 | reviews=36,328
+2026-08-31 12:24:25 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:25 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:27 | INFO    | steamreq.scraper | [SCRAPE 203/300 | 67.7%] app_id=1449850
+2026-08-31 12:24:27 | INFO    | steamreq.scraper |    [OK] appdetails 16.4 KB | type=game | release=Jan 18, 2022 | reviews=0
+2026-08-31 12:24:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:28 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:30 | INFO    | steamreq.scraper | [SCRAPE 204/300 | 68.0%] app_id=1458140
+2026-08-31 12:24:30 | INFO    | steamreq.scraper |    [OK] appdetails 26.3 KB | type=game | release=Feb 21, 2024 | reviews=21,400
+2026-08-31 12:24:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:31 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:33 | INFO    | steamreq.scraper | [SCRAPE 205/300 | 68.3%] app_id=1462040
+2026-08-31 12:24:33 | INFO    | steamreq.scraper |    [OK] appdetails 20.2 KB | type=game | release=Jun 17, 2022 | reviews=42,929
+2026-08-31 12:24:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:33 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:35 | INFO    | steamreq.scraper | [SCRAPE 206/300 | 68.7%] app_id=1465360
+2026-08-31 12:24:36 | INFO    | steamreq.scraper |    [OK] appdetails 26.6 KB | type=game | release=May 17, 2021 | reviews=45,926
+2026-08-31 12:24:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:38 | INFO    | steamreq.scraper | [SCRAPE 207/300 | 69.0%] app_id=1466060
+2026-08-31 12:24:39 | INFO    | steamreq.scraper |    [OK] appdetails 28.9 KB | type=game | release=May 23, 2025 | reviews=33,323
+2026-08-31 12:24:39 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:39 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:41 | INFO    | steamreq.scraper | [SCRAPE 208/300 | 69.3%] app_id=1466860
+2026-08-31 12:24:41 | INFO    | steamreq.scraper |    [OK] appdetails 23.5 KB | type=game | release=Oct 28, 2021 | reviews=72,083
+2026-08-31 12:24:42 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:42 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:44 | INFO    | steamreq.scraper | [SCRAPE 209/300 | 69.7%] app_id=1478500
+2026-08-31 12:24:44 | INFO    | steamreq.scraper |    [OK] appdetails 22.0 KB | type=game | release=Aug 4, 2026 | reviews=26,488
+2026-08-31 12:24:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:47 | INFO    | steamreq.scraper | [SCRAPE 210/300 | 70.0%] app_id=1498570
+2026-08-31 12:24:47 | INFO    | steamreq.scraper |    [OK] appdetails 23.0 KB | type=game | release=Dec 12, 2024 | reviews=8,345
+2026-08-31 12:24:48 | INFO    | steamreq.scraper |    [OK] 18 tags via STORE_HTML
+2026-08-31 12:24:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:50 | INFO    | steamreq.scraper | [SCRAPE 211/300 | 70.3%] app_id=1547000
+2026-08-31 12:24:50 | INFO    | steamreq.scraper |    [OK] appdetails 13.1 KB | type=game | release=Jan 19, 2023 | reviews=15,428
+2026-08-31 12:24:50 | DEBUG   | steamreq.scraper | age gate na pagina para app 1547000; reenviando com auto-declaracao de idade
+2026-08-31 12:24:51 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:24:51 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:53 | INFO    | steamreq.scraper | [SCRAPE 212/300 | 70.7%] app_id=1551360
+2026-08-31 12:24:54 | INFO    | steamreq.scraper |    [OK] appdetails 24.0 KB | type=game | release=Nov 8, 2021 | reviews=258,934
+2026-08-31 12:24:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:24:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:24:56 | INFO    | steamreq.scraper | [SCRAPE 213/300 | 71.0%] app_id=1556200
+2026-08-31 12:24:56 | INFO    | steamreq.scraper |    [OK] appdetails 19.4 KB | type=game | release=Apr 29, 2021 | reviews=4,617
+2026-08-31 12:24:57 | DEBUG   | steamreq.scraper | age gate na pagina para app 1556200; reenviando com auto-declaracao de idade
+2026-08-31 12:24:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:24:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:00 | INFO    | steamreq.scraper | [SCRAPE 214/300 | 71.3%] app_id=1583230
+2026-08-31 12:25:00 | INFO    | steamreq.scraper |    [OK] appdetails 18.0 KB | type=game | release=Dec 13, 2022 | reviews=20,461
+2026-08-31 12:25:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:03 | INFO    | steamreq.scraper | [SCRAPE 215/300 | 71.7%] app_id=1593500
+2026-08-31 12:25:03 | INFO    | steamreq.scraper |    [OK] appdetails 20.2 KB | type=game | release=Jan 14, 2022 | reviews=129,380
+2026-08-31 12:25:04 | DEBUG   | steamreq.scraper | age gate na pagina para app 1593500; reenviando com auto-declaracao de idade
+2026-08-31 12:25:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:07 | INFO    | steamreq.scraper | [SCRAPE 216/300 | 72.0%] app_id=1599660
+2026-08-31 12:25:07 | INFO    | steamreq.scraper |    [OK] appdetails 26.0 KB | type=game | release=Oct 27, 2022 | reviews=2,812
+2026-08-31 12:25:07 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:07 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:09 | INFO    | steamreq.scraper | [SCRAPE 217/300 | 72.3%] app_id=1601570
+2026-08-31 12:25:10 | INFO    | steamreq.scraper |    [OK] appdetails 33.3 KB | type=game | release=Jun 13, 2025 | reviews=15,106
+2026-08-31 12:25:10 | DEBUG   | steamreq.scraper | age gate na pagina para app 1601570; reenviando com auto-declaracao de idade
+2026-08-31 12:25:11 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:11 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:13 | INFO    | steamreq.scraper | [SCRAPE 218/300 | 72.7%] app_id=1604270
+2026-08-31 12:25:14 | INFO    | steamreq.scraper |    [OK] appdetails 35.7 KB | type=game | release=Jun 19, 2025 | reviews=29,227
+2026-08-31 12:25:14 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:14 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:16 | INFO    | steamreq.scraper | [SCRAPE 219/300 | 73.0%] app_id=1620730
+2026-08-31 12:25:16 | INFO    | steamreq.scraper |    [OK] appdetails 20.1 KB | type=game | release=Sep 4, 2025 | reviews=4,179
+2026-08-31 12:25:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:19 | INFO    | steamreq.scraper | [SCRAPE 220/300 | 73.3%] app_id=1627720
+2026-08-31 12:25:19 | INFO    | steamreq.scraper |    [OK] appdetails 22.1 KB | type=game | release=Sep 18, 2023 | reviews=58,053
+2026-08-31 12:25:20 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:20 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:22 | INFO    | steamreq.scraper | [SCRAPE 221/300 | 73.7%] app_id=1631270
+2026-08-31 12:25:22 | INFO    | steamreq.scraper |    [OK] appdetails 26.8 KB | type=game | release=Jan 6, 2026 | reviews=12,138
+2026-08-31 12:25:22 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:22 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:24 | INFO    | steamreq.scraper | [SCRAPE 222/300 | 74.0%] app_id=1643320
+2026-08-31 12:25:25 | INFO    | steamreq.scraper |    [OK] appdetails 27.8 KB | type=game | release=Nov 20, 2024 | reviews=106,112
+2026-08-31 12:25:25 | DEBUG   | steamreq.scraper | age gate na pagina para app 1643320; reenviando com auto-declaracao de idade
+2026-08-31 12:25:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:26 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:28 | INFO    | steamreq.scraper | [SCRAPE 223/300 | 74.3%] app_id=1657630
+2026-08-31 12:25:28 | INFO    | steamreq.scraper |    [OK] appdetails 16.0 KB | type=game | release=Sep 23, 2025 | reviews=43,363
+2026-08-31 12:25:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:29 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:31 | INFO    | steamreq.scraper | [SCRAPE 224/300 | 74.7%] app_id=1659040
+2026-08-31 12:25:31 | INFO    | steamreq.scraper |    [OK] appdetails 29.3 KB | type=game | release=Jan 20, 2022 | reviews=58,121
+2026-08-31 12:25:32 | DEBUG   | steamreq.scraper | age gate na pagina para app 1659040; reenviando com auto-declaracao de idade
+2026-08-31 12:25:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:33 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:35 | INFO    | steamreq.scraper | [SCRAPE 225/300 | 75.0%] app_id=1659420
+2026-08-31 12:25:35 | INFO    | steamreq.scraper |    [OK] appdetails 30.6 KB | type=game | release=Oct 19, 2022 | reviews=29,231
+2026-08-31 12:25:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:25:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:25:36 | INFO    | steamreq.scraper | [CHECKPOINT] 218 completos | 0 parciais | 0 falhas | 7 pulados | 75 restantes
+2026-08-31 12:25:36 | INFO    | steamreq.scraper |              estado global: COMPLETE=233 PARTIAL=1 FAILED=1 PENDING=75
+2026-08-31 12:25:36 | INFO    | steamreq.scraper |              decorrido 00:11:40 | ETA 00:04:00 (~3.21s/app) | HTTP: 522 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:25:38 | INFO    | steamreq.scraper | [SCRAPE 226/300 | 75.3%] app_id=1681430
+2026-08-31 12:25:38 | INFO    | steamreq.scraper |    [OK] appdetails 22.4 KB | type=game | release=Nov 2, 2023 | reviews=27,852
+2026-08-31 12:25:39 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:39 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:41 | INFO    | steamreq.scraper | [SCRAPE 227/300 | 75.7%] app_id=1689620
+2026-08-31 12:25:41 | INFO    | steamreq.scraper |    [OK] appdetails 22.8 KB | type=game | release=Mar 20, 2025 | reviews=4,761
+2026-08-31 12:25:41 | INFO    | steamreq.scraper |    [OK] 17 tags via STORE_HTML
+2026-08-31 12:25:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:43 | INFO    | steamreq.scraper | [SCRAPE 228/300 | 76.0%] app_id=1693980
+2026-08-31 12:25:44 | INFO    | steamreq.scraper |    [OK] appdetails 25.3 KB | type=game | release=Jan 27, 2023 | reviews=62,553
+2026-08-31 12:25:44 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:44 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:46 | INFO    | steamreq.scraper | [SCRAPE 229/300 | 76.3%] app_id=1702010
+2026-08-31 12:25:46 | INFO    | steamreq.scraper |    [OK] appdetails 31.9 KB | type=game | release=Nov 7, 2024 | reviews=6,548
+2026-08-31 12:25:47 | DEBUG   | steamreq.scraper | age gate na pagina para app 1702010; reenviando com auto-declaracao de idade
+2026-08-31 12:25:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:48 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:50 | INFO    | steamreq.scraper | [SCRAPE 230/300 | 76.7%] app_id=1716740
+2026-08-31 12:25:50 | INFO    | steamreq.scraper |    [OK] appdetails 28.6 KB | type=game | release=Sep 5, 2023 | reviews=115,058
+2026-08-31 12:25:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 1716740; reenviando com auto-declaracao de idade
+2026-08-31 12:25:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:54 | INFO    | steamreq.scraper | [SCRAPE 231/300 | 77.0%] app_id=1761390
+2026-08-31 12:25:54 | INFO    | steamreq.scraper |    [OK] appdetails 15.5 KB | type=game | release=May 26, 2022 | reviews=19,423
+2026-08-31 12:25:55 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:25:55 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:25:57 | INFO    | steamreq.scraper | [SCRAPE 232/300 | 77.3%] app_id=1771300
+2026-08-31 12:25:57 | INFO    | steamreq.scraper |    [OK] appdetails 26.7 KB | type=game | release=Feb 4, 2025 | reviews=143,410
+2026-08-31 12:25:57 | DEBUG   | steamreq.scraper | age gate na pagina para app 1771300; reenviando com auto-declaracao de idade
+2026-08-31 12:25:59 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:25:59 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:01 | INFO    | steamreq.scraper | [SCRAPE 233/300 | 77.7%] app_id=1783560
+2026-08-31 12:26:01 | INFO    | steamreq.scraper |    [OK] appdetails 26.2 KB | type=game | release=Nov 6, 2025 | reviews=12,662
+2026-08-31 12:26:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:03 | INFO    | steamreq.scraper | [SCRAPE 234/300 | 78.0%] app_id=1790600
+2026-08-31 12:26:04 | INFO    | steamreq.scraper |    [OK] appdetails 31.3 KB | type=game | release=Oct 10, 2024 | reviews=50,286
+2026-08-31 12:26:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:06 | INFO    | steamreq.scraper | [SCRAPE 235/300 | 78.3%] app_id=1796470
+2026-08-31 12:26:06 | INFO    | steamreq.scraper |    [OK] appdetails 29.0 KB | type=game | release=Apr 1, 2025 | reviews=12,537
+2026-08-31 12:26:07 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:07 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:09 | INFO    | steamreq.scraper | [SCRAPE 236/300 | 78.7%] app_id=1808500
+2026-08-31 12:26:09 | INFO    | steamreq.scraper |    [OK] appdetails 32.1 KB | type=game | release=Oct 30, 2025 | reviews=298,123
+2026-08-31 12:26:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:10 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:12 | INFO    | steamreq.scraper | [SCRAPE 237/300 | 79.0%] app_id=1812450
+2026-08-31 12:26:12 | INFO    | steamreq.scraper |    [OK] appdetails 25.7 KB | type=game | release=Apr 23, 2024 | reviews=19,933
+2026-08-31 12:26:12 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:12 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:14 | INFO    | steamreq.scraper | [SCRAPE 238/300 | 79.3%] app_id=1817070
+2026-08-31 12:26:15 | INFO    | steamreq.scraper |    [OK] appdetails 20.4 KB | type=game | release=Aug 12, 2022 | reviews=101,014
+2026-08-31 12:26:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:15 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:17 | INFO    | steamreq.scraper | [SCRAPE 239/300 | 79.7%] app_id=1817190
+2026-08-31 12:26:17 | INFO    | steamreq.scraper |    [OK] appdetails 19.9 KB | type=game | release=Nov 18, 2022 | reviews=38,972
+2026-08-31 12:26:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:18 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:20 | INFO    | steamreq.scraper | [SCRAPE 240/300 | 80.0%] app_id=1824220
+2026-08-31 12:26:20 | INFO    | steamreq.scraper |    [OK] appdetails 26.6 KB | type=game | release=Jun 12, 2022 | reviews=46,648
+2026-08-31 12:26:21 | DEBUG   | steamreq.scraper | age gate na pagina para app 1824220; reenviando com auto-declaracao de idade
+2026-08-31 12:26:22 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:22 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:24 | INFO    | steamreq.scraper | [SCRAPE 241/300 | 80.3%] app_id=1826420
+2026-08-31 12:26:24 | INFO    | steamreq.scraper |    [OK] appdetails 30.7 KB | type=game | release=May 7, 2026 | reviews=1,139
+2026-08-31 12:26:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:26 | INFO    | steamreq.scraper | [SCRAPE 242/300 | 80.7%] app_id=1874880
+2026-08-31 12:26:27 | INFO    | steamreq.scraper |    [OK] appdetails 30.9 KB | type=game | release=Nov 16, 2023 | reviews=50,798
+2026-08-31 12:26:27 | DEBUG   | steamreq.scraper | age gate na pagina para app 1874880; reenviando com auto-declaracao de idade
+2026-08-31 12:26:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:28 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:30 | INFO    | steamreq.scraper | [SCRAPE 243/300 | 81.0%] app_id=1875830
+2026-08-31 12:26:31 | INFO    | steamreq.scraper |    [OK] appdetails 28.9 KB | type=game | release=Jun 13, 2024 | reviews=7,804
+2026-08-31 12:26:31 | DEBUG   | steamreq.scraper | age gate na pagina para app 1875830; reenviando com auto-declaracao de idade
+2026-08-31 12:26:32 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:32 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:34 | INFO    | steamreq.scraper | [SCRAPE 244/300 | 81.3%] app_id=1888160
+2026-08-31 12:26:34 | INFO    | steamreq.scraper |    [OK] appdetails 23.7 KB | type=game | release=Aug 24, 2023 | reviews=66,803
+2026-08-31 12:26:35 | DEBUG   | steamreq.scraper | age gate na pagina para app 1888160; reenviando com auto-declaracao de idade
+2026-08-31 12:26:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:38 | INFO    | steamreq.scraper | [SCRAPE 245/300 | 81.7%] app_id=1888930
+2026-08-31 12:26:38 | INFO    | steamreq.scraper |    [OK] appdetails 37.4 KB | type=game | release=Mar 28, 2023 | reviews=64,904
+2026-08-31 12:26:39 | DEBUG   | steamreq.scraper | age gate na pagina para app 1888930; reenviando com auto-declaracao de idade
+2026-08-31 12:26:40 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:40 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:42 | INFO    | steamreq.scraper | [SCRAPE 246/300 | 82.0%] app_id=1913370
+2026-08-31 12:26:42 | INFO    | steamreq.scraper |    [OK] appdetails 35.3 KB | type=game | release=Aug 1, 2023 | reviews=8,297
+2026-08-31 12:26:42 | DEBUG   | steamreq.scraper | age gate na pagina para app 1913370; reenviando com auto-declaracao de idade
+2026-08-31 12:26:43 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:43 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:45 | INFO    | steamreq.scraper | [SCRAPE 247/300 | 82.3%] app_id=1922560
+2026-08-31 12:26:46 | INFO    | steamreq.scraper |    [OK] appdetails 16.8 KB | type=game | release=May 16, 2022 | reviews=45,262
+2026-08-31 12:26:46 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:46 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:48 | INFO    | steamreq.scraper | [SCRAPE 248/300 | 82.7%] app_id=1934680
+2026-08-31 12:26:48 | INFO    | steamreq.scraper |    [OK] appdetails 35.1 KB | type=game | release=Sep 4, 2024 | reviews=20,863
+2026-08-31 12:26:49 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:49 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:51 | INFO    | steamreq.scraper | [SCRAPE 249/300 | 83.0%] app_id=1938090
+2026-08-31 12:26:51 | INFO    | steamreq.scraper |    [OK] appdetails 25.5 KB | type=game | release=Oct 27, 2022 | reviews=411,331
+2026-08-31 12:26:52 | DEBUG   | steamreq.scraper | age gate na pagina para app 1938090; reenviando com auto-declaracao de idade
+2026-08-31 12:26:53 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:26:53 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:55 | INFO    | steamreq.scraper | [SCRAPE 250/300 | 83.3%] app_id=1941540
+2026-08-31 12:26:55 | INFO    | steamreq.scraper |    [OK] appdetails 33.8 KB | type=game | release=Aug 7, 2025 | reviews=20,643
+2026-08-31 12:26:56 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:26:56 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:26:56 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:26:56 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:26:56 | INFO    | steamreq.scraper | [CHECKPOINT] 243 completos | 0 parciais | 0 falhas | 7 pulados | 50 restantes
+2026-08-31 12:26:56 | INFO    | steamreq.scraper |              estado global: COMPLETE=258 PARTIAL=1 FAILED=1 PENDING=50
+2026-08-31 12:26:56 | INFO    | steamreq.scraper |              decorrido 00:13:00 | ETA 00:02:40 (~3.21s/app) | HTTP: 582 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:26:58 | INFO    | steamreq.scraper | [SCRAPE 251/300 | 83.7%] app_id=1944430
+2026-08-31 12:26:58 | INFO    | steamreq.scraper |    [OK] appdetails 21.3 KB | type=game | release=Jun 6, 2023 | reviews=10,231
+2026-08-31 12:26:59 | DEBUG   | steamreq.scraper | age gate na pagina para app 1944430; reenviando com auto-declaracao de idade
+2026-08-31 12:27:00 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:02 | INFO    | steamreq.scraper | [SCRAPE 252/300 | 84.0%] app_id=1953520
+2026-08-31 12:27:02 | INFO    | steamreq.scraper |    [OK] appdetails 13.7 KB | type=game | release=Nov 3, 2022 | reviews=3,264
+2026-08-31 12:27:02 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:02 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:04 | INFO    | steamreq.scraper | [SCRAPE 253/300 | 84.3%] app_id=1962663
+2026-08-31 12:27:05 | INFO    | steamreq.scraper |    [OK] appdetails 14.9 KB | type=game | release=Nov 16, 2022 | reviews=10,117
+2026-08-31 12:27:05 | DEBUG   | steamreq.scraper | age gate na pagina para app 1962663; reenviando com auto-declaracao de idade
+2026-08-31 12:27:06 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:06 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:08 | INFO    | steamreq.scraper | [SCRAPE 254/300 | 84.7%] app_id=1962700
+2026-08-31 12:27:08 | INFO    | steamreq.scraper |    [OK] appdetails 23.8 KB | type=game | release=May 14, 2026 | reviews=116,034
+2026-08-31 12:27:09 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:09 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:11 | INFO    | steamreq.scraper | [SCRAPE 255/300 | 85.0%] app_id=1963610
+2026-08-31 12:27:11 | INFO    | steamreq.scraper |    [OK] appdetails 27.0 KB | type=game | release=Apr 7, 2026 | reviews=8,574
+2026-08-31 12:27:12 | DEBUG   | steamreq.scraper | age gate na pagina para app 1963610; reenviando com auto-declaracao de idade
+2026-08-31 12:27:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:15 | INFO    | steamreq.scraper | [SCRAPE 256/300 | 85.3%] app_id=1966720
+2026-08-31 12:27:15 | INFO    | steamreq.scraper |    [OK] appdetails 16.0 KB | type=game | release=Oct 23, 2023 | reviews=411,309
+2026-08-31 12:27:15 | DEBUG   | steamreq.scraper | age gate na pagina para app 1966720; reenviando com auto-declaracao de idade
+2026-08-31 12:27:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:27:19 | INFO    | steamreq.scraper | [SCRAPE 257/300 | 85.7%] app_id=1971870
+2026-08-31 12:27:19 | INFO    | steamreq.scraper |    [OK] appdetails 26.9 KB | type=game | release=Sep 19, 2023 | reviews=34,021
+2026-08-31 12:27:19 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:19 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:21 | INFO    | steamreq.scraper | [SCRAPE 258/300 | 86.0%] app_id=1984270
+2026-08-31 12:27:22 | INFO    | steamreq.scraper |    [OK] appdetails 25.7 KB | type=game | release=Oct 2, 2025 | reviews=15,758
+2026-08-31 12:27:22 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:22 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:24 | INFO    | steamreq.scraper | [SCRAPE 259/300 | 86.3%] app_id=1989270
+2026-08-31 12:27:25 | INFO    | steamreq.scraper |    [OK] appdetails 22.7 KB | type=game | release=Oct 23, 2023 | reviews=31,607
+2026-08-31 12:27:25 | DEBUG   | steamreq.scraper | age gate na pagina para app 1989270; reenviando com auto-declaracao de idade
+2026-08-31 12:27:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:26 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:27:28 | INFO    | steamreq.scraper | [SCRAPE 260/300 | 86.7%] app_id=2001120
+2026-08-31 12:27:29 | INFO    | steamreq.scraper |    [OK] appdetails 23.0 KB | type=game | release=Mar 6, 2025 | reviews=78,049
+2026-08-31 12:27:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:29 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:31 | INFO    | steamreq.scraper | [SCRAPE 261/300 | 87.0%] app_id=2001760
+2026-08-31 12:27:31 | INFO    | steamreq.scraper |    [OK] appdetails 21.6 KB | type=game | release=Aug 3, 2026 | reviews=4,042
+2026-08-31 12:27:32 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:32 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:34 | INFO    | steamreq.scraper | [SCRAPE 262/300 | 87.3%] app_id=2004680
+2026-08-31 12:27:34 | INFO    | steamreq.scraper |    [OK] appdetails 36.3 KB | type=game | release=Jun 9, 2026 | reviews=3,054
+2026-08-31 12:27:35 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:35 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:37 | INFO    | steamreq.scraper | [SCRAPE 263/300 | 87.7%] app_id=2014780
+2026-08-31 12:27:37 | INFO    | steamreq.scraper |    [OK] appdetails 34.8 KB | type=game | release=Dec 17, 2022 | reviews=6,250
+2026-08-31 12:27:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:38 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:40 | INFO    | steamreq.scraper | [SCRAPE 264/300 | 88.0%] app_id=2016590
+2026-08-31 12:27:40 | INFO    | steamreq.scraper |    [OK] appdetails 21.8 KB | type=game | release=Jun 7, 2024 | reviews=0
+2026-08-31 12:27:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 2016590; reenviando com auto-declaracao de idade
+2026-08-31 12:27:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:43 | INFO    | steamreq.scraper | [SCRAPE 265/300 | 88.3%] app_id=2050650
+2026-08-31 12:27:44 | INFO    | steamreq.scraper |    [OK] appdetails 20.6 KB | type=game | release=Mar 23, 2023 | reviews=184,967
+2026-08-31 12:27:44 | DEBUG   | steamreq.scraper | age gate na pagina para app 2050650; reenviando com auto-declaracao de idade
+2026-08-31 12:27:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:45 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:47 | INFO    | steamreq.scraper | [SCRAPE 266/300 | 88.7%] app_id=2054970
+2026-08-31 12:27:48 | INFO    | steamreq.scraper |    [OK] appdetails 26.8 KB | type=game | release=Mar 21, 2024 | reviews=75,934
+2026-08-31 12:27:48 | DEBUG   | steamreq.scraper | age gate na pagina para app 2054970; reenviando com auto-declaracao de idade
+2026-08-31 12:27:49 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:27:49 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:51 | INFO    | steamreq.scraper | [SCRAPE 267/300 | 89.0%] app_id=2060160
+2026-08-31 12:27:51 | INFO    | steamreq.scraper |    [OK] appdetails 23.8 KB | type=game | release=Oct 10, 2025 | reviews=8,841
+2026-08-31 12:27:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:27:54 | INFO    | steamreq.scraper | [SCRAPE 268/300 | 89.3%] app_id=2070270
+2026-08-31 12:27:54 | INFO    | steamreq.scraper |    [OK] appdetails 26.5 KB | type=game | release=Dec 4, 2025 | reviews=1,790
+2026-08-31 12:27:55 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:55 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:27:57 | INFO    | steamreq.scraper | [SCRAPE 269/300 | 89.7%] app_id=2073620
+2026-08-31 12:27:57 | INFO    | steamreq.scraper |    [OK] appdetails 32.6 KB | type=game | release=Sep 15, 2025 | reviews=0
+2026-08-31 12:27:58 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:27:58 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:00 | INFO    | steamreq.scraper | [SCRAPE 270/300 | 90.0%] app_id=2073850
+2026-08-31 12:28:00 | INFO    | steamreq.scraper |    [OK] appdetails 20.6 KB | type=game | release=Dec 7, 2023 | reviews=106
+2026-08-31 12:28:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:03 | INFO    | steamreq.scraper | [SCRAPE 271/300 | 90.3%] app_id=2074920
+2026-08-31 12:28:03 | INFO    | steamreq.scraper |    [OK] appdetails 18.7 KB | type=game | release=Jun 30, 2024 | reviews=0
+2026-08-31 12:28:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:06 | INFO    | steamreq.scraper | [SCRAPE 272/300 | 90.7%] app_id=2081880
+2026-08-31 12:28:06 | INFO    | steamreq.scraper |    [OK] appdetails 19.5 KB | type=game | release=Aug 8, 2025 | reviews=0
+2026-08-31 12:28:06 | INFO    | steamreq.scraper |    [OK] 12 tags via STORE_HTML
+2026-08-31 12:28:06 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:08 | INFO    | steamreq.scraper | [SCRAPE 273/300 | 91.0%] app_id=2104890
+2026-08-31 12:28:09 | INFO    | steamreq.scraper |    [OK] appdetails 35.3 KB | type=game | release=May 20, 2025 | reviews=13,406
+2026-08-31 12:28:09 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:09 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:11 | INFO    | steamreq.scraper | [SCRAPE 274/300 | 91.3%] app_id=2124120
+2026-08-31 12:28:12 | INFO    | steamreq.scraper |    [OK] appdetails 37.6 KB | type=game | release=Oct 28, 2024 | reviews=9,327
+2026-08-31 12:28:12 | DEBUG   | steamreq.scraper | age gate na pagina para app 2124120; reenviando com auto-declaracao de idade
+2026-08-31 12:28:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:15 | INFO    | steamreq.scraper | [SCRAPE 275/300 | 91.7%] app_id=2129530
+2026-08-31 12:28:16 | INFO    | steamreq.scraper |    [OK] appdetails 29.5 KB | type=game | release=Feb 13, 2026 | reviews=13,656
+2026-08-31 12:28:16 | DEBUG   | steamreq.scraper | age gate na pagina para app 2129530; reenviando com auto-declaracao de idade
+2026-08-31 12:28:17 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:17 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:17 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:28:17 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:28:17 | INFO    | steamreq.scraper | [CHECKPOINT] 268 completos | 0 parciais | 0 falhas | 7 pulados | 25 restantes
+2026-08-31 12:28:17 | INFO    | steamreq.scraper |              estado global: COMPLETE=283 PARTIAL=1 FAILED=1 PENDING=25
+2026-08-31 12:28:17 | INFO    | steamreq.scraper |              decorrido 00:14:21 | ETA 00:01:20 (~3.22s/app) | HTTP: 642 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:28:19 | INFO    | steamreq.scraper | [SCRAPE 276/300 | 92.0%] app_id=2138720
+2026-08-31 12:28:20 | INFO    | steamreq.scraper |    [OK] appdetails 21.1 KB | type=game | release=Jun 19, 2025 | reviews=39,530
+2026-08-31 12:28:20 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:20 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:22 | INFO    | steamreq.scraper | [SCRAPE 277/300 | 92.3%] app_id=2141730
+2026-08-31 12:28:22 | INFO    | steamreq.scraper |    [OK] appdetails 29.4 KB | type=game | release=Oct 18, 2022 | reviews=41,726
+2026-08-31 12:28:23 | DEBUG   | steamreq.scraper | age gate na pagina para app 2141730; reenviando com auto-declaracao de idade
+2026-08-31 12:28:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:26 | INFO    | steamreq.scraper | [SCRAPE 278/300 | 92.7%] app_id=2172010
+2026-08-31 12:28:26 | INFO    | steamreq.scraper |    [OK] appdetails 23.3 KB | type=game | release=Oct 4, 2024 | reviews=3,541
+2026-08-31 12:28:27 | DEBUG   | steamreq.scraper | age gate na pagina para app 2172010; reenviando com auto-declaracao de idade
+2026-08-31 12:28:28 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:28 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:30 | INFO    | steamreq.scraper | [SCRAPE 279/300 | 93.0%] app_id=2172910
+2026-08-31 12:28:30 | INFO    | steamreq.scraper |    [OK] appdetails 24.6 KB | type=game | release=Aug 27, 2026 | reviews=212
+2026-08-31 12:28:30 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:30 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:32 | INFO    | steamreq.scraper | [SCRAPE 280/300 | 93.3%] app_id=2183900
+2026-08-31 12:28:33 | INFO    | steamreq.scraper |    [OK] appdetails 35.0 KB | type=game | release=Sep 9, 2024 | reviews=166,614
+2026-08-31 12:28:33 | DEBUG   | steamreq.scraper | age gate na pagina para app 2183900; reenviando com auto-declaracao de idade
+2026-08-31 12:28:34 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:34 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:36 | INFO    | steamreq.scraper | [SCRAPE 281/300 | 93.7%] app_id=2186990
+2026-08-31 12:28:37 | INFO    | steamreq.scraper |    [OK] appdetails 17.2 KB | type=game | release=Jun 2, 2026 | reviews=10,483
+2026-08-31 12:28:37 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:37 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:39 | INFO    | steamreq.scraper | [SCRAPE 282/300 | 94.0%] app_id=2208920
+2026-08-31 12:28:40 | INFO    | steamreq.scraper |    [OK] appdetails 25.7 KB | type=game | release=Dec 6, 2022 | reviews=40,873
+2026-08-31 12:28:40 | DEBUG   | steamreq.scraper | age gate na pagina para app 2208920; reenviando com auto-declaracao de idade
+2026-08-31 12:28:41 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:41 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:43 | INFO    | steamreq.scraper | [SCRAPE 283/300 | 94.3%] app_id=2209900
+2026-08-31 12:28:43 | INFO    | steamreq.scraper |    [OK] appdetails 28.8 KB | type=game | release=Jul 6, 2026 | reviews=1,696
+2026-08-31 12:28:44 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:44 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:46 | INFO    | steamreq.scraper | [SCRAPE 284/300 | 94.7%] app_id=2215200
+2026-08-31 12:28:46 | INFO    | steamreq.scraper |    [OK] appdetails 28.5 KB | type=game | release=May 22, 2026 | reviews=8,578
+2026-08-31 12:28:47 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:47 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:49 | INFO    | steamreq.scraper | [SCRAPE 285/300 | 95.0%] app_id=2215430
+2026-08-31 12:28:49 | INFO    | steamreq.scraper |    [OK] appdetails 20.8 KB | type=game | release=May 16, 2024 | reviews=64,228
+2026-08-31 12:28:49 | DEBUG   | steamreq.scraper | age gate na pagina para app 2215430; reenviando com auto-declaracao de idade
+2026-08-31 12:28:50 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:50 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:52 | INFO    | steamreq.scraper | [SCRAPE 286/300 | 95.3%] app_id=2231380
+2026-08-31 12:28:53 | INFO    | steamreq.scraper |    [OK] appdetails 24.2 KB | type=game | release=Jan 23, 2023 | reviews=44,096
+2026-08-31 12:28:53 | DEBUG   | steamreq.scraper | age gate na pagina para app 2231380; reenviando com auto-declaracao de idade
+2026-08-31 12:28:54 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:28:54 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:56 | INFO    | steamreq.scraper | [SCRAPE 287/300 | 95.7%] app_id=2233120
+2026-08-31 12:28:56 | INFO    | steamreq.scraper |    [OK] appdetails 17.7 KB | type=game | release=Oct 17, 2024 | reviews=2,309
+2026-08-31 12:28:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:28:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:28:59 | INFO    | steamreq.scraper | [SCRAPE 288/300 | 96.0%] app_id=2244210
+2026-08-31 12:28:59 | INFO    | steamreq.scraper |    [OK] appdetails 27.8 KB | type=game | release=Jul 9, 2026 | reviews=4,028
+2026-08-31 12:29:00 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:00 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:02 | INFO    | steamreq.scraper | [SCRAPE 289/300 | 96.3%] app_id=2246340
+2026-08-31 12:29:02 | INFO    | steamreq.scraper |    [OK] appdetails 31.5 KB | type=game | release=Feb 27, 2025 | reviews=199,936
+2026-08-31 12:29:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:03 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:05 | INFO    | steamreq.scraper | [SCRAPE 290/300 | 96.7%] app_id=2248760
+2026-08-31 12:29:05 | INFO    | steamreq.scraper |    [OK] appdetails 31.1 KB | type=game | release=Nov 1, 2024 | reviews=19,985
+2026-08-31 12:29:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:05 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:07 | INFO    | steamreq.scraper | [SCRAPE 291/300 | 97.0%] app_id=2271930
+2026-08-31 12:29:08 | INFO    | steamreq.scraper |    [OK] appdetails 38.4 KB | type=game | release=Nov 4, 2024 | reviews=2,172
+2026-08-31 12:29:08 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:08 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:10 | INFO    | steamreq.scraper | [SCRAPE 292/300 | 97.3%] app_id=2281730
+2026-08-31 12:29:10 | INFO    | steamreq.scraper |    [OK] appdetails 17.5 KB | type=game | release=Apr 21, 2023 | reviews=0
+2026-08-31 12:29:11 | DEBUG   | steamreq.scraper | age gate na pagina para app 2281730; reenviando com auto-declaracao de idade
+2026-08-31 12:29:12 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:29:12 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 12:29:14 | INFO    | steamreq.scraper | [SCRAPE 293/300 | 97.7%] app_id=2300320
+2026-08-31 12:29:15 | INFO    | steamreq.scraper |    [OK] appdetails 29.3 KB | type=game | release=Nov 12, 2024 | reviews=39,064
+2026-08-31 12:29:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:15 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:17 | INFO    | steamreq.scraper | [SCRAPE 294/300 | 98.0%] app_id=2322010
+2026-08-31 12:29:17 | INFO    | steamreq.scraper |    [OK] appdetails 42.6 KB | type=game | release=Sep 19, 2024 | reviews=32,241
+2026-08-31 12:29:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:18 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:20 | INFO    | steamreq.scraper | [SCRAPE 295/300 | 98.3%] app_id=2328760
+2026-08-31 12:29:20 | INFO    | steamreq.scraper |    [OK] appdetails 19.1 KB | type=game | release=Apr 13, 2023 | reviews=242
+2026-08-31 12:29:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:21 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:23 | INFO    | steamreq.scraper | [SCRAPE 296/300 | 98.7%] app_id=2350790
+2026-08-31 12:29:23 | INFO    | steamreq.scraper |    [OK] appdetails 34.4 KB | type=game | release=Nov 19, 2025 | reviews=2,513
+2026-08-31 12:29:24 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:24 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:26 | INFO    | steamreq.scraper | [SCRAPE 297/300 | 99.0%] app_id=2357570
+2026-08-31 12:29:26 | INFO    | steamreq.scraper |    [OK] appdetails 18.6 KB | type=game | release=Aug 10, 2023 | reviews=277
+2026-08-31 12:29:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:26 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:28 | INFO    | steamreq.scraper | [SCRAPE 298/300 | 99.3%] app_id=2358720
+2026-08-31 12:29:29 | INFO    | steamreq.scraper |    [OK] appdetails 25.9 KB | type=game | release=Aug 19, 2024 | reviews=879,578
+2026-08-31 12:29:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:29 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:31 | INFO    | steamreq.scraper | [SCRAPE 299/300 | 99.7%] app_id=2369390
+2026-08-31 12:29:32 | INFO    | steamreq.scraper |    [OK] appdetails 26.2 KB | type=game | release=May 11, 2023 | reviews=33,136
+2026-08-31 12:29:32 | DEBUG   | steamreq.scraper | age gate na pagina para app 2369390; reenviando com auto-declaracao de idade
+2026-08-31 12:29:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 12:29:33 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:35 | INFO    | steamreq.scraper | [SCRAPE 300/300 | 100.0%] app_id=2373990
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |    [OK] appdetails 24.7 KB | type=game | release=Nov 24, 2025 | reviews=7,544
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 12:29:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:29:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:29:36 | INFO    | steamreq.scraper | [CHECKPOINT] 293 completos | 0 parciais | 0 falhas | 7 pulados | 0 restantes
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |              estado global: COMPLETE=308 PARTIAL=1 FAILED=1 PENDING=0
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |              decorrido 00:15:40 | ETA n/d | HTTP: 700 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:29:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:29:36 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (310 apps)
+2026-08-31 12:29:36 | INFO    | steamreq.scraper | [CHECKPOINT] 293 completos | 0 parciais | 0 falhas | 7 pulados | 0 restantes
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |              estado global: COMPLETE=308 PARTIAL=1 FAILED=1 PENDING=0
+2026-08-31 12:29:36 | INFO    | steamreq.scraper |              decorrido 00:15:40 | ETA n/d | HTTP: 700 reqs, 0 retries, 0 rate-limited
+2026-08-31 12:29:36 | INFO    | steamreq.cli | [SCRAPE]    FIM | 293 completos | 0 parciais | 0 falhas | 7 pulados

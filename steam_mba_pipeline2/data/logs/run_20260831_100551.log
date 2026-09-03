@@ -1,0 +1,46 @@
+2026-08-31 10:05:51 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100551.log
+2026-08-31 10:05:51 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:05:51 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.0.0
+2026-08-31 10:05:51 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100551.log
+2026-08-31 10:05:51 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:05:51 | INFO    | steamreq.scraper | [SCRAPE]    7 app_ids na fila | tags do HTML=True | ritmo appdetails=0.6s
+2026-08-31 10:05:51 | INFO    | steamreq.scraper | [SCRAPE 1/7 | 14.3%] app_id=1091500 | Cyberpunk 2077
+2026-08-31 10:05:52 | INFO    | steamreq.scraper |    [OK] appdetails 34.3 KB | type=game | release=Dec 9, 2020 | reviews=886,479
+2026-08-31 10:05:52 | DEBUG   | steamreq.scraper | age gate na pagina para app 1091500; reenviando com auto-declaracao de idade
+2026-08-31 10:05:53 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:05:53 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 10:05:53 | INFO    | steamreq.scraper | [SCRAPE 2/7 | 28.6%] app_id=1245620 | ELDEN RING
+2026-08-31 10:05:53 | INFO    | steamreq.scraper |    [OK] appdetails 30.9 KB | type=game | release=Feb 24, 2022 | reviews=829,465
+2026-08-31 10:05:54 | DEBUG   | steamreq.scraper | age gate na pagina para app 1245620; reenviando com auto-declaracao de idade
+2026-08-31 10:05:55 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:05:55 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 10:05:55 | INFO    | steamreq.scraper | [SCRAPE 3/7 | 42.9%] app_id=1145360 | Hades
+2026-08-31 10:05:55 | INFO    | steamreq.scraper |    [OK] appdetails 21.2 KB | type=game | release=Sep 17, 2020 | reviews=285,330
+2026-08-31 10:05:56 | DEBUG   | steamreq.scraper | age gate na pagina para app 1145360; reenviando com auto-declaracao de idade
+2026-08-31 10:05:57 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:05:57 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 10:05:57 | INFO    | steamreq.scraper | [SCRAPE 4/7 | 57.1%] app_id=2138330 | Cyberpunk 2077: Phantom Liberty
+2026-08-31 10:05:57 | INFO    | steamreq.scraper |    [OK] appdetails 20.8 KB | type=dlc | release=Sep 25, 2023 | reviews=22,242
+2026-08-31 10:05:58 | DEBUG   | steamreq.scraper | age gate na pagina para app 2138330; reenviando com auto-declaracao de idade
+2026-08-31 10:05:59 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:05:59 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 10:05:59 | INFO    | steamreq.scraper | [SCRAPE 5/7 | 71.4%] app_id=292030 | The Witcher 3: Wild Hunt - Complete Edition
+2026-08-31 10:05:59 | INFO    | steamreq.scraper |    [OK] appdetails 22.5 KB | type=game | release=May 18, 2015 | reviews=831,091
+2026-08-31 10:06:00 | DEBUG   | steamreq.scraper | age gate na pagina para app 292030; reenviando com auto-declaracao de idade
+2026-08-31 10:06:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:06:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 10:06:01 | INFO    | steamreq.scraper | [SCRAPE 6/7 | 85.7%] app_id=413150 | Stardew Valley
+2026-08-31 10:06:01 | INFO    | steamreq.scraper |    [OK] appdetails 22.8 KB | type=game | release=Feb 26, 2016 | reviews=891,349
+2026-08-31 10:06:02 | DEBUG   | steamreq.scraper | age gate na pagina para app 413150; reenviando com auto-declaracao de idade
+2026-08-31 10:06:03 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 10:06:03 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 10:06:03 | INFO    | steamreq.scraper | [SCRAPE 7/7 | 100.0%] app_id=339800 | HuniePop
+2026-08-31 10:06:03 | INFO    | steamreq.scraper |    [OK] appdetails 16.3 KB | type=game | release=Jan 19, 2015 | reviews=23,995
+2026-08-31 10:06:04 | WARNING | steamreq.scraper |    [WARN] AGE_GATE_LOGIN_REQUIRED -> tags indisponiveis; requisitos preservados
+2026-08-31 10:06:04 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 10:06:04 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (17 apps)
+2026-08-31 10:06:04 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (17 apps)
+2026-08-31 10:06:04 | INFO    | steamreq.scraper | [CHECKPOINT] 6 completos | 1 parciais | 0 falhas | 0 pulados | 0 restantes
+2026-08-31 10:06:04 | INFO    | steamreq.scraper |              estado global: COMPLETE=15 PARTIAL=1 FAILED=1 PENDING=0
+2026-08-31 10:06:04 | INFO    | steamreq.scraper |              decorrido 00:00:13 | ETA n/d | HTTP: 20 reqs, 0 retries, 0 rate-limited
+2026-08-31 10:06:04 | INFO    | steamreq.cli | [SCRAPE]    FIM | 6 completos | 1 parciais | 0 falhas | 0 pulados

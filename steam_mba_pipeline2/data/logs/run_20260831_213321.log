@@ -1,0 +1,204 @@
+2026-08-31 21:33:21 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_213321.log
+2026-08-31 21:33:21 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 21:33:21 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.1.0
+2026-08-31 21:33:21 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_213321.log
+2026-08-31 21:33:21 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 21:33:21 | INFO    | steamreq.cli | [SCRAPE]    limitado a 50 apps (modo de teste)
+2026-08-31 21:33:21 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:33:21 | INFO    | steamreq.scraper | [SCRAPE]    50 app_ids na fila | tags do HTML=True | ritmo appdetails=0.6s | pausa entre jogos=2.0s
+2026-08-31 21:33:21 | DEBUG   | steamreq.scraper | [SCRAPE 01/50 | 2.0%] app_id=10 | SKIP (ja concluido)
+2026-08-31 21:33:21 | INFO    | steamreq.scraper | [SCRAPE 02/50 | 4.0%] app_id=20
+2026-08-31 21:33:22 | INFO    | steamreq.scraper |    [OK] appdetails 5.9 KB | type=game | release=Apr 1, 1999 | reviews=7,046
+2026-08-31 21:33:22 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:22 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:24 | INFO    | steamreq.scraper | [SCRAPE 03/50 | 6.0%] app_id=30
+2026-08-31 21:33:25 | INFO    | steamreq.scraper |    [OK] appdetails 6.3 KB | type=game | release=May 1, 2003 | reviews=4,473
+2026-08-31 21:33:25 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:25 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:27 | INFO    | steamreq.scraper | [SCRAPE 04/50 | 8.0%] app_id=40
+2026-08-31 21:33:27 | INFO    | steamreq.scraper |    [OK] appdetails 5.4 KB | type=game | release=Jun 1, 2001 | reviews=2,452
+2026-08-31 21:33:28 | INFO    | steamreq.scraper |    [OK] 18 tags via STORE_HTML
+2026-08-31 21:33:28 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:30 | INFO    | steamreq.scraper | [SCRAPE 05/50 | 10.0%] app_id=50
+2026-08-31 21:33:30 | INFO    | steamreq.scraper |    [OK] appdetails 5.8 KB | type=game | release=Nov 1, 1999 | reviews=25,377
+2026-08-31 21:33:31 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:31 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:33 | INFO    | steamreq.scraper | [SCRAPE 06/50 | 12.0%] app_id=60
+2026-08-31 21:33:33 | INFO    | steamreq.scraper |    [OK] appdetails 5.3 KB | type=game | release=Nov 1, 2000 | reviews=4,550
+2026-08-31 21:33:33 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:33 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:35 | INFO    | steamreq.scraper | [SCRAPE 07/50 | 14.0%] app_id=70
+2026-08-31 21:33:36 | INFO    | steamreq.scraper |    [OK] appdetails 8.8 KB | type=game | release=Nov 19, 1998 | reviews=117,074
+2026-08-31 21:33:36 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:36 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:38 | INFO    | steamreq.scraper | [SCRAPE 08/50 | 16.0%] app_id=80
+2026-08-31 21:33:39 | INFO    | steamreq.scraper |    [OK] appdetails 6.3 KB | type=game | release=Mar 1, 2004 | reviews=21,405
+2026-08-31 21:33:39 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:39 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:41 | INFO    | steamreq.scraper | [SCRAPE 09/50 | 18.0%] app_id=130
+2026-08-31 21:33:41 | INFO    | steamreq.scraper |    [OK] appdetails 5.6 KB | type=game | release=Jun 1, 2001 | reviews=18,618
+2026-08-31 21:33:42 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:42 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:44 | DEBUG   | steamreq.scraper | [SCRAPE 10/50 | 20.0%] app_id=220 | SKIP (ja concluido)
+2026-08-31 21:33:44 | INFO    | steamreq.scraper | [SCRAPE 11/50 | 22.0%] app_id=240
+2026-08-31 21:33:44 | INFO    | steamreq.scraper |    [OK] appdetails 9.0 KB | type=game | release=Nov 1, 2004 | reviews=135,296
+2026-08-31 21:33:45 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:45 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:47 | INFO    | steamreq.scraper | [SCRAPE 12/50 | 24.0%] app_id=300
+2026-08-31 21:33:47 | INFO    | steamreq.scraper |    [OK] appdetails 10.3 KB | type=game | release=Jul 12, 2010 | reviews=15,981
+2026-08-31 21:33:48 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:48 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:50 | INFO    | steamreq.scraper | [SCRAPE 13/50 | 26.0%] app_id=320
+2026-08-31 21:33:50 | INFO    | steamreq.scraper |    [OK] appdetails 5.7 KB | type=game | release=Nov 1, 2004 | reviews=10,232
+2026-08-31 21:33:50 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:50 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:52 | INFO    | steamreq.scraper | [SCRAPE 14/50 | 28.0%] app_id=360
+2026-08-31 21:33:53 | INFO    | steamreq.scraper |    [OK] appdetails 6.4 KB | type=game | release=May 1, 2006 | reviews=4,359
+2026-08-31 21:33:53 | INFO    | steamreq.scraper |    [OK] 18 tags via STORE_HTML
+2026-08-31 21:33:53 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:55 | INFO    | steamreq.scraper | [SCRAPE 15/50 | 30.0%] app_id=400
+2026-08-31 21:33:56 | INFO    | steamreq.scraper |    [OK] appdetails 12.5 KB | type=game | release=Oct 10, 2007 | reviews=173,159
+2026-08-31 21:33:56 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:56 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:33:58 | DEBUG   | steamreq.scraper | [SCRAPE 16/50 | 32.0%] app_id=440 | SKIP (ja concluido)
+2026-08-31 21:33:58 | DEBUG   | steamreq.scraper | [SCRAPE 17/50 | 34.0%] app_id=500 | SKIP (ja concluido)
+2026-08-31 21:33:58 | DEBUG   | steamreq.scraper | [SCRAPE 18/50 | 36.0%] app_id=550 | SKIP (ja concluido)
+2026-08-31 21:33:58 | INFO    | steamreq.scraper | [SCRAPE 19/50 | 38.0%] app_id=570
+2026-08-31 21:33:58 | INFO    | steamreq.scraper |    [OK] appdetails 15.6 KB | type=game | release=Jul 9, 2013 | reviews=14,379
+2026-08-31 21:33:59 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:33:59 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:01 | DEBUG   | steamreq.scraper | [SCRAPE 20/50 | 40.0%] app_id=620 | SKIP (ja concluido)
+2026-08-31 21:34:01 | INFO    | steamreq.scraper | [SCRAPE 21/50 | 42.0%] app_id=630
+2026-08-31 21:34:01 | INFO    | steamreq.scraper |    [OK] appdetails 14.2 KB | type=game | release=Jul 19, 2010 | reviews=294
+2026-08-31 21:34:01 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:01 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:03 | DEBUG   | steamreq.scraper | [SCRAPE 22/50 | 44.0%] app_id=730 | SKIP (ja concluido)
+2026-08-31 21:34:03 | INFO    | steamreq.scraper | [SCRAPE 23/50 | 46.0%] app_id=1200
+2026-08-31 21:34:04 | INFO    | steamreq.scraper |    [OK] appdetails 31.4 KB | type=game | release=Mar 14, 2006 | reviews=1,523
+2026-08-31 21:34:04 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:04 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:06 | INFO    | steamreq.scraper | [SCRAPE 24/50 | 48.0%] app_id=1250
+2026-08-31 21:34:07 | INFO    | steamreq.scraper |    [OK] appdetails 27.1 KB | type=game | release=May 14, 2009 | reviews=40,062
+2026-08-31 21:34:07 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:07 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:09 | INFO    | steamreq.scraper | [SCRAPE 25/50 | 50.0%] app_id=1300
+2026-08-31 21:34:09 | INFO    | steamreq.scraper |    [OK] appdetails 11.3 KB | type=game | release=May 10, 2006 | reviews=1,118
+2026-08-31 21:34:10 | INFO    | steamreq.scraper |    [OK] 16 tags via STORE_HTML
+2026-08-31 21:34:10 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:10 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:34:10 | INFO    | steamreq.scraper | [CHECKPOINT] 18 completos | 0 parciais | 0 falhas | 7 pulados | 25 restantes
+2026-08-31 21:34:10 | INFO    | steamreq.scraper |              estado global: COMPLETE=326 PARTIAL=1 FAILED=1 PENDING=25
+2026-08-31 21:34:10 | INFO    | steamreq.scraper |              decorrido 00:00:48 | ETA 00:01:07 (~2.71s/app) | HTTP: 36 reqs, 0 retries, 0 rate-limited
+2026-08-31 21:34:12 | INFO    | steamreq.scraper | [SCRAPE 26/50 | 52.0%] app_id=1313
+2026-08-31 21:34:12 | INFO    | steamreq.scraper |    [OK] appdetails 16.7 KB | type=game | release=Mar 18, 2020 | reviews=390
+2026-08-31 21:34:13 | INFO    | steamreq.scraper |    [OK] 16 tags via STORE_HTML
+2026-08-31 21:34:13 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:15 | INFO    | steamreq.scraper | [SCRAPE 27/50 | 54.0%] app_id=1520
+2026-08-31 21:34:15 | INFO    | steamreq.scraper |    [OK] appdetails 20.4 KB | type=game | release=Sep 29, 2006 | reviews=3,459
+2026-08-31 21:34:15 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:15 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:17 | INFO    | steamreq.scraper | [SCRAPE 28/50 | 56.0%] app_id=1530
+2026-08-31 21:34:18 | INFO    | steamreq.scraper |    [OK] appdetails 25.5 KB | type=game | release=Sep 19, 2008 | reviews=409
+2026-08-31 21:34:18 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:18 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:20 | INFO    | steamreq.scraper | [SCRAPE 29/50 | 58.0%] app_id=1600
+2026-08-31 21:34:21 | INFO    | steamreq.scraper |    [OK] appdetails 7.1 KB | type=game | release=Feb 7, 2006 | reviews=352
+2026-08-31 21:34:21 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:21 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:23 | INFO    | steamreq.scraper | [SCRAPE 30/50 | 60.0%] app_id=1620
+2026-08-31 21:34:23 | INFO    | steamreq.scraper |    [OK] appdetails 6.1 KB | type=game | release=Jul 6, 2006 | reviews=0
+2026-08-31 21:34:24 | INFO    | steamreq.scraper |    [OK] 19 tags via STORE_HTML
+2026-08-31 21:34:24 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:26 | INFO    | steamreq.scraper | [SCRAPE 31/50 | 62.0%] app_id=1670
+2026-08-31 21:34:26 | INFO    | steamreq.scraper |    [OK] appdetails 8.6 KB | type=game | release=Jul 26, 2006 | reviews=269
+2026-08-31 21:34:26 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:26 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:28 | INFO    | steamreq.scraper | [SCRAPE 32/50 | 64.0%] app_id=1700
+2026-08-31 21:34:29 | INFO    | steamreq.scraper |    [OK] appdetails 10.6 KB | type=game | release=Apr 3, 2007 | reviews=2,432
+2026-08-31 21:34:29 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:29 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:31 | INFO    | steamreq.scraper | [SCRAPE 33/50 | 66.0%] app_id=1900
+2026-08-31 21:34:31 | INFO    | steamreq.scraper |    [OK] appdetails 14.2 KB | type=game | release=Apr 1, 2006 | reviews=754
+2026-08-31 21:34:32 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:32 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 21:34:34 | INFO    | steamreq.scraper | [SCRAPE 34/50 | 68.0%] app_id=1930
+2026-08-31 21:34:34 | INFO    | steamreq.scraper |    [OK] appdetails 20.2 KB | type=game | release=Apr 30, 2009 | reviews=2,625
+2026-08-31 21:34:35 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:35 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:37 | INFO    | steamreq.scraper | [SCRAPE 35/50 | 70.0%] app_id=2100
+2026-08-31 21:34:37 | INFO    | steamreq.scraper |    [OK] appdetails 11.1 KB | type=game | release=Oct 25, 2006 | reviews=9,318
+2026-08-31 21:34:38 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:38 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:40 | INFO    | steamreq.scraper | [SCRAPE 36/50 | 72.0%] app_id=2200
+2026-08-31 21:34:40 | INFO    | steamreq.scraper |    [OK] appdetails 9.1 KB | type=game | release=Aug 3, 2007 | reviews=3,466
+2026-08-31 21:34:40 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:40 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:42 | INFO    | steamreq.scraper | [SCRAPE 37/50 | 74.0%] app_id=2210
+2026-08-31 21:34:43 | INFO    | steamreq.scraper |    [OK] appdetails 11.4 KB | type=game | release=Aug 4, 2011 | reviews=3,101
+2026-08-31 21:34:43 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:43 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:45 | INFO    | steamreq.scraper | [SCRAPE 38/50 | 76.0%] app_id=2270
+2026-08-31 21:34:45 | INFO    | steamreq.scraper |    [OK] appdetails 8.5 KB | type=game | release=Aug 3, 2007 | reviews=3,756
+2026-08-31 21:34:46 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:46 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:34:48 | INFO    | steamreq.scraper | [SCRAPE 39/50 | 78.0%] app_id=2280
+2026-08-31 21:34:48 | INFO    | steamreq.scraper |    [OK] appdetails 24.4 KB | type=game | release=Aug 3, 2007 | reviews=25,385
+2026-08-31 21:34:49 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:34:49 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:34:51 | INFO    | steamreq.scraper | [SCRAPE 40/50 | 80.0%] app_id=2310
+2026-08-31 21:34:51 | INFO    | steamreq.scraper |    [OK] appdetails 24.8 KB | type=game | release=Aug 3, 2007 | reviews=13,867
+2026-08-31 21:34:51 | DEBUG   | steamreq.scraper | age gate na pagina para app 2310; reenviando com auto-declaracao de idade
+2026-08-31 21:34:52 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 21:34:52 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 21:34:54 | INFO    | steamreq.scraper | [SCRAPE 41/50 | 82.0%] app_id=2320
+2026-08-31 21:34:55 | INFO    | steamreq.scraper |    [OK] appdetails 21.3 KB | type=game | release=Aug 3, 2007 | reviews=8,496
+2026-08-31 21:34:55 | DEBUG   | steamreq.scraper | age gate na pagina para app 2320; reenviando com auto-declaracao de idade
+2026-08-31 21:34:56 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML_AFTER_AGE_GATE
+2026-08-31 21:34:56 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato UNKNOWN)
+2026-08-31 21:34:58 | INFO    | steamreq.scraper | [SCRAPE 42/50 | 84.0%] app_id=2450
+2026-08-31 21:34:58 | INFO    | steamreq.scraper |    [OK] appdetails 15.3 KB | type=game | release=Oct 29, 2010 | reviews=931
+2026-08-31 21:34:59 | INFO    | steamreq.scraper |    [OK] 9 tags via STORE_HTML
+2026-08-31 21:34:59 | INFO    | steamreq.scraper |    [OK] requisitos RECOMENDADOS capturados (formato A)
+2026-08-31 21:35:01 | INFO    | steamreq.scraper | [SCRAPE 43/50 | 86.0%] app_id=2590
+2026-08-31 21:35:01 | INFO    | steamreq.scraper |    [OK] appdetails 10.4 KB | type=game | release=Nov 7, 2007 | reviews=849
+2026-08-31 21:35:02 | INFO    | steamreq.scraper |    [OK] 10 tags via STORE_HTML
+2026-08-31 21:35:02 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:04 | INFO    | steamreq.scraper | [SCRAPE 44/50 | 88.0%] app_id=2600
+2026-08-31 21:35:04 | INFO    | steamreq.scraper |    [OK] appdetails 7.7 KB | type=game | release=Mar 22, 2007 | reviews=13,851
+2026-08-31 21:35:05 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:35:05 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:07 | INFO    | steamreq.scraper | [SCRAPE 45/50 | 90.0%] app_id=2610
+2026-08-31 21:35:07 | INFO    | steamreq.scraper |    [OK] appdetails 9.4 KB | type=game | release=Oct 13, 2006 | reviews=2,091
+2026-08-31 21:35:07 | INFO    | steamreq.scraper |    [OK] 19 tags via STORE_HTML
+2026-08-31 21:35:07 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:09 | INFO    | steamreq.scraper | [SCRAPE 46/50 | 92.0%] app_id=2620
+2026-08-31 21:35:10 | INFO    | steamreq.scraper |    [OK] appdetails 10.8 KB | type=game | release=Oct 13, 2006 | reviews=7,290
+2026-08-31 21:35:10 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:35:10 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:12 | INFO    | steamreq.scraper | [SCRAPE 47/50 | 94.0%] app_id=2630
+2026-08-31 21:35:13 | INFO    | steamreq.scraper |    [OK] appdetails 12.5 KB | type=game | release=Oct 13, 2006 | reviews=9,134
+2026-08-31 21:35:13 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:35:13 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:15 | INFO    | steamreq.scraper | [SCRAPE 48/50 | 96.0%] app_id=2640
+2026-08-31 21:35:16 | INFO    | steamreq.scraper |    [OK] appdetails 10.2 KB | type=game | release=Oct 13, 2006 | reviews=2,255
+2026-08-31 21:35:16 | INFO    | steamreq.scraper |    [OK] 15 tags via STORE_HTML
+2026-08-31 21:35:16 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:18 | INFO    | steamreq.scraper | [SCRAPE 49/50 | 98.0%] app_id=2700
+2026-08-31 21:35:19 | INFO    | steamreq.scraper |    [OK] appdetails 10.6 KB | type=game | release=Mar 12, 2008 | reviews=4,150
+2026-08-31 21:35:19 | INFO    | steamreq.scraper |    [OK] 20 tags via STORE_HTML
+2026-08-31 21:35:19 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:21 | INFO    | steamreq.scraper | [SCRAPE 50/50 | 100.0%] app_id=2710
+2026-08-31 21:35:21 | INFO    | steamreq.scraper |    [OK] appdetails 9.6 KB | type=game | release=Mar 12, 2008 | reviews=569
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |    [OK] 12 tags via STORE_HTML
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |    [INFO] sem requisitos recomendados na Steam (has_recommended_requirements=false); minimos capturados
+2026-08-31 21:35:22 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:35:22 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:35:22 | INFO    | steamreq.scraper | [CHECKPOINT] 43 completos | 0 parciais | 0 falhas | 7 pulados | 0 restantes
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |              estado global: COMPLETE=351 PARTIAL=1 FAILED=1 PENDING=0
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |              decorrido 00:02:00 | ETA n/d | HTTP: 88 reqs, 0 retries, 0 rate-limited
+2026-08-31 21:35:22 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:35:22 | DEBUG   | steamreq.storage | checkpoint gravado em C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/checkpoints/scrape_state.json (353 apps)
+2026-08-31 21:35:22 | INFO    | steamreq.scraper | [CHECKPOINT] 43 completos | 0 parciais | 0 falhas | 7 pulados | 0 restantes
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |              estado global: COMPLETE=351 PARTIAL=1 FAILED=1 PENDING=0
+2026-08-31 21:35:22 | INFO    | steamreq.scraper |              decorrido 00:02:00 | ETA n/d | HTTP: 88 reqs, 0 retries, 0 rate-limited
+2026-08-31 21:35:22 | INFO    | steamreq.cli | [SCRAPE]    FIM | 43 completos | 0 parciais | 0 falhas | 7 pulados

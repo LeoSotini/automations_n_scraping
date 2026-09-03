@@ -1,0 +1,320 @@
+[
+  {
+    "label": "GetAppList v2",
+    "url": "https://api.steampowered.com/ISteamApps/GetAppList/v2/",
+    "params": null,
+    "status": 404,
+    "elapsed_s": 0.65,
+    "final_url": "https://api.steampowered.com/ISteamApps/GetAppList/v2/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 136,
+    "rate_headers": {},
+    "json_ok": false,
+    "json_error": "Expecting value: line 1 column 1 (char 0)",
+    "saved": "applist_v2.json"
+  },
+  {
+    "label": "IStoreService GetAppList v1 (sem key)",
+    "url": "https://api.steampowered.com/IStoreService/GetAppList/v1/",
+    "params": {
+      "include_games": "true",
+      "max_results": 10
+    },
+    "status": 403,
+    "elapsed_s": 0.25,
+    "final_url": "https://api.steampowered.com/IStoreService/GetAppList/v1/?include_games=true&max_results=10",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 168,
+    "rate_headers": {},
+    "json_ok": false,
+    "json_error": "Expecting value: line 1 column 1 (char 0)",
+    "saved": "istoreservice_nokey.json"
+  },
+  {
+    "label": "appdetails csgo_f2p (730)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 730,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.67,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=730&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 17344,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_csgo_f2p_730.json"
+  },
+  {
+    "label": "appdetails gtav_agegate (271590)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 271590,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.24,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=271590&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 67294,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_gtav_agegate_271590.json"
+  },
+  {
+    "label": "appdetails hl2_2004 (220)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 220,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.3,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=220&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 21547,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_hl2_2004_220.json"
+  },
+  {
+    "label": "appdetails cyberpunk_2020 (1091500)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 1091500,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.33,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=1091500&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 35804,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_cyberpunk_2020_1091500.json"
+  },
+  {
+    "label": "appdetails hades_indie_2d (1145360)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 1145360,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.31,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=1145360&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 21952,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_hades_indie_2d_1145360.json"
+  },
+  {
+    "label": "appdetails terraria_2d (105600)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 105600,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.28,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=105600&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 22403,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_terraria_2d_105600.json"
+  },
+  {
+    "label": "appdetails portal2_2011 (620)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 620,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.26,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=620&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 28306,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_portal2_2011_620.json"
+  },
+  {
+    "label": "appdetails eldenring_2022 (1245620)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 1245620,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.28,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=1245620&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 32160,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_eldenring_2022_1245620.json"
+  },
+  {
+    "label": "appdetails dlc_example (2138330)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 2138330,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.28,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=2138330&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 21568,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_dlc_example_2138330.json"
+  },
+  {
+    "label": "appdetails removed_or_bogus (999999999)",
+    "url": "https://store.steampowered.com/api/appdetails",
+    "params": {
+      "appids": 999999999,
+      "l": "english",
+      "cc": "us"
+    },
+    "status": 200,
+    "elapsed_s": 0.23,
+    "final_url": "https://store.steampowered.com/api/appdetails?appids=999999999&l=english&cc=us",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 31,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appdetails_removed_or_bogus_999999999.json"
+  },
+  {
+    "label": "appreviews csgo",
+    "url": "https://store.steampowered.com/appreviews/730",
+    "params": {
+      "json": 1,
+      "num_per_page": 0,
+      "language": "all",
+      "purchase_type": "all"
+    },
+    "status": 200,
+    "elapsed_s": 0.29,
+    "final_url": "https://store.steampowered.com/appreviews/730?json=1&num_per_page=0&language=all&purchase_type=all",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 200,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appreviews_csgo_730.json"
+  },
+  {
+    "label": "appreviews cyberpunk",
+    "url": "https://store.steampowered.com/appreviews/1091500",
+    "params": {
+      "json": 1,
+      "num_per_page": 0,
+      "language": "all",
+      "purchase_type": "all"
+    },
+    "status": 200,
+    "elapsed_s": 0.3,
+    "final_url": "https://store.steampowered.com/appreviews/1091500?json=1&num_per_page=0&language=all&purchase_type=all",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 197,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appreviews_cyberpunk_1091500.json"
+  },
+  {
+    "label": "appreviews bogus",
+    "url": "https://store.steampowered.com/appreviews/999999999",
+    "params": {
+      "json": 1,
+      "num_per_page": 0,
+      "language": "all",
+      "purchase_type": "all"
+    },
+    "status": 200,
+    "elapsed_s": 0.28,
+    "final_url": "https://store.steampowered.com/appreviews/999999999?json=1&num_per_page=0&language=all&purchase_type=all",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 184,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "appreviews_bogus_999999999.json"
+  },
+  {
+    "label": "steamspy appdetails 1091500",
+    "url": "https://steamspy.com/api.php",
+    "params": {
+      "request": "appdetails",
+      "appid": 1091500
+    },
+    "status": 200,
+    "elapsed_s": 0.9,
+    "final_url": "https://steamspy.com/api.php?request=appdetails&appid=1091500",
+    "content_type": "application/json",
+    "bytes": 955,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "steamspy_1091500.json"
+  },
+  {
+    "label": "store HTML 1091500 (tags via HTML)",
+    "url": "https://store.steampowered.com/app/1091500/",
+    "params": null,
+    "status": 200,
+    "elapsed_s": 0.53,
+    "final_url": "https://store.steampowered.com/app/1091500/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 267050,
+    "rate_headers": {},
+    "saved": "store_html_1091500.html"
+  },
+  {
+    "label": "store HTML 271590 SEM cookie de idade",
+    "url": "https://store.steampowered.com/app/271590/",
+    "params": null,
+    "status": 200,
+    "elapsed_s": 0.31,
+    "final_url": "https://store.steampowered.com/app/271590/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 212906,
+    "rate_headers": {},
+    "saved": "store_html_271590_noagecookie.html"
+  },
+  {
+    "label": "search results infinite (tag 3D=4166, Windows, ordenado)",
+    "url": "https://store.steampowered.com/search/results/",
+    "params": {
+      "query": "",
+      "start": 0,
+      "count": 50,
+      "infinite": 1,
+      "category1": 998,
+      "tags": 4166,
+      "os": "win",
+      "supportedlang": "english",
+      "json": 1
+    },
+    "status": 200,
+    "elapsed_s": 0.37,
+    "final_url": "https://store.steampowered.com/search/results/?query=&start=0&count=50&infinite=1&category1=998&tags=4166&os=win&supportedlang=english&json=1",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 120229,
+    "rate_headers": {},
+    "json_ok": true,
+    "saved": "search_tag3d.json"
+  }
+]

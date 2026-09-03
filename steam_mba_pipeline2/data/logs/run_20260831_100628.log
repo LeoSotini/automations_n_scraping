@@ -1,0 +1,16 @@
+2026-08-31 10:06:28 | DEBUG   | steamreq | logging inicializado | arquivo=C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100628.log
+2026-08-31 10:06:28 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:06:28 | INFO    | steamreq.cli | steam-req-pipeline v0.1.0 | scraper=0.1.0 | filter_version=1.0.0
+2026-08-31 10:06:28 | INFO    | steamreq.cli | log persistente: C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/logs\run_20260831_100628.log
+2026-08-31 10:06:28 | INFO    | steamreq.cli | ==============================================================================
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    entrada 17 registros (a partir de data/raw)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]      NOT_GAME               -> -1       (16 restantes)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]      BEFORE_2005            -> -1       (15 restantes)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]      NO_DATA                -> -1       (14 restantes)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    conflitos 3D+2D preservados: 0 (needs_manual_review=true)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    marcados para revisao manual: 5
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    incluidos SEM requisitos recomendados: 4 (28.6%)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    saida 14 registros incluidos
+2026-08-31 10:06:28 | INFO    | steamreq.export | [FILTER]    ledger de exclusoes -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed/ledger_exclusions.json (3 registros)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [EXPORT]    14 registros -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed\dataset.json (UTF-8, 0.1 MB, formato flat)
+2026-08-31 10:06:28 | INFO    | steamreq.export | [EXPORT]    metadados -> C:\Users\z004kree\OneDrive - Siemens Energy\Área de Trabalho\MBA DSA\steam-req-pipeline\data/processed\dataset_metadata.json

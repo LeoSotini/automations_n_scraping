@@ -1,0 +1,119 @@
+# METODOLOGIA DE FILTRAGEM — item 2 do projeto.
+#
+# Este arquivo E a metodologia. Alterar qualquer valor aqui exige incrementar
+# filter_version, para que o dataset registre sob qual criterio foi produzido
+# (item 12: "nao altere silenciosamente criterios metodologicos").
+#
+# Nomes de tags sao resolvidos dinamicamente contra a taxonomia oficial
+# (IStoreService/GetTagList/v1, 446 tags). Se um nome NAO existir, o pipeline
+# ABORTA. Isso previne o erro de filtro silenciosamente vazio.
+
+filter_version: "1.1.0"
+
+# --- 2.1 TIPO DE APP -------------------------------------------------------
+app_type:
+  allowed: ["game"]
+
+# --- 2.2 PLATAFORMA --------------------------------------------------------
+platform:
+  require_windows: true
+
+# --- 2.3 / 2.4 LANCAMENTO --------------------------------------------------
+release:
+  # Limite metodologico PRELIMINAR (2.3). A data original e sempre preservada
+  # em release_date_raw, permitindo reavaliar este corte sem re-raspar.
+  min_date: "2005-01-01"
+  exclude_coming_soon: true      # 2.4
+  # 2.12: Early Access NAO e criterio de exclusao. Um jogo hoje completo pode
+  # ter passado por Early Access no passado.
+  exclude_early_access: false
+
+# --- 2.5 a 2.13 TAGS -------------------------------------------------------
+tags:
+  # 2.6 — evidencia FORTE de tridimensionalidade. Presenca de qualquer uma
+  # basta para inclusao. "3D" e o indicador principal (2.5).
+  positive_strong:
+    - "3D"
+    - "First-Person"
+    - "Third Person"
+    - "Third-Person Shooter"
+    - "FPS"
+    - "3D Platformer"
+    - "3D Fighter"
+    - "Immersive Sim"
+    - "Walking Simulator"
+    - "Automobile Sim"
+    - "Flight"
+    - "Space Sim"
+    - "Looter Shooter"
+    - "Hero Shooter"
+    - "Arena Shooter"
+    - "Rail Shooter"       # NOTA: existe na taxonomia mas retorna 0 jogos
+
+  # 2.7 — evidencia COMPLEMENTAR. NAO garante 3D individualmente.
+  # Sem nenhuma tag forte de 3D:
+  #   * se houver tag 2D  -> EXCLUI como TWO_DIMENSIONAL (decisao D10);
+  #   * se nao houver 2D  -> INCLUI com needs_manual_review=true (item 2.16).
+  positive_secondary:
+    - "Open World"
+    - "Realistic"
+    - "Cinematic"
+    - "Action-Adventure"
+    - "Action RPG"
+    - "Souls-like"
+    - "Survival Horror"
+    - "Driving"
+
+  # 2.8 — evidencia negativa. NAO e exclusao absoluta quando ha tag FORTE de
+  # 3D: 1.915 jogos possuem simultaneamente "3D" e "2D" (medido) e sao
+  # PRESERVADOS com tag_conflict_3d_2d=true.
+  # Quando NAO ha tag forte de 3D, prevalece a evidencia negativa (decisao D10).
+  negative_2d:
+    - "2D"
+    - "2D Platformer"
+    - "2D Fighter"
+
+  # 2.9 — NUNCA excluir. Jogos 2.5D usam assets/renderizacao 3D.
+  neutral_never_exclude:
+    - "2.5D"
+
+  # 2.10 / decisao Q2 — excluida NA FONTE via untags no discovery.
+  # Impacto medido: -25.036 jogos (48,4% da populacao 3D).
+  # Mitigacao: ledger_excluded_indie.json preserva os app_ids excluidos,
+  # tornando a decisao reversivel sem repetir o discovery (2.17).
+  exclude_at_source:
+    - "Indie"
+
+  # 2.11 — SOMENTE MARCADAS, nunca excluidas. Medido: 2.389 jogos sao
+  # simultaneamente "3D" e "Pixel Graphics".
+  negative_candidates:
+    - "Pixel Graphics"
+    - "Hand-drawn"
+    - "Side Scroller"
+    - "Text-Based"
+    - "Visual Novel"
+    - "Interactive Fiction"
+    - "Point & Click"
+    - "Card Game"
+    - "Board Game"
+    - "Hidden Object"
+
+  # 2.12 — proibido usar como exclusao.
+  never_exclude:
+    - "Casual"
+    - "Free to Play"
+    - "Early Access"
+
+  # 2.13 — "Homemade" NAO existe entre as 446 tags oficiais (confirmado
+  # empiricamente). A regra NOT Homemade nao foi criada.
+
+# --- 2.14 POPULARIDADE / REVIEWS ------------------------------------------
+reviews:
+  # Decisao Q4: metrica oficial = appdetails.recommendations.total.
+  # Divergencia documentada: para CS2 da 5.245.985, enquanto
+  # appreviews.total_reviews da 9.826.091. Nunca comparar as duas escalas.
+  metric: "recommendations_total"
+  # 2.14 exige 4 passos antes de fechar o valor. NAO aplicado nesta versao.
+  # Use `python main.py analyze-thresholds` para produzir a evidencia.
+  min_threshold: null
+  candidate_thresholds: [0, 100, 500, 1000, 5000]
